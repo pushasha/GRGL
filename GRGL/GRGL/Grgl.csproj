@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character\ICharacter.cs" />
+    <Compile Include="Character\ICharacterResource.cs" />
     <Compile Include="Global\IHasFlags.cs" />
+    <Compile Include="Item\IInventory.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
