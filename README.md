@@ -9,4 +9,4 @@ Pronounced "Gurgle", GRGL is a highly extensible and easy-to-use API/library to 
 
 A work in progress.
 
-See GRGL's progress at the official blog, [here](http://grgl.ghoster.io/).
+See GRGL's progress at the official blog, [here](http://grgl.logdown.com/).
