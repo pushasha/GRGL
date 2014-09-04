@@ -1,4 +1,4 @@
-﻿// ICharacter.cs
+﻿// IRegion.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -16,34 +16,25 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
-using Grgl.Global;
-using Grgl.Item;
-using Grgl.World;
 
-namespace Grgl.Character
+namespace Grgl.World
 {
-    public interface ICharacter : IHasFlags
+    public interface IRegion
     {
         /// <summary>
-        /// A human-readable name for this character
+        /// A unique identifier for this region
+        /// </summary>
+        string Id { get; } 
+
+        /// <summary>
+        /// A human-readable name for this region
         /// </summary>
         string Name { get; set; }
 
         /// <summary>
-        /// Represents the character's item inventory
+        /// Represents the collection of regions contained within this region
         /// </summary>
-        IInventory Inventory { get; }
+        Dictionary<string, IRegion> Subregions { get; } 
 
-        /// <summary>
-        /// A collection of this character's resources
-        /// </summary>
-        Dictionary<string, ICharacterResource> Resources { get; } 
-
-        /// <summary>
-        /// A collection of the character's statistics that can be represented numerically
-        /// </summary>
-        Dictionary<string, int> NumericStats { get; set; } 
-
-        IPosition<int> Position { get; set; } 
     }
 }
