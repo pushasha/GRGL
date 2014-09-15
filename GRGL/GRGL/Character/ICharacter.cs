@@ -15,19 +15,25 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
+using System;
 using System.Collections.Generic;
-using Grgl.Global;
+using System.Runtime.InteropServices.ComTypes;
 using Grgl.Item;
 using Grgl.World;
 
 namespace Grgl.Character
 {
-    public interface ICharacter : IHasFlags
+    public interface ICharacter
     {
         /// <summary>
         /// A human-readable name for this character
         /// </summary>
         string Name { get; set; }
+
+        /// <summary>
+        /// Represents the player's position in the world.
+        /// </summary>
+        IPosition Position { get; set; }
 
         /// <summary>
         /// Represents the character's item inventory
@@ -42,8 +48,8 @@ namespace Grgl.Character
         /// <summary>
         /// A collection of the character's statistics that can be represented numerically
         /// </summary>
-        Dictionary<string, int> NumericStats { get; set; } 
+        Dictionary<string, int> NumericStats { get; set; }
 
-        IPosition<int> Position { get; set; } 
+        
     }
 }

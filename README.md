@@ -23,3 +23,6 @@ See GRGL's progress at the official blog, [here](http://grgl.logdown.com/).
 ##Contact <a name="contact"></a>
 Direct all inquiries regarding this project to splotkin@gmail.com
 
+
+##Third-Party Dependencies
+GRGL was designed to have as few third-party dependencies as possible. As of the last update, there are *no* third-party dependencies.

@@ -1,4 +1,4 @@
-﻿// IHasFlags.cs
+﻿// IConsumable.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,15 +15,10 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.Collections.Generic;
-
-namespace Grgl.Global
+namespace Grgl.Item.Characteristics
 {
-    public interface IHasFlags
+    public interface IConsumable : IUsable
     {
-        /// <summary>
-        /// Represents a collection of user-defined flags
-        /// </summary>
-        Dictionary<string, bool> Flags { get; } 
+
     }
 }

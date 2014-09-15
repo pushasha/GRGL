@@ -41,13 +41,23 @@
   <ItemGroup>
     <Compile Include="Character\ICharacter.cs" />
     <Compile Include="Character\ICharacterResource.cs" />
-    <Compile Include="Global\IHasFlags.cs" />
+    <Compile Include="Item\Characteristics\EquipSlotType.cs" />
+    <Compile Include="Item\Characteristics\IConsumable.cs" />
+    <Compile Include="Item\Characteristics\IEquippable.cs" />
+    <Compile Include="Item\Characteristics\IUsable.cs" />
+    <Compile Include="Item\Characteristics\IWeapon.cs" />
+    <Compile Include="Item\Characteristics\IWearable.cs" />
+    <Compile Include="Util\IHasFlags.cs" />
     <Compile Include="Item\IInventory.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="World\IPosition.cs" />
     <Compile Include="World\IRegion.cs" />
     <Compile Include="World\IWorld.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dialog\" />
+    <Folder Include="Quest\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
