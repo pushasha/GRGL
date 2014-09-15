@@ -47,6 +47,9 @@
     <Compile Include="Item\Characteristics\IUsable.cs" />
     <Compile Include="Item\Characteristics\IWeapon.cs" />
     <Compile Include="Item\Characteristics\IWearable.cs" />
+    <Compile Include="Quest\IQuest.cs" />
+    <Compile Include="Quest\IQuestLog.cs" />
+    <Compile Include="Quest\IQuestStage.cs" />
     <Compile Include="Util\IHasFlags.cs" />
     <Compile Include="Item\IInventory.cs" />
     <Compile Include="Item\IItem.cs" />
@@ -57,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dialog\" />
-    <Folder Include="Quest\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
