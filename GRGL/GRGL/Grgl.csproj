@@ -41,6 +41,10 @@
   <ItemGroup>
     <Compile Include="Character\ICharacter.cs" />
     <Compile Include="Character\ICharacterResource.cs" />
+    <Compile Include="Dialog\IDialogChoiceNode.cs" />
+    <Compile Include="Dialog\IDialogLine.cs" />
+    <Compile Include="Dialog\IDialogNode.cs" />
+    <Compile Include="Dialog\IDialogTree.cs" />
     <Compile Include="Item\Characteristics\EquipSlotType.cs" />
     <Compile Include="Item\Characteristics\IConsumable.cs" />
     <Compile Include="Item\Characteristics\IEquippable.cs" />
@@ -58,9 +62,7 @@
     <Compile Include="World\IRegion.cs" />
     <Compile Include="World\IWorld.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dialog\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
