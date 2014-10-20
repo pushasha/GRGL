@@ -15,23 +15,12 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
+using Grgl.Global;
+
 namespace Grgl.Item
 {
-    public interface IItem
+    public interface IItem : IGameObject
     {
-        /// <summary>
-        /// Human-readable name item
-        /// </summary>
-        string Name { get; set; }
-
-        /// <summary>
-        /// ID of base item (that this reference is a copy of, if applicable)
-        /// </summary>
-        string BaseId { get; set; }
-
-        /// <summary>
-        /// Unique ID of this reference; null if this is the base item
-        /// </summary>
-        string RefId { get; set; }
+        // TODO: Add more?
     }
 }

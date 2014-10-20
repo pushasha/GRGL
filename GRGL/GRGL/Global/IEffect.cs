@@ -1,4 +1,4 @@
-﻿// IEquippable.cs
+﻿// IEffect.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,13 +15,25 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using Grgl.Global;
+using System.Collections.Generic;
+using Grgl.Character;
 
-namespace Grgl.Item.Characteristics
+namespace Grgl.Global
 {
-    public interface IEquippable
+    public interface IEffect
     {
-        IEffect PassiveEffect { get; }
-        void OnEquip();
+        EffectType Type { get;} // TODO: Rename?
+        ElementalType Element { get; } // TODO: Rename?
+
+        Dictionary<ICharacterResource, int> CharacterResourceModifier { get; }
+        Dictionary<string, int> NumericStatModifier { get; } 
+
+        float TimeLength { get; }
+    }
+
+    public enum EffectType
+    {
+        Passive,
+        Active
     }
 }

@@ -1,4 +1,4 @@
-﻿// IInventory.cs
+﻿// IGameObject.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,27 +15,23 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System;
-using System.Collections.Generic;
-
-namespace Grgl.Item
+namespace Grgl.Global
 {
-    public interface IInventory
+    public interface IGameObject
     {
         /// <summary>
-        /// Represents a collection of items
+        /// Human-readable name of object
         /// </summary>
-        /// <remarks>The key for the dictionary is the item baseId, and the corresponding value
-        /// is a Tuple, with the first value representing the quantity of items
-        /// in the inventory with that baseId, and the second value holding
-        /// an array of refIds representing the unique references of objects with that baseId that 
-        /// the inventory contains.</remarks>
-        Dictionary<string, Tuple<int, string[]>> Items { get; } //TODO: Re-factor with named class instead of tuple
+        string Name { get; set; }
 
         /// <summary>
-        /// Returns a boolean that evaluates to false if the inventory does not contain any items
+        /// ID of base object (that this reference is a copy of, if applicable)
         /// </summary>
-        bool IsEmpty { get; }
-         
+        string BaseId { get; set; }
+
+        /// <summary>
+        /// Unique ID of this reference; null if this is the base object
+        /// </summary>
+        string RefId { get; set; }
     }
 }

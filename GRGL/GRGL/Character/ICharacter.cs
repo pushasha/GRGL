@@ -16,19 +16,16 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
+using Grgl.Global;
 using Grgl.Item;
 using Grgl.Item.Characteristics;
 using Grgl.World;
 
 namespace Grgl.Character
 {
-    public interface ICharacter
+    public interface ICharacter : IGameObject
     {
-        /// <summary>
-        /// A human-readable name for this character
-        /// </summary>
-        string Name { get; set; }
-
+        
         /// <summary>
         /// Represents the player's position in the world.
         /// </summary>

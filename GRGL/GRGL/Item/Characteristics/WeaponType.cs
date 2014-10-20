@@ -1,4 +1,4 @@
-﻿// IEffect.cs
+﻿// WeaponType.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,25 +15,13 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.Collections.Generic;
-using Grgl.Global;
-
-namespace Grgl.Character
+namespace Grgl.Item.Characteristics
 {
-    public interface IEffect
+    public enum WeaponType
     {
-        EffectType Type { get;} // TODO: Rename?
-        ElementalType Element { get; } // TODO: Rename?
-
-        Dictionary<ICharacterResource, int> CharacterResourceModifier { get; }
-        Dictionary<string, int> NumericStatModifier { get; } 
-
-        float TimeLength { get; }
-    }
-
-    public enum EffectType
-    {
-        Passive,
-        Active
+        OneHanded,
+        TwoHanded,
+        Shield,
+        Focus
     }
 }
