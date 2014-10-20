@@ -1,4 +1,4 @@
-﻿// IDialogNode.cs
+﻿// IHasFlags.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,11 +15,15 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Dialog
+using System.Collections.Generic;
+
+namespace Grgl.Global
 {
-    public interface IDialogNode
+    public interface IHasFlags
     {
-         string Id { get; }
-         string Text { get; }
+        /// <summary>
+        /// Represents a collection of user-defined flags
+        /// </summary>
+        Dictionary<string, bool> Flags { get; } 
     }
 }

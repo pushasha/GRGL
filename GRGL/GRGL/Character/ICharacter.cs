@@ -50,7 +50,7 @@ namespace Grgl.Character
         Dictionary<string, int> NumericStats { get; set; }
 
         /// <summary>
-        /// A colleciton that represents the wearable items this character has equipped
+        /// A collection that represents the wearable items this character has equipped
         /// </summary>
         Dictionary<WearableEquipSlotType, IWearable> WearableEquipSlots { get; set; }
 

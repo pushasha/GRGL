@@ -41,10 +41,12 @@
   <ItemGroup>
     <Compile Include="Character\ICharacter.cs" />
     <Compile Include="Character\ICharacterResource.cs" />
+    <Compile Include="Character\IEffect.cs" />
     <Compile Include="Dialog\IDialogChoiceNode.cs" />
     <Compile Include="Dialog\IDialogLine.cs" />
     <Compile Include="Dialog\IDialogNode.cs" />
     <Compile Include="Dialog\IDialogTree.cs" />
+    <Compile Include="Global\ElementalType.cs" />
     <Compile Include="Item\Characteristics\EquipSlotType.cs" />
     <Compile Include="Item\Characteristics\IConsumable.cs" />
     <Compile Include="Item\Characteristics\IEquippable.cs" />
@@ -54,7 +56,7 @@
     <Compile Include="Quest\IQuest.cs" />
     <Compile Include="Quest\IQuestLog.cs" />
     <Compile Include="Quest\IQuestStage.cs" />
-    <Compile Include="Util\IHasFlags.cs" />
+    <Compile Include="Global\IHasFlags.cs" />
     <Compile Include="Item\IInventory.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
