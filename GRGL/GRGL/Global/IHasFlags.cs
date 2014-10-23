@@ -24,6 +24,6 @@ namespace Grgl.Global
         /// <summary>
         /// Represents a collection of user-defined flags
         /// </summary>
-        Dictionary<string, bool> Flags { get; } 
+        IDictionary<string, bool> Flags { get; } 
     }
 }

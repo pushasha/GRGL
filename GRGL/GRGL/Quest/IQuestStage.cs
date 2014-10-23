@@ -29,6 +29,6 @@ namespace Grgl.Quest
 
         string CompletedWithStage { get; set; }
 
-        List<string> ChildStages { get;} 
+        IList<string> ChildStages { get;} 
     }
 }

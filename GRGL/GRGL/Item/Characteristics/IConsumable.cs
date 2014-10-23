@@ -19,6 +19,6 @@ namespace Grgl.Item.Characteristics
 {
     public interface IConsumable : IUsable
     {
-
+        // TODO: Add more
     }
 }

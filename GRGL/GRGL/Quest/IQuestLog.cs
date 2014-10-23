@@ -24,11 +24,11 @@ namespace Grgl.Quest
         /// <summary>
         /// A collection that represents the incomplete quests in this quest log
         /// </summary>
-        Dictionary<string, IQuest> Incomplete { get; }
+        IDictionary<string, IQuest> Incomplete { get; }
 
         /// <summary>
         /// A collection that represents the completed quests in this quest log
         /// </summary>
-        Dictionary<string, IQuest> Complete { get; } 
+        IDictionary<string, IQuest> Complete { get; } 
     }
 }

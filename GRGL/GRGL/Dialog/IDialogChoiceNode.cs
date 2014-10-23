@@ -21,6 +21,6 @@ namespace Grgl.Dialog
 {
     public interface IDialogChoiceNode : IDialogNode
     {
-        Dictionary<string, IDialogLine> Choices { get; }
+        IDictionary<string, IDialogLine> Choices { get; }
     }
 }

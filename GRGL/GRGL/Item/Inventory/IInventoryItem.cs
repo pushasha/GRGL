@@ -1,4 +1,4 @@
-﻿// IQuest.cs
+﻿// IInventoryItem.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -17,16 +17,20 @@
 
 using System.Collections.Generic;
 
-namespace Grgl.Quest
+namespace Grgl.Item.Inventory
 {
-    public interface IQuest
+    public interface IInventoryItem
     {
-        string Id { get; } 
+        /// <summary>
+        /// Represents quantity of particular item in character's inventory
+        /// </summary>
+        int ItemQuantity { get; set; } // TODO: make this GET only?
 
-        bool IsComplete { get; set; }
+        /// <summary>
+        /// A dictionary of all instances of this item in the character's inventory
+        /// accessible by RefId
+        /// </summary>
+        IDictionary<string, IItem> ItemInstancesDictionary { get; }
 
-        string StartStage { get; }
-
-        IDictionary<string, IQuestStage> Stages { get; }
     }
 }

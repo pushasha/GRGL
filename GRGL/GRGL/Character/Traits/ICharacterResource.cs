@@ -1,4 +1,4 @@
-﻿// IInventory.cs
+﻿// ICharacterResource.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,27 +15,18 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System;
-using System.Collections.Generic;
-
-namespace Grgl.Item
+namespace Grgl.Character.Traits
 {
-    public interface IInventory
+    public interface ICharacterResource
     {
         /// <summary>
-        /// Represents a collection of items
+        /// Represents the maximum amount of this resource the character can have
         /// </summary>
-        /// <remarks>The key for the dictionary is the item baseId, and the corresponding value
-        /// is a Tuple, with the first value representing the quantity of items
-        /// in the inventory with that baseId, and the second value holding
-        /// an array of refIds representing the unique references of objects with that baseId that 
-        /// the inventory contains.</remarks>
-        Dictionary<string, Tuple<int, string[]>> Items { get; } //TODO: Re-factor with named class instead of tuple
+        int MaxValue { get; set; }
 
         /// <summary>
-        /// Returns a boolean that evaluates to false if the inventory does not contain any items
+        /// Represents the amount of this resource the character currently has
         /// </summary>
-        bool IsEmpty { get; }
-         
+        int CurrentValue { get; set; }     
     }
 }

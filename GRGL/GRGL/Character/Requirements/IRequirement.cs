@@ -1,4 +1,4 @@
-﻿// IQuest.cs
+﻿// IRequirement.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,14 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.Collections.Generic;
+using System.Collections;
+using Grgl.Character.Traits;
 
-namespace Grgl.Quest
+namespace Grgl.Character.Requirements
 {
-    public interface IQuest
+    public interface IRequirement
     {
-        string Id { get; } 
-
-        bool IsComplete { get; set; }
-
-        string StartStage { get; }
-
-        IDictionary<string, IQuestStage> Stages { get; }
+        ICharacterTrait Trait { get; }
+        ICollection RequiredValues { get; }
     }
 }

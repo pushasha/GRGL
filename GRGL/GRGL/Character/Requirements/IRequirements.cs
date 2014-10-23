@@ -1,4 +1,4 @@
-﻿// ICharacterResource.cs
+﻿// IRequirements.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,13 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Character
-{
-    public interface ICharacterResource
-    {
-        /// <summary>
-        /// Represents the maximum amount of this resource the character can have
-        /// </summary>
-        int MaxValue { get; set; }
+using System.Collections.Generic;
+using Grgl.Character.Traits;
 
-        /// <summary>
-        /// Represents the amount of this resource the character currently has
-        /// </summary>
-        int CurrentValue { get; set; }     
+namespace Grgl.Character.Requirements
+{
+    public interface IRequirements : IDictionary<string, IRequirement>
+    {
+        bool MeetsRequirements(IDictionary<string, ICharacterTrait> traitsToCheck);
     }
 }

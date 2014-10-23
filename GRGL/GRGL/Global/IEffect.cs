@@ -16,24 +16,17 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
-using Grgl.Character;
+using Grgl.Character.Traits;
 
 namespace Grgl.Global
 {
     public interface IEffect
     {
-        EffectType Type { get;} // TODO: Rename?
         ElementalType Element { get; } // TODO: Rename?
 
-        Dictionary<ICharacterResource, int> CharacterResourceModifier { get; }
-        Dictionary<string, int> NumericStatModifier { get; } 
+        IDictionary<ICharacterResource, int> CharacterResourceModifier { get; }
+        IDictionary<string, int> NumericStatModifier { get; } 
 
         float TimeLength { get; }
-    }
-
-    public enum EffectType
-    {
-        Passive,
-        Active
     }
 }

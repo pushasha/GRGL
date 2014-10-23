@@ -1,4 +1,4 @@
-﻿// IQuest.cs
+﻿// IInventory.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,23 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
+using System;
 using System.Collections.Generic;
 
-namespace Grgl.Quest
+namespace Grgl.Item.Inventory
 {
-    public interface IQuest
+    public interface IInventory
     {
-        string Id { get; } 
+        /// <summary>
+        /// Dictionary of items in player's inventory
+        /// <remarks>Key is item BaseId </remarks> // TODO: re-factor so that item can be looked up by name?
+        /// </summary>
+        IDictionary<string, IInventoryItem> ItemDictionary { get; } 
 
-        bool IsComplete { get; set; }
-
-        string StartStage { get; }
-
-        IDictionary<string, IQuestStage> Stages { get; }
+        /// <summary>
+        /// Returns a boolean that evaluates to false if the inventory does not contain any items
+        /// </summary>
+        bool IsEmpty { get; }
+         
     }
 }

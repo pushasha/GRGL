@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grgl", "GRGL\Grgl.csproj", "{3B0E7324-B60E-4C70-9826-E433D2A2BB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrglTestApp", "GrglTestApp\GrglTestApp.csproj", "{1204B470-3614-4015-A067-1749DE902CDC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{3B0E7324-B60E-4C70-9826-E433D2A2BB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B0E7324-B60E-4C70-9826-E433D2A2BB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B0E7324-B60E-4C70-9826-E433D2A2BB1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1204B470-3614-4015-A067-1749DE902CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1204B470-3614-4015-A067-1749DE902CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1204B470-3614-4015-A067-1749DE902CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1204B470-3614-4015-A067-1749DE902CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

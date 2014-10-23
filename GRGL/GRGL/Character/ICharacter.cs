@@ -16,9 +16,10 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
+using Grgl.Character.Traits;
 using Grgl.Global;
-using Grgl.Item;
 using Grgl.Item.Characteristics;
+using Grgl.Item.Inventory;
 using Grgl.World;
 
 namespace Grgl.Character
@@ -37,24 +38,19 @@ namespace Grgl.Character
         IInventory Inventory { get; }
 
         /// <summary>
-        /// A collection of this character's resources
-        /// </summary>
-        Dictionary<string, ICharacterResource> Resources { get; } 
-
-        /// <summary>
-        /// A collection of the character's statistics that can be represented numerically
-        /// </summary>
-        Dictionary<string, int> NumericStats { get; set; }
-
-        /// <summary>
         /// A collection that represents the wearable items this character has equipped
         /// </summary>
-        Dictionary<WearableEquipSlotType, IWearable> WearableEquipSlots { get; set; }
+        IDictionary<WearableEquipSlotType, IWearable> WearableEquipSlots { get; set; }
 
         /// <summary>
         /// A collection that represents the weapons this character has equipped
         /// </summary>
-        Dictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; set; } 
+        IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; set; } 
+
+        /// <summary>
+        /// A collection that holds values representing this character's various traits
+        /// </summary>
+        IDictionary<string, ICharacterTrait> Traits { get; } 
 
     }
 }

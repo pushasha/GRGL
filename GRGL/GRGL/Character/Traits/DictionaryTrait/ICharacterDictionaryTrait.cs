@@ -1,4 +1,4 @@
-﻿// IQuest.cs
+﻿// ICharacterDictionaryTrait.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -17,16 +17,10 @@
 
 using System.Collections.Generic;
 
-namespace Grgl.Quest
+namespace Grgl.Character.Traits.DictionaryTrait
 {
-    public interface IQuest
+    public interface ICharacterDictionaryTrait<TValue> : ICharacterTrait, IDictionary<string, TValue>
     {
-        string Id { get; } 
-
-        bool IsComplete { get; set; }
-
-        string StartStage { get; }
-
-        IDictionary<string, IQuestStage> Stages { get; }
+         // TODO: Add more?
     }
 }
