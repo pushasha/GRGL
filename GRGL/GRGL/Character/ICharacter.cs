@@ -26,7 +26,9 @@ namespace Grgl.Character
 {
     public interface ICharacter : IGameObject
     {
-        
+
+        #region Properties
+
         /// <summary>
         /// Represents the player's position in the world.
         /// </summary>
@@ -45,12 +47,20 @@ namespace Grgl.Character
         /// <summary>
         /// A collection that represents the weapons this character has equipped
         /// </summary>
-        IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; set; } 
+        IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; set; }
 
         /// <summary>
         /// A collection that holds values representing this character's various traits
         /// </summary>
-        IDictionary<string, ICharacterTrait> Traits { get; } 
+        IDictionary<string, ICharacterTrait> Traits { get; }
 
+        #endregion
+
+        #region Methods
+
+        bool Equip(IEquippable equippableItem);
+        bool Use(IUsable usableItem);
+
+        #endregion
     }
 }
