@@ -17,7 +17,7 @@
 
 using System.Collections.Generic;
 
-namespace Grgl.Interfaces.Character.Traits.DictionaryTrait
+namespace Grgl.Interfaces.Character
 {
     public interface ICharacterDictionaryTrait<TValue> : ICharacterTrait, IDictionary<string, TValue>
     {

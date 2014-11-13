@@ -16,7 +16,7 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
-using Grgl.Interfaces.Character.Traits;
+using Grgl.Interfaces.Character;
 using Grgl.Other;
 
 namespace Grgl.Interfaces.Global

@@ -17,7 +17,7 @@
 
 using Grgl.Other;
 
-namespace Grgl.Interfaces.Item.Characteristics
+namespace Grgl.Interfaces.Item
 {
     public interface IWearable : IEquippable
     {

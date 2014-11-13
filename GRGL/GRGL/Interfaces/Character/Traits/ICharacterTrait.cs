@@ -17,7 +17,7 @@
 
 using Grgl.Interfaces.Global;
 
-namespace Grgl.Interfaces.Character.Traits
+namespace Grgl.Interfaces.Character
 {
     public interface ICharacterTrait : IGameObject
     {

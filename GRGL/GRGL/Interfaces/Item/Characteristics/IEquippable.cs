@@ -17,7 +17,7 @@
 
 using Grgl.Interfaces.Global;
 
-namespace Grgl.Interfaces.Item.Characteristics
+namespace Grgl.Interfaces.Item
 {
     public interface IEquippable
     {

@@ -16,9 +16,8 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
-using Grgl.Item;
 
-namespace Grgl.Interfaces.Item.Inventory
+namespace Grgl.Interfaces.Item
 {
     public interface IInventoryItem
     {

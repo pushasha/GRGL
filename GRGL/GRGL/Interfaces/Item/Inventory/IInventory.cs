@@ -17,7 +17,7 @@
 
 using System.Collections.Generic;
 
-namespace Grgl.Interfaces.Item.Inventory
+namespace Grgl.Interfaces.Item
 {
     public interface IInventory
     {
