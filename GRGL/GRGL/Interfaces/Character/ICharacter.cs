@@ -36,22 +36,27 @@ namespace Grgl.Interfaces.Character
         /// <summary>
         /// Represents the character's item inventory
         /// </summary>
-        IInventory Inventory { get; }
+        IInventory Inventory { get; private set; }
+
+        /// <summary>
+        /// Represents the the character's current action state(s)
+        /// </summary>
+        ICollection<CharacterStateType> CharacterStates { get; private set; }
 
         /// <summary>
         /// A collection that represents the wearable items this character has equipped
         /// </summary>
-        IDictionary<WearableEquipSlotType, IWearable> WearableEquipSlots { get; set; }
+        IDictionary<WearableEquipSlotType, IWearable> WearableEquipSlots { get; private set; }
 
         /// <summary>
         /// A collection that represents the weapons this character has equipped
         /// </summary>
-        IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; set; }
+        IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; private set; }
 
         /// <summary>
         /// A collection that holds values representing this character's various traits
         /// </summary>
-        IDictionary<string, ICharacterTrait> Traits { get; }
+        IDictionary<string, ICharacterTrait> Traits { get; private set; }
 
         #endregion
 
@@ -59,6 +64,7 @@ namespace Grgl.Interfaces.Character
 
         bool Equip(IEquippable equippableItem);
         bool Use(IUsable usableItem);
+        bool Talk(ICharacter otherCharacter);
 
         #endregion
     }

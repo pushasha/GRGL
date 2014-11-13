@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\Character\Character.cs" />
+    <Compile Include="Concrete\Item\Inventory\Inventory.cs" />
     <Compile Include="Interfaces\Character\Traits\ICharacterResource.cs" />
     <Compile Include="Interfaces\Character\Traits\SimpleTrait\ICharacterRace.cs" />
     <Compile Include="Interfaces\Character\ICharacter.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="Interfaces\Character\Traits\SimpleTrait\ICharacterSimpleTrait.cs" />
     <Compile Include="Interfaces\Character\Traits\ICharacterTrait.cs" />
     <Compile Include="Interfaces\Character\Traits\DictionaryTrait\INumericStats.cs" />
+    <Compile Include="Other\CharacterStateType.cs" />
     <Compile Include="Other\ElementalType.cs" />
     <Compile Include="Interfaces\Global\IEffect.cs" />
     <Compile Include="Interfaces\Dialog\IDialogChoiceNode.cs" />
@@ -77,9 +80,7 @@
     <Compile Include="Interfaces\World\IRegion.cs" />
     <Compile Include="Interfaces\World\IWorld.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Concrete\Character\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
