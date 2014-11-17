@@ -1,4 +1,4 @@
-﻿// IDialogTree.cs
+﻿// Npc.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,21 +15,25 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.Collections;
-using System.Collections.Generic;
+using Grgl.Concrete.Dialog;
+using Grgl.Interfaces.Character;
+using Grgl.Interfaces.Dialog;
 
-namespace Grgl.Interfaces.Dialog
+namespace Grgl.Concrete.Character
 {
-    public interface IDialogTree
+    public class Npc : Character, INpc
     {
-        /// <summary>
-        /// Represents the root node of this dialog tree
-        /// </summary>
-        IDialogNode Root { get; }
+        public Npc()
+        {
+            this.DialogTree = new DialogTree();
+        }
 
-        IDictionary<string, IDialogNode> NodeDictionary { get; }
+        public Npc(string name, string refId) : base(name, refId) // TODO: Re-factor this. Should be able to make it so that it references other constructor?
+        {
+            this.DialogTree = new DialogTree();
+        }
 
-        void AddNode(string parentId, IDialogNode nodeToAdd);
-        void AddNode(string parentId, string nodeToAddId);
+        public IDialogTree DialogTree { get; private set; }
+
     }
 }

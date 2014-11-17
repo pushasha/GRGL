@@ -37,6 +37,13 @@ namespace Grgl.Concrete.Character
             this.InitCollections();
         }
 
+        public Character(string name, string refId) : this()
+        {
+            this.Name = name;
+            this.RefId = refId;
+            this.BaseId = refId; // TODO: re-factor whether this takes refid and baseid, or just one
+        }
+
 
         #region Properties
 
@@ -68,8 +75,6 @@ namespace Grgl.Concrete.Character
         {
             get; set;
         }
-
-        public IDialogTree DialogTree { get; set; }
 
         public ICollection<CharacterStateType> CharacterStates
         {
@@ -122,9 +127,11 @@ namespace Grgl.Concrete.Character
             throw new NotImplementedException();
         }
 
-        public bool Talk(ICharacter otherCharacter)
+        public IDialogTree Talk(INpc otherCharacter)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            Console.WriteLine(">> (" + this.Name + " is talking to " + otherCharacter.Name + ")");
+            return otherCharacter.DialogTree;
         }
 
         private void InitCollections()

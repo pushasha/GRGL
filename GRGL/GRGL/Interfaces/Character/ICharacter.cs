@@ -40,12 +40,7 @@ namespace Grgl.Interfaces.Character
         IInventory Inventory { get; set; }
 
         /// <summary>
-        /// Represents the character's main dialog tree
-        /// </summary>
-        IDialogTree DialogTree { get; set; }
-
-        /// <summary>
-        /// Represents the the character's current action state(s)
+        /// Represents the character's current action state(s)
         /// </summary>
         ICollection<CharacterStateType> CharacterStates { get; }
 
@@ -70,7 +65,7 @@ namespace Grgl.Interfaces.Character
 
         bool Equip(IEquippable equippableItem);
         bool Use(IUsable usableItem);
-        bool Talk(ICharacter otherCharacter);
+        IDialogTree Talk(INpc otherCharacter);
 
         #endregion
     }

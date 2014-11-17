@@ -1,4 +1,4 @@
-﻿// IDialogTree.cs
+﻿// INpc.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,21 +15,14 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.Collections;
-using System.Collections.Generic;
+using Grgl.Interfaces.Dialog;
 
-namespace Grgl.Interfaces.Dialog
+namespace Grgl.Interfaces.Character
 {
-    public interface IDialogTree
+    public interface INpc : ICharacter
     {
-        /// <summary>
-        /// Represents the root node of this dialog tree
-        /// </summary>
-        IDialogNode Root { get; }
+        IDialogTree DialogTree { get; }
 
-        IDictionary<string, IDialogNode> NodeDictionary { get; }
-
-        void AddNode(string parentId, IDialogNode nodeToAdd);
-        void AddNode(string parentId, string nodeToAddId);
+        // TODO: Add disposition tracker
     }
 }

@@ -15,7 +15,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.ComponentModel;
+using System.Collections.Generic;
 using Grgl.Interfaces.Dialog;
 
 namespace Grgl.Concrete.Dialog
@@ -25,57 +25,97 @@ namespace Grgl.Concrete.Dialog
         public DialogTree(IDialogNode rootNode)
         {
             this.Root = rootNode;
+            this.NodeDictionary = new Dictionary<string, IDialogNode>();
         }
 
         public DialogTree()
         {
+            this.NodeDictionary = new Dictionary<string, IDialogNode>();
             InitSample();
         }
 
         #region Properties
 
         public IDialogNode Root { get; private set; }
+        public IDictionary<string, IDialogNode> NodeDictionary { get; private set; }
 
         #endregion
 
         #region Methods
+         
+
+        public void AddNode(string parentId, IDialogNode nodeToAdd)
+        {
+            if (!this.NodeDictionary.ContainsKey(nodeToAdd.Id))
+            {
+                this.NodeDictionary[nodeToAdd.Id] = nodeToAdd;
+            }
+
+            if (this.NodeDictionary[parentId] is IDialogChoiceNode)
+            {
+                DialogChoiceNode parentChoice = this.NodeDictionary[parentId] as DialogChoiceNode;
+
+
+                parentChoice.Choices.Add(nodeToAdd.Id, this.NodeDictionary[nodeToAdd.Id]);
+            }
+            else
+            {
+                this.NodeDictionary[parentId].Next = this.NodeDictionary[nodeToAdd.Id];
+            }
+        }
+
+        public void AddNode(string parentId, string nodeToAddId)
+        {
+
+            if (this.NodeDictionary[parentId] is IDialogChoiceNode)
+            {
+                DialogChoiceNode parentChoice = this.NodeDictionary[parentId] as DialogChoiceNode;
+
+
+                parentChoice.Choices.Add(nodeToAddId, this.NodeDictionary[nodeToAddId]);
+            }
+            else
+            {
+                this.NodeDictionary[parentId].Next = this.NodeDictionary[nodeToAddId];
+            }
+        }
 
         private void InitSample()
         {
 
-            DialogNode greeting = new DialogNode("greeting01", "Hey there, lass.");
-            DialogChoiceNode convTopics = new DialogChoiceNode("convTopics01", "What do you want to know?");
+            this.NodeDictionary["greeting01"] = new DialogNode("greeting01", "Hey there, lass.");
+            this.NodeDictionary["convTopics01"] = new DialogChoiceNode("convTopics01", "What do you want to know?");
 
-            DialogNode questStartChoice = new DialogNode("questStartChoice01", "Need any help?");
-            DialogNode questStart = new DialogNode("questStart01", "Yeah, actually. I have a sword over there that I'm too lazy to pick up. Mind getting it for me?");
+            this.NodeDictionary["questStartChoice01"] = new DialogNode("questStartChoice01", "Need any help?");
+            this.NodeDictionary["questStart01"] = new DialogNode("questStart01", "Yeah, actually. I have a sword over there that I'm too lazy to pick up. Mind getting it for me?");
 
-            DialogNode goodbyeChoice = new DialogNode("goodbyeChoice01", "I should go.");
-            DialogNode goodbye = new DialogNode("goodbye01", "Until next time, lass.");
-            DialogNode gossipChoice = new DialogNode("gossipChoice01", "Hear anything interesting around town?");
-            DialogNode gossip = new DialogNode("gossip01", "Nah, I don't pay too much attention.");
-            
-            DialogNode questEndChoice = new DialogNode("questEndChoice01", "I brought you the sword.");
-            DialogNode questEnd = new DialogNode("questEnd01", "Thank you so much, lass!");
+            this.NodeDictionary["goodbyeChoice01"] = new DialogNode("goodbyeChoice01", "I should go.");
+            this.NodeDictionary["goodbye01"] = new DialogNode("goodbye01", "Until next time, lass.");
+            this.NodeDictionary["gossipChoice01"] = new DialogNode("gossipChoice01", "Hear anything interesting around town?");
+            this.NodeDictionary["gossip01"] = new DialogNode("gossip01", "Nah, I don't pay too much attention.");
 
-            greeting.Next = convTopics;
-            convTopics.Choices.Add("questStartChoice01", questStartChoice);
-            convTopics.Choices.Add("gossipChoice01", gossipChoice);
-            convTopics.Choices.Add("goodbyeChoice01", goodbyeChoice);
+            this.NodeDictionary["questEndChoice01"] = new DialogNode("questEndChoice01", "I brought you the sword.");
+            this.NodeDictionary["questEnd01"] = new DialogNode("questEnd01", "Thank you so much, lass!");
 
-            questStartChoice.Next = questStart;
-            questStart.Next = convTopics;
+            this.NodeDictionary["greeting01"].Next = this.NodeDictionary["convTopics01"];
+            (this.NodeDictionary["convTopics01"] as DialogChoiceNode).Choices.Add("questStartChoice01", this.NodeDictionary["questStartChoice01"]);
+            (this.NodeDictionary["convTopics01"] as DialogChoiceNode).Choices.Add("gossipChoice01", this.NodeDictionary["gossipChoice01"]);
+            (this.NodeDictionary["convTopics01"] as DialogChoiceNode).Choices.Add("goodbyeChoice01", this.NodeDictionary["goodbyeChoice01"]);
 
-            gossipChoice.Next = gossip;
-            gossip.Next = convTopics;
+            this.NodeDictionary["questStartChoice01"].Next = this.NodeDictionary["questStart01"];
+            this.NodeDictionary["questStart01"].Next = this.NodeDictionary["convTopics01"];
 
-            goodbyeChoice.Next = goodbye;
-            goodbye.Flags["GOODBYE"] = true;
+            this.NodeDictionary["gossipChoice01"].Next = this.NodeDictionary["gossip01"];
+            this.NodeDictionary["gossip01"].Next = this.NodeDictionary["convTopics01"];
+
+            this.NodeDictionary["goodbyeChoice01"].Next = this.NodeDictionary["goodbye01"];
+            (this.NodeDictionary["goodbye01"] as DialogNode).Flags["GOODBYE"] = true;
 
 
-            questEndChoice.Next = questEnd;
-            questEnd.Next = convTopics;
+            this.NodeDictionary["questEndChoice01"].Next = this.NodeDictionary["questEnd01"];
+            this.NodeDictionary["questEnd01"].Next = this.NodeDictionary["convTopics01"];
 
-            this.Root = greeting;
+            this.Root = this.NodeDictionary["greeting01"];
 
         }
 
