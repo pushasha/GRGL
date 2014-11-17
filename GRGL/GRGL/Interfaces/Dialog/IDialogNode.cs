@@ -15,11 +15,14 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
+using System.Collections.Generic;
+
 namespace Grgl.Interfaces.Dialog
 {
     public interface IDialogNode
     {
-         string Id { get; }
-         string Text { get; }
+        string Id { get; }
+        string Text { get; set; }
+        IDialogNode Next { get; set; }
     }
 }

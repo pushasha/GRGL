@@ -1,4 +1,4 @@
-﻿// IRequirement.cs
+﻿// DialogChoiceNode.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,13 +15,18 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.Collections;
+using System.Collections.Generic;
+using Grgl.Interfaces.Dialog;
 
-namespace Grgl.Interfaces.Character.Requirements
+namespace Grgl.Concrete.Dialog
 {
-    public interface IRequirement
+    public class DialogChoiceNode : DialogNode, IDialogChoiceNode
     {
-        ICharacterTrait Trait { get; }
-        ICollection RequiredValues { get; }
+        public DialogChoiceNode(string idArg, string textArg) : base(idArg, textArg)
+        {
+            this.Choices = new Dictionary<string, IDialogNode>();
+        }
+
+        public IDictionary<string, IDialogNode> Choices { get; private set; }
     }
 }

@@ -40,6 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Concrete\Character\Character.cs" />
+    <Compile Include="Concrete\Dialog\DialogChoiceNode.cs" />
+    <Compile Include="Concrete\Dialog\DialogNode.cs" />
+    <Compile Include="Concrete\Dialog\DialogTree.cs" />
     <Compile Include="Concrete\Item\Inventory\Inventory.cs" />
     <Compile Include="Interfaces\Character\Traits\ICharacterResource.cs" />
     <Compile Include="Interfaces\Character\Traits\SimpleTrait\ICharacterRace.cs" />
@@ -57,7 +60,6 @@
     <Compile Include="Other\ElementalType.cs" />
     <Compile Include="Interfaces\Global\IEffect.cs" />
     <Compile Include="Interfaces\Dialog\IDialogChoiceNode.cs" />
-    <Compile Include="Interfaces\Dialog\IDialogLine.cs" />
     <Compile Include="Interfaces\Dialog\IDialogNode.cs" />
     <Compile Include="Interfaces\Dialog\IDialogTree.cs" />
     <Compile Include="Interfaces\Global\IGameObject.cs" />

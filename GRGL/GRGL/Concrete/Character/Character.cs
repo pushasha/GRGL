@@ -18,6 +18,7 @@
 using System;
 using System.Collections.Generic;
 using Grgl.Interfaces.Character;
+using Grgl.Interfaces.Dialog;
 using Grgl.Interfaces.World;
 using Grgl.Interfaces.Item;
 using Grgl.Concrete.Item;
@@ -34,8 +35,6 @@ namespace Grgl.Concrete.Character
             this.Inventory = new Inventory();
             this.CharacterStates = new List<CharacterStateType>();
             this.InitCollections();
-            
-
         }
 
 
@@ -67,9 +66,10 @@ namespace Grgl.Concrete.Character
 
         public IInventory Inventory
         {
-            get; 
-            private set;
+            get; set;
         }
+
+        public IDialogTree DialogTree { get; set; }
 
         public ICollection<CharacterStateType> CharacterStates
         {
@@ -85,14 +85,12 @@ namespace Grgl.Concrete.Character
 
         public IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots
         {
-            get;
-            private set;
+            get; private set;
         }
 
         public IDictionary<string, ICharacterTrait> Traits
         {
-            get;
-            private set;
+            get; private set;
         }
 
         #endregion

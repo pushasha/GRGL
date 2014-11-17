@@ -16,6 +16,7 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
+using Grgl.Interfaces.Dialog;
 using Grgl.Interfaces.Global;
 using Grgl.Interfaces.Item;
 using Grgl.Interfaces.World;
@@ -36,27 +37,32 @@ namespace Grgl.Interfaces.Character
         /// <summary>
         /// Represents the character's item inventory
         /// </summary>
-        IInventory Inventory { get; private set; }
+        IInventory Inventory { get; set; }
+
+        /// <summary>
+        /// Represents the character's main dialog tree
+        /// </summary>
+        IDialogTree DialogTree { get; set; }
 
         /// <summary>
         /// Represents the the character's current action state(s)
         /// </summary>
-        ICollection<CharacterStateType> CharacterStates { get; private set; }
+        ICollection<CharacterStateType> CharacterStates { get; }
 
         /// <summary>
         /// A collection that represents the wearable items this character has equipped
         /// </summary>
-        IDictionary<WearableEquipSlotType, IWearable> WearableEquipSlots { get; private set; }
+        IDictionary<WearableEquipSlotType, IWearable> WearableEquipSlots { get;}
 
         /// <summary>
         /// A collection that represents the weapons this character has equipped
         /// </summary>
-        IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; private set; }
+        IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; }
 
         /// <summary>
         /// A collection that holds values representing this character's various traits
         /// </summary>
-        IDictionary<string, ICharacterTrait> Traits { get; private set; }
+        IDictionary<string, ICharacterTrait> Traits { get;}
 
         #endregion
 

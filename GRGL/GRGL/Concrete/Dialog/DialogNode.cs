@@ -1,4 +1,4 @@
-﻿// IDialogLine.cs
+﻿// DialogNode.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,11 +15,29 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Interfaces.Dialog
+using System.Collections.Generic;
+using Grgl.Interfaces.Dialog;
+using Grgl.Interfaces.Global;
+
+namespace Grgl.Concrete.Dialog
 {
-    public interface IDialogLine : IDialogNode
+    public class DialogNode : IDialogNode, IHasFlags
     {
         
-        IDialogNode Next { get; set; }
-    }
+        public DialogNode(string idArg, string textArg)
+        {
+            this.Id = idArg;
+            this.Text = textArg;
+            this.Flags = new Dictionary<string, bool>();
+
+            this.Flags["GOODBYE"] = false;
+        }
+
+        public DialogNode(string idArg): this(idArg, "PLACEHOLDER TEXT"){ }
+
+        public string Id { get; private set; }
+        public string Text { get; set; }
+        public IDialogNode Next { get; set; }
+        public IDictionary<string, bool> Flags { get; private set; }
+    } 
 }

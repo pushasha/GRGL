@@ -16,7 +16,6 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
-using Grgl.Interfaces.Character.Traits;
 
 namespace Grgl.Interfaces.Character.Requirements
 {
