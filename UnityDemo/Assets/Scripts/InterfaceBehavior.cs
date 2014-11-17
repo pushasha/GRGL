@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class InterfaceBehaviorScript : MonoBehaviour {
+public class InterfaceBehavior: MonoBehaviour {
 
 	private GameObject _guiInventory, _guiDialog;
 	private GameObject _windowGroup;
