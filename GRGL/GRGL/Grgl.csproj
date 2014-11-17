@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Grgl</RootNamespace>
     <AssemblyName>GRGL</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,7 +35,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -71,6 +71,7 @@
     <Compile Include="Interfaces\Item\Characteristics\IUsable.cs" />
     <Compile Include="Interfaces\Item\Characteristics\IWeapon.cs" />
     <Compile Include="Interfaces\Item\Characteristics\IWearable.cs" />
+    <Compile Include="Other\Util.cs" />
     <Compile Include="Other\WeaponType.cs" />
     <Compile Include="Interfaces\Item\Inventory\IInventoryItem.cs" />
     <Compile Include="Interfaces\Quest\IQuest.cs" />
@@ -80,7 +81,7 @@
     <Compile Include="Interfaces\Item\Inventory\IInventory.cs" />
     <Compile Include="Interfaces\Item\IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Interfaces\World\IPosition.cs" />
+    <Compile Include="Interfaces\World\ILocation.cs" />
     <Compile Include="Interfaces\World\IRegion.cs" />
     <Compile Include="Interfaces\World\IWorld.cs" />
   </ItemGroup>

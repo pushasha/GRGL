@@ -65,7 +65,7 @@ namespace Grgl.Concrete.Character
             set;
         }
 
-        public IPosition Position
+        public ILocation Position
         {
             get;
             set;

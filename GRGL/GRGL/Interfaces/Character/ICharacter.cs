@@ -32,7 +32,7 @@ namespace Grgl.Interfaces.Character
         /// <summary>
         /// Represents the player's position in the world.
         /// </summary>
-        IPosition Position { get; set; }
+        ILocation Position { get; set; }
 
         /// <summary>
         /// Represents the character's item inventory

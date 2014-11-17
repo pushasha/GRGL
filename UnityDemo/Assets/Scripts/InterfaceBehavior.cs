@@ -3,14 +3,13 @@ using System.Collections;
 
 public class InterfaceBehavior: MonoBehaviour {
 
-	private GameObject _guiInventory, _guiDialog;
+	private GameObject _guiInventory;
 	private GameObject _windowGroup;
 
 	// Use this for initialization
 	void Start () {
 		// init references
 		_guiInventory = GameObject.Find("GuiInventory");
-		_guiDialog = GameObject.Find("GuiDialog");
 
 
 		// disable windows for now
