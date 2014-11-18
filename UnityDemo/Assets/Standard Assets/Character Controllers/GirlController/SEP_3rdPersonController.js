@@ -92,6 +92,11 @@ function Awake ()
 				
 }
 
+function OnEnable () {
+	_animator = this.gameObject.GetComponent(Animator);
+	moveDirection = transform.TransformDirection(Vector3.forward);
+}
+
 
 function UpdateSmoothedMovementDirection ()
 {
@@ -116,7 +121,6 @@ function UpdateSmoothedMovementDirection ()
 	else
 		movingBack = false;
 	
-	var wasMoving = isMoving;
 	isMoving = Mathf.Abs (h) > 0.1 || Mathf.Abs (v) > 0.1;
 		
 	// Target direction relative to the camera
@@ -125,10 +129,6 @@ function UpdateSmoothedMovementDirection ()
 	// Grounded controls
 	if (grounded)
 	{
-		// Lock camera for short period when transitioning moving & standing still
-		lockCameraTimer += Time.deltaTime;
-		if (isMoving != wasMoving)
-			lockCameraTimer = 0.0;
 
 		// We store speed and direction seperately,
 		// so that when the character stands still we still have a valid forward direction
@@ -184,10 +184,6 @@ function UpdateSmoothedMovementDirection ()
 	// In air controls
 	else
 	{
-		// Lock camera while in air
-		if (jumping)
-			lockCameraTimer = 0.0;
-
 		if (isMoving)
 			inAirVelocity += targetDirection.normalized * Time.deltaTime * inAirControlAcceleration;
 	}
@@ -356,11 +352,6 @@ function GetDirection () {
 
 function IsMovingBackwards () {
 	return movingBack;
-}
-
-function GetLockCameraTimer () 
-{
-	return lockCameraTimer;
 }
 
 function IsMoving ()  : boolean
