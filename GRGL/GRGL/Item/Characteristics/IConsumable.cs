@@ -17,6 +17,9 @@
 
 namespace Grgl.Item
 {
+    /// <summary>
+    /// Items that are consumable by a player should implement this interface.
+    /// </summary>
     public interface IConsumable : IUsable
     {
         // TODO: Add more

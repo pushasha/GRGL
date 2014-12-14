@@ -17,6 +17,9 @@
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Represents a character's gender.
+    /// </summary>
     public interface ICharacterGender : ICharacterSimpleTrait 
     {
          // TODO: Add more?

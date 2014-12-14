@@ -17,8 +17,14 @@
 
 namespace Grgl.Item
 {
+    /// <summary>
+    /// Items on which a "use" action can be performed should implement this interface.
+    /// </summary>
     public interface IUsable
     {
+        /// <summary>
+        /// Method callback when this item is used
+        /// </summary>
         void OnUse();
     }
 }

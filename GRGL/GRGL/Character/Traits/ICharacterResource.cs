@@ -17,6 +17,9 @@
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Represents a "resource" that can be depleted, and may have a maximum value (e.g. HP, gold, mana)
+    /// </summary>
     public interface ICharacterResource
     {
         /// <summary>

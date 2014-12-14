@@ -17,6 +17,9 @@
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Object representing a collection of numeric stats accessed by a string key
+    /// </summary>
     public interface INumericStats : ICharacterDictionaryTrait<int>
     {
         // TODO: Add more?

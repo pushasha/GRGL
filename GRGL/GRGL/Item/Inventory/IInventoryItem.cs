@@ -19,6 +19,9 @@ using System.Collections.Generic;
 
 namespace Grgl.Item
 {
+    /// <summary>
+    /// Represents the quantity of items in an inventory using an integer value, and a dictionary of the item instances
+    /// </summary>
     public interface IInventoryItem
     {
         /// <summary>

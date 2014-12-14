@@ -19,8 +19,14 @@ using Grgl.Other;
 
 namespace Grgl.Item
 {
+    /// <summary>
+    /// Items that act as equippable weapons should implement this interface.
+    /// </summary>
     public interface IWeapon : IEquippable
     {
+        /// <summary>
+        /// The type of equip slot this item should occupy if equipped by a character
+        /// </summary>
         WeaponEquipSlotType EquipSlotType { get; }
     }
 }

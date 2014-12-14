@@ -18,6 +18,9 @@
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Represents a character's race.
+    /// </summary>
     public interface ICharacterRace : ICharacterSimpleTrait
     {
          // TODO: Add more?

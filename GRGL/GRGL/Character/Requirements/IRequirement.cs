@@ -19,9 +19,19 @@ using System.Collections;
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Object that represents an abstract "requirement", i.e. attribute(s) required to perform a task or equip an item
+    /// </summary>
     public interface IRequirement
     {
+        /// <summary>
+        /// The character trait(s) defining the requirement
+        /// </summary>
         ICharacterTrait Trait { get; }
+
+        /// <summary>
+        /// Collection of values defining the requirement
+        /// </summary>
         ICollection RequiredValues { get; }
     }
 }

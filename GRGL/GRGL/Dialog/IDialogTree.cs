@@ -19,16 +19,33 @@ using System.Collections.Generic;
 
 namespace Grgl.Dialog
 {
+    /// <summary>
+    /// Represents a character's dialog tree.
+    /// </summary>
     public interface IDialogTree
     {
         /// <summary>
-        /// Represents the root node of this dialog tree
+        /// The root node of this dialog tree.
         /// </summary>
         IDialogNode Root { get; }
 
+        /// <summary>
+        /// All the nodes contained in this dialog tree, keyed with unique identifiers
+        /// </summary>
         IDictionary<string, IDialogNode> NodeDictionary { get; }
 
+        /// <summary>
+        /// Add a node to this dialog tree
+        /// </summary>
+        /// <param name="parentId">The UID of the node that preceeds the node to be added</param>
+        /// <param name="nodeToAdd">The node object to be added</param>
         void AddNode(string parentId, IDialogNode nodeToAdd);
+
+        /// <summary>
+        /// Add a node to this dialog tree
+        /// </summary>
+        /// <param name="parentId">The UID of the node that preceeds the node to be added</param>
+        /// <param name="nodeToAddId">The UID of the pre-existing node to be added to the tree</param>
         void AddNode(string parentId, string nodeToAddId);
     }
 }

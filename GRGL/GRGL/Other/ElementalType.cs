@@ -17,37 +17,33 @@
 
 namespace Grgl.Other
 {
+    /// <summary>
+    /// This is a faux-extensible "enum" class.
+    /// </summary>
     /// <remarks>
-    /// This class emulates the behavior of an enum, but allows for extensibility.
-    /// To extend this "enum", i.e. to add members, create an extension class that implements this
-    /// base class, declare/define your custom values, and override the constructor as follows:
+    /// To extend this class and add values to this "enum", use the following syntax:
     /// <code>
-    /// public class ElementalTypeExtension : ElementalType {
-    ///	    public const int CustomValue = 5;
-    ///     // add more values...
-    ///	    public ElementalTypeExtension (int value) : base (value) {}
+    /// public class ElementalTypeExtended : ElementalType
+    /// {
+    ///		public ElementalTypeExtended (int value) : base(value) {}
+    ///
+    ///		public const int EnumeratorToAdd = 4; // where this value is one that hasn't been assigned in the definition of the enum being extended
+    ///		public const int AnotherEnumerator = 5;
     /// }
     /// </code>
     /// </remarks>
     public class ElementalType
     {
-
         public int Value { get; set; }
-
-        public const int Normal = 1;
-        public const int Poison = 2;
-        public const int Fire = 3;
-        public const int Water = 4;
-
-
-        public ElementalType(int value)
+		
+        public ElementalType (int value)
         {
             Value = value;
         }
 
-        public static implicit operator int(ElementalType extEnum)
+        public static implicit operator int(ElementalType arg)
         {
-            return extEnum.Value;
+            return arg.Value;
         }
 
         public static implicit operator ElementalType(int value)
@@ -55,6 +51,9 @@ namespace Grgl.Other
             return new ElementalType(value);
         }
 
-         
-    }
+        public const int Fire = 1;
+        public const int Ice = 2;
+        public const int Poison = 3;
+
+    }// end class
 }

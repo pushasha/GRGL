@@ -17,6 +17,9 @@
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Represents a character's class
+    /// </summary>
     public interface ICharacterClass : ICharacterSimpleTrait
     {
          // TODO: Add more?

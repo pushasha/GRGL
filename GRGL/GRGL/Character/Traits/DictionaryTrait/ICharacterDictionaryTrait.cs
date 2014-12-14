@@ -19,6 +19,10 @@ using System.Collections.Generic;
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Object that represents a collection of traits that will be accessed by a string key
+    /// </summary>
+    /// <typeparam name="TValue">The type of value these traits will store</typeparam>
     public interface ICharacterDictionaryTrait<TValue> : ICharacterTrait, IDictionary<string, TValue>
     {
          // TODO: Add more?

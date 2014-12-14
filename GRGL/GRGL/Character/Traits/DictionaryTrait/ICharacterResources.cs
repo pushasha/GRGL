@@ -17,6 +17,9 @@
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Object that represents a collection of resources accessed via a string key
+    /// </summary>
     public interface ICharacterResources : ICharacterDictionaryTrait<ICharacterResource>
     {
         // TODO: Add more?

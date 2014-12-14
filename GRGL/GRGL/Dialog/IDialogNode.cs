@@ -17,10 +17,24 @@
 
 namespace Grgl.Dialog
 {
+    /// <summary>
+    /// Represents a basic node in a dialog tree.
+    /// </summary>
     public interface IDialogNode
     {
+        /// <summary>
+        /// The unique identifier of this node
+        /// </summary>
         string Id { get; }
+
+        /// <summary>
+        /// The dialog text contained in this node
+        /// </summary>
         string Text { get; set; }
+
+        /// <summary>
+        /// The node that follows this node in the parent dialog tree
+        /// </summary>
         IDialogNode Next { get; set; }
     }
 }

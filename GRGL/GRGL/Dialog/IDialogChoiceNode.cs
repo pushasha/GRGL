@@ -19,8 +19,14 @@ using System.Collections.Generic;
 
 namespace Grgl.Dialog
 {
+    /// <summary>
+    /// Represents a node in a dialog tree where the player has branching dialog choices
+    /// </summary>
     public interface IDialogChoiceNode : IDialogNode
     {
+        /// <summary>
+        /// Property containing a Dictionary of choice nodes available to the player
+        /// </summary>
         IDictionary<string, IDialogNode> Choices { get; }
     }
 }

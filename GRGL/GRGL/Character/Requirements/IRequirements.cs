@@ -19,8 +19,16 @@ using System.Collections.Generic;
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Object representing a collection of abstract requirements
+    /// </summary>
     public interface IRequirements : IDictionary<string, IRequirement>
     {
+        /// <summary>
+        /// Method that checks whether needed requirements are met for a given task
+        /// </summary>
+        /// <param name="traitsToCheck">Dictionary of traits to check</param>
+        /// <returns>True if requirements met, false if not met.</returns>
         bool MeetsRequirements(IDictionary<string, ICharacterTrait> traitsToCheck);
     }
 }

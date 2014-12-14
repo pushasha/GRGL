@@ -17,6 +17,9 @@
 
 namespace Grgl.Other
 {
+    /// <summary>
+    /// Weapon Type Enumerators
+    /// </summary>
     public enum WeaponType
     {
         OneHanded,

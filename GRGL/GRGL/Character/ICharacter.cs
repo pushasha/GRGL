@@ -24,6 +24,10 @@ using Grgl.World;
 
 namespace Grgl.Character
 {
+
+    /// <summary>
+    /// Represents a character in the game
+    /// </summary>
     public interface ICharacter : IGameObject
     {
 
@@ -63,8 +67,26 @@ namespace Grgl.Character
 
         #region Methods
 
+        /// <summary>
+        /// Equips an item on this character, if possible
+        /// </summary>
+        /// <param name="equippableItem">Item to be equipped</param>
+        /// <returns>Returns false if item cannot be equipped</returns>
         bool Equip(IEquippable equippableItem);
+        
+        /// <summary>
+        /// Item is used by this character, if possible
+        /// </summary>
+        /// <param name="usableItem">Item to be used</param>
+        /// <returns>Returns false if the item cannot be used</returns>
         bool Use(IUsable usableItem);
+
+
+        /// <summary>
+        /// This character starts a conversation with an NPC
+        /// </summary>
+        /// <param name="otherCharacter">The NPC that this character is to converse with</param>
+        /// <returns>The NPC's dialog tree</returns>
         IDialogTree Talk(INpc otherCharacter);
 
         #endregion

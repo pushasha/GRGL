@@ -19,9 +19,17 @@ using Grgl.Global;
 
 namespace Grgl.Item
 {
+    // Items that are equippable by a character should implement this interface.
     public interface IEquippable
     {
+        /// <summary>
+        /// The passive effect this equippable item imparts on the equipped character
+        /// </summary>
         IEffect PassiveEffect { get; }
+
+        /// <summary>
+        /// Method callback when a character equips this item
+        /// </summary>
         void OnEquip();
     }
 }

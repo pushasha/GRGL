@@ -19,6 +19,9 @@ using Grgl.Global;
 
 namespace Grgl.Item
 {
+    /// <summary>
+    /// Represents an in-game that can be possessed by a character.
+    /// </summary>
     public interface IItem : IGameObject
     {
         // TODO: Add more?

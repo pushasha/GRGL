@@ -19,6 +19,9 @@ using System.Collections.Generic;
 
 namespace Grgl.Item
 {
+    /// <summary>
+    /// Represents the personal inventory of a character, or the contents of a container
+    /// </summary>
     public interface IInventory
     {
         /// <summary>

@@ -17,6 +17,9 @@
 
 namespace Grgl.Global
 {
+    /// <summary>
+    /// Represents a generic object in the game
+    /// </summary>
     public interface IGameObject
     {
         /// <summary>

@@ -19,6 +19,9 @@ using Grgl.Global;
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Represents an abstract character trait.
+    /// </summary>
     public interface ICharacterTrait : IGameObject
     {
         // TODO: Add more?

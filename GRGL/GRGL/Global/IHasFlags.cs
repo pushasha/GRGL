@@ -19,6 +19,9 @@ using System.Collections.Generic;
 
 namespace Grgl.Global
 {
+    /// <summary>
+    /// Interface to be implemented on objects that have flags
+    /// </summary>
     public interface IHasFlags
     {
         /// <summary>

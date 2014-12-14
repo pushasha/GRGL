@@ -19,8 +19,14 @@ using Grgl.Other;
 
 namespace Grgl.Item
 {
+    /// <summary>
+    /// Equippable items that are considered wearable should implement this interface.
+    /// </summary>
     public interface IWearable : IEquippable
     {
+        /// <summary>
+        /// The type of equip slot this item should occupy if equipped by a character
+        /// </summary>
         WearableEquipSlotType EquipSlotType { get; }
     }
 }

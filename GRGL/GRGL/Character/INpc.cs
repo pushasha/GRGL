@@ -19,8 +19,14 @@ using Grgl.Dialog;
 
 namespace Grgl.Character
 {
+    /// <summary>
+    /// Represents a Non-Player Character (NPC) in the game
+    /// </summary>
     public interface INpc : ICharacter
     {
+        /// <summary>
+        /// This NPC's dialog tree
+        /// </summary>
         IDialogTree DialogTree { get; }
 
         // TODO: Add disposition tracker

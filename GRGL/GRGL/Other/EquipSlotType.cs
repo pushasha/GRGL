@@ -17,6 +17,9 @@
 
 namespace Grgl.Other
 {
+    /// <summary>
+    /// Wearable Item Slot Type Enumerators
+    /// </summary>
     public enum WearableEquipSlotType
     {
         Head,
@@ -31,6 +34,9 @@ namespace Grgl.Other
         OtherWearable
     }
 
+    /// <summary>
+    /// Weapon Slot Type Enumerators
+    /// </summary>
     public enum WeaponEquipSlotType
     {
         Primary,

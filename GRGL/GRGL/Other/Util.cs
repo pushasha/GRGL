@@ -17,16 +17,28 @@
 
 namespace Grgl.Other
 {
-
+    /// <summary>
+    /// A structure representing a point in three-dimensional space.
+    /// </summary>
     public struct Point3D
     {
+        /// <summary>
+        /// The X, Y, and Z coordinates of this point
+        /// </summary>
         public float X, Y, Z;
 
+        /// <summary>
+        /// Point3D constructor
+        /// </summary>
+        /// <param name="xArg">X coordinate</param>
+        /// <param name="yArg">Y coordinate</param>
+        /// <param name="zArg">Z coordinate</param>
         public Point3D(float xArg, float yArg, float zArg)
         {
             X = xArg;
             Y = yArg;
             Z = zArg;
         }
-    }
+
+    }//end struct
 }

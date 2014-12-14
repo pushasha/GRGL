@@ -15,7 +15,6 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-using System;
 using System.Collections.Generic;
 using Grgl.Dialog;
 using Grgl.Item;
@@ -120,12 +119,11 @@ namespace Grgl.Character
 
         public bool Use(IUsable usableItem)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         public IDialogTree Talk(INpc otherCharacter)
         {
-            Console.WriteLine(">> (" + this.Name + " is talking to " + otherCharacter.Name + ")");
             return otherCharacter.DialogTree;
         }
 

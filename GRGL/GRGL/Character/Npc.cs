@@ -19,7 +19,7 @@ using Grgl.Dialog;
 
 namespace Grgl.Character
 {
-    public class Npc : Grgl.Character.Character, INpc
+    public class Npc : Character, INpc
     {
         public Npc()
         {
