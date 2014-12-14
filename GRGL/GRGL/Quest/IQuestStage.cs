@@ -19,16 +19,34 @@ using System.Collections.Generic;
 
 namespace Grgl.Quest
 {
+    /// <summary>
+    /// Represents a stage in a quest.
+    /// </summary>
     public interface IQuestStage
     {
+        /// <summary>
+        /// Unique identifier for this quest stage
+        /// </summary>
         string Id { get; }
 
+        /// <summary>
+        /// Flag representing whether this stage has been completed or not
+        /// </summary>
         bool IsComplete { get; set; }
 
+        /// <summary>
+        /// Flag representing whether the completion of this stage should complete the entire parent quest
+        /// </summary>
         bool IsEndStage { get; set; }
 
+        /// <summary>
+        /// The stage with which this quest was completed, if applicable
+        /// </summary>
         string CompletedWithStage { get; set; }
 
+        /// <summary>
+        /// List of the unique identifiers for the quest stages that follow this stage.
+        /// </summary>
         IList<string> ChildStages { get;} 
     }
 }

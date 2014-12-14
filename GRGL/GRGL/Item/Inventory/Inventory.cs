@@ -19,20 +19,24 @@ using System.Collections.Generic;
 
 namespace Grgl.Item
 {
+    /// <inheritdoc cref="IInventory" />
     public class Inventory : IInventory
     {
-        private Dictionary<string, IInventoryItem> _itemDictionary;
+        private readonly Dictionary<string, IInventoryItem> _itemDictionary;
 
+        ///  <inheritdoc />
         public Inventory()
         {
             _itemDictionary = new Dictionary<string, IInventoryItem>();
         }
 
+        ///  <inheritdoc />
         public IDictionary<string, IInventoryItem> ItemDictionary
         {
             get { return _itemDictionary; }
         }
 
+        ///  <inheritdoc />
         public bool IsEmpty
         {
             get { return _itemDictionary.Count == 0; } // TODO: Check to see if there are keys, but no values

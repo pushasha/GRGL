@@ -37,15 +37,15 @@ namespace Grgl.Dialog
         /// <summary>
         /// Add a node to this dialog tree
         /// </summary>
-        /// <param name="parentId">The UID of the node that preceeds the node to be added</param>
+        /// <param name="parentId">The UID of the node that precedes the node to be added</param>
         /// <param name="nodeToAdd">The node object to be added</param>
         void AddNode(string parentId, IDialogNode nodeToAdd);
 
         /// <summary>
         /// Add a node to this dialog tree
         /// </summary>
-        /// <param name="parentId">The UID of the node that preceeds the node to be added</param>
-        /// <param name="nodeToAddId">The UID of the pre-existing node to be added to the tree</param>
+        /// <param name="parentId">The UID of the node that precedes the node to be added</param>
+        /// <param name="nodeToAddId">The UID of the preexisting node to be added to the tree</param>
         void AddNode(string parentId, string nodeToAddId);
     }
 }

@@ -19,6 +19,9 @@ using System.Collections.Generic;
 
 namespace Grgl.World
 {
+    /// <summary>
+    /// Represents the game world
+    /// </summary>
     public interface IWorld
     {
         /// <summary>

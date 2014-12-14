@@ -19,13 +19,16 @@ using System.Collections.Generic;
 
 namespace Grgl.Dialog
 {
+    /// <inheritdoc cref="IDialogChoiceNode" />
     public class DialogChoiceNode : DialogNode, IDialogChoiceNode
     {
+        ///  <inheritdoc />
         public DialogChoiceNode(string idArg, string textArg) : base(idArg, textArg)
         {
             this.Choices = new Dictionary<string, IDialogNode>();
         }
 
+        ///  <inheritdoc />
         public IDictionary<string, IDialogNode> Choices { get; private set; }
     }
 }

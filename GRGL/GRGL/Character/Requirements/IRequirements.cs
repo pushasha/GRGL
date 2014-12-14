@@ -20,7 +20,7 @@ using System.Collections.Generic;
 namespace Grgl.Character
 {
     /// <summary>
-    /// Object representing a collection of abstract requirements
+    /// Represents a collection of abstract requirements
     /// </summary>
     public interface IRequirements : IDictionary<string, IRequirement>
     {

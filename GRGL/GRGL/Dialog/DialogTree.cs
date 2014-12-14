@@ -19,14 +19,17 @@ using System.Collections.Generic;
 
 namespace Grgl.Dialog
 {
+    /// <inheritdoc cref="IDialogTree" />
     public class DialogTree : IDialogTree
     {
+        ///  <inheritdoc />
         public DialogTree(IDialogNode rootNode)
         {
             this.Root = rootNode;
             this.NodeDictionary = new Dictionary<string, IDialogNode>();
         }
 
+        ///  <inheritdoc />
         public DialogTree()
         {
             this.NodeDictionary = new Dictionary<string, IDialogNode>();
@@ -34,15 +37,17 @@ namespace Grgl.Dialog
         }
 
         #region Properties
-
+        ///  <inheritdoc />
         public IDialogNode Root { get; private set; }
+
+        ///  <inheritdoc />
         public IDictionary<string, IDialogNode> NodeDictionary { get; private set; }
 
         #endregion
 
         #region Methods
-         
 
+        ///  <inheritdoc />
         public void AddNode(string parentId, IDialogNode nodeToAdd)
         {
             if (!this.NodeDictionary.ContainsKey(nodeToAdd.Id))
@@ -55,7 +60,7 @@ namespace Grgl.Dialog
                 DialogChoiceNode parentChoice = this.NodeDictionary[parentId] as DialogChoiceNode;
 
 
-                parentChoice.Choices.Add(nodeToAdd.Id, this.NodeDictionary[nodeToAdd.Id]);
+                if (parentChoice != null) parentChoice.Choices.Add(nodeToAdd.Id, this.NodeDictionary[nodeToAdd.Id]);
             }
             else
             {
@@ -63,6 +68,7 @@ namespace Grgl.Dialog
             }
         }
 
+        ///  <inheritdoc />
         public void AddNode(string parentId, string nodeToAddId)
         {
 
@@ -71,7 +77,7 @@ namespace Grgl.Dialog
                 DialogChoiceNode parentChoice = this.NodeDictionary[parentId] as DialogChoiceNode;
 
 
-                parentChoice.Choices.Add(nodeToAddId, this.NodeDictionary[nodeToAddId]);
+                if (parentChoice != null) parentChoice.Choices.Add(nodeToAddId, this.NodeDictionary[nodeToAddId]);
             }
             else
             {
@@ -91,7 +97,7 @@ namespace Grgl.Dialog
             this.NodeDictionary["goodbyeChoice01"] = new DialogNode("goodbyeChoice01", "I should go.");
             this.NodeDictionary["goodbye01"] = new DialogNode("goodbye01", "Until next time, lass.");
             this.NodeDictionary["gossipChoice01"] = new DialogNode("gossipChoice01", "Hear anything interesting around town?");
-            this.NodeDictionary["gossip01"] = new DialogNode("gossip01", "Nah, I don't pay too much attention.");
+            this.NodeDictionary["gossip01"] = new DialogNode("gossip01", "No, I don't pay too much attention.");
 
             this.NodeDictionary["questEndChoice01"] = new DialogNode("questEndChoice01", "I brought you the sword.");
             this.NodeDictionary["questEnd01"] = new DialogNode("questEnd01", "Thank you so much, lass!");

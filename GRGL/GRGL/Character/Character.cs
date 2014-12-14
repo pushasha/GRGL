@@ -23,8 +23,10 @@ using Grgl.World;
 
 namespace Grgl.Character
 {
+    /// <inheritdoc cref="ICharacter" />
     public class Character : ICharacter
     {
+        ///  <inheritdoc />
         public Character()
         {
             this.Inventory = new Inventory();
@@ -32,6 +34,7 @@ namespace Grgl.Character
             this.InitCollections();
         }
 
+        ///  <inheritdoc />
         public Character(string name, string refId) : this()
         {
             this.Name = name;
@@ -41,53 +44,53 @@ namespace Grgl.Character
 
 
         #region Properties
-
+        ///  <inheritdoc />
         public string Name
         {
             get;
             set;
         }
-
+        ///  <inheritdoc />
         public string BaseId
         {
             get;
             set;
         }
-
+        ///  <inheritdoc />
         public string RefId
         {
             get;
             set;
         }
-
+        ///  <inheritdoc />
         public ILocation Position
         {
             get;
             set;
         }
-
+        ///  <inheritdoc />
         public IInventory Inventory
         {
             get; set;
         }
-
+        ///  <inheritdoc />
         public ICollection<CharacterStateType> CharacterStates
         {
             get;
             private set;
         }
-
+        ///  <inheritdoc />
         public IDictionary<WearableEquipSlotType, IWearable> WearableEquipSlots
         {
             get;
             private set;
         }
-
+        ///  <inheritdoc />
         public IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots
         {
             get; private set;
         }
-
+        ///  <inheritdoc />
         public IDictionary<string, ICharacterTrait> Traits
         {
             get; private set;
@@ -96,7 +99,7 @@ namespace Grgl.Character
         #endregion
 
         #region Methods
-
+        ///  <inheritdoc />
         public bool Equip(IEquippable equippableItem)
         {
             if (equippableItem is IWeapon)
@@ -116,12 +119,12 @@ namespace Grgl.Character
 
             return true;
         }
-
+        ///  <inheritdoc />
         public bool Use(IUsable usableItem)
         {
             throw new System.NotImplementedException();
         }
-
+        ///  <inheritdoc />
         public IDialogTree Talk(INpc otherCharacter)
         {
             return otherCharacter.DialogTree;

@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Accessory enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="AddNode method">
+    <HelpKINode Title="DialogTree.AddNode Method " Url="html/Overload_Grgl_Dialog_DialogTree_AddNode.htm" />
+    <HelpKINode Title="IDialogTree.AddNode Method " Url="html/Overload_Grgl_Dialog_IDialogTree_AddNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Ammo enumeration member" Url="html/T_Grgl_Other_WeaponEquipSlotType.htm" />
+  <HelpKINode Title="BaseId property">
+    <HelpKINode Title="Character.BaseId Property " Url="html/P_Grgl_Character_Character_BaseId.htm" />
+    <HelpKINode Title="IGameObject.BaseId Property " Url="html/P_Grgl_Global_IGameObject_BaseId.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Belt enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Character class">
+    <HelpKINode Title="Character Class" Url="html/T_Grgl_Character_Character.htm" />
+    <HelpKINode Title="about Character class" Url="html/T_Grgl_Character_Character.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Grgl_Character_Character__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_Character.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_Character.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Character.BaseId property" Url="html/P_Grgl_Character_Character_BaseId.htm" />
+  <HelpKINode Title="Character.Character constructor" Url="html/Overload_Grgl_Character_Character__ctor.htm" />
+  <HelpKINode Title="Character.CharacterStates property" Url="html/P_Grgl_Character_Character_CharacterStates.htm" />
+  <HelpKINode Title="Character.Equip method" Url="html/M_Grgl_Character_Character_Equip.htm" />
+  <HelpKINode Title="Character.Inventory property" Url="html/P_Grgl_Character_Character_Inventory.htm" />
+  <HelpKINode Title="Character.Name property" Url="html/P_Grgl_Character_Character_Name.htm" />
+  <HelpKINode Title="Character.Position property" Url="html/P_Grgl_Character_Character_Position.htm" />
+  <HelpKINode Title="Character.RefId property" Url="html/P_Grgl_Character_Character_RefId.htm" />
+  <HelpKINode Title="Character.Talk method" Url="html/M_Grgl_Character_Character_Talk.htm" />
+  <HelpKINode Title="Character.Traits property" Url="html/P_Grgl_Character_Character_Traits.htm" />
+  <HelpKINode Title="Character.Use method" Url="html/M_Grgl_Character_Character_Use.htm" />
+  <HelpKINode Title="Character.WeaponEquipSlots property" Url="html/P_Grgl_Character_Character_WeaponEquipSlots.htm" />
+  <HelpKINode Title="Character.WearableEquipSlots property" Url="html/P_Grgl_Character_Character_WearableEquipSlots.htm" />
+  <HelpKINode Title="CharacterResourceModifier property" Url="html/P_Grgl_Global_IEffect_CharacterResourceModifier.htm" />
+  <HelpKINode Title="CharacterStates property">
+    <HelpKINode Title="Character.CharacterStates Property " Url="html/P_Grgl_Character_Character_CharacterStates.htm" />
+    <HelpKINode Title="ICharacter.CharacterStates Property " Url="html/P_Grgl_Character_ICharacter_CharacterStates.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CharacterStateType enumeration" Url="html/T_Grgl_Other_CharacterStateType.htm" />
+  <HelpKINode Title="Chest enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="ChildStages property" Url="html/P_Grgl_Quest_IQuestStage_ChildStages.htm" />
+  <HelpKINode Title="Choices property">
+    <HelpKINode Title="DialogChoiceNode.Choices Property " Url="html/P_Grgl_Dialog_DialogChoiceNode_Choices.htm" />
+    <HelpKINode Title="IDialogChoiceNode.Choices Property " Url="html/P_Grgl_Dialog_IDialogChoiceNode_Choices.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Combat enumeration member" Url="html/T_Grgl_Other_CharacterStateType.htm" />
+  <HelpKINode Title="Complete property" Url="html/P_Grgl_Quest_IQuestLog_Complete.htm" />
+  <HelpKINode Title="CompletedWithStage property" Url="html/P_Grgl_Quest_IQuestStage_CompletedWithStage.htm" />
+  <HelpKINode Title="CurrentValue property" Url="html/P_Grgl_Character_ICharacterResource_CurrentValue.htm" />
+  <HelpKINode Title="Dialog enumeration member" Url="html/T_Grgl_Other_CharacterStateType.htm" />
+  <HelpKINode Title="DialogChoiceNode class">
+    <HelpKINode Title="DialogChoiceNode Class" Url="html/T_Grgl_Dialog_DialogChoiceNode.htm" />
+    <HelpKINode Title="about DialogChoiceNode class" Url="html/T_Grgl_Dialog_DialogChoiceNode.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grgl_Dialog_DialogChoiceNode__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Dialog_DialogChoiceNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Dialog_DialogChoiceNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DialogChoiceNode.Choices property" Url="html/P_Grgl_Dialog_DialogChoiceNode_Choices.htm" />
+  <HelpKINode Title="DialogChoiceNode.DialogChoiceNode constructor" Url="html/M_Grgl_Dialog_DialogChoiceNode__ctor.htm" />
+  <HelpKINode Title="DialogNode class">
+    <HelpKINode Title="DialogNode Class" Url="html/T_Grgl_Dialog_DialogNode.htm" />
+    <HelpKINode Title="about DialogNode class" Url="html/T_Grgl_Dialog_DialogNode.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Grgl_Dialog_DialogNode__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Dialog_DialogNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Dialog_DialogNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DialogNode.DialogNode constructor" Url="html/Overload_Grgl_Dialog_DialogNode__ctor.htm" />
+  <HelpKINode Title="DialogNode.Flags property" Url="html/P_Grgl_Dialog_DialogNode_Flags.htm" />
+  <HelpKINode Title="DialogNode.Id property" Url="html/P_Grgl_Dialog_DialogNode_Id.htm" />
+  <HelpKINode Title="DialogNode.Next property" Url="html/P_Grgl_Dialog_DialogNode_Next.htm" />
+  <HelpKINode Title="DialogNode.Text property" Url="html/P_Grgl_Dialog_DialogNode_Text.htm" />
+  <HelpKINode Title="DialogTree class">
+    <HelpKINode Title="DialogTree Class" Url="html/T_Grgl_Dialog_DialogTree.htm" />
+    <HelpKINode Title="about DialogTree class" Url="html/T_Grgl_Dialog_DialogTree.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Grgl_Dialog_DialogTree__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Dialog_DialogTree.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Dialog_DialogTree.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DialogTree property">
+    <HelpKINode Title="INpc.DialogTree Property " Url="html/P_Grgl_Character_INpc_DialogTree.htm" />
+    <HelpKINode Title="Npc.DialogTree Property " Url="html/P_Grgl_Character_Npc_DialogTree.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DialogTree.AddNode method" Url="html/Overload_Grgl_Dialog_DialogTree_AddNode.htm" />
+  <HelpKINode Title="DialogTree.DialogTree constructor" Url="html/Overload_Grgl_Dialog_DialogTree__ctor.htm" />
+  <HelpKINode Title="DialogTree.NodeDictionary property" Url="html/P_Grgl_Dialog_DialogTree_NodeDictionary.htm" />
+  <HelpKINode Title="DialogTree.Root property" Url="html/P_Grgl_Dialog_DialogTree_Root.htm" />
+  <HelpKINode Title="Disabled enumeration member" Url="html/T_Grgl_Other_CharacterStateType.htm" />
+  <HelpKINode Title="Element property" Url="html/P_Grgl_Global_IEffect_Element.htm" />
+  <HelpKINode Title="ElementalType class">
+    <HelpKINode Title="ElementalType Class" Url="html/T_Grgl_Other_ElementalType.htm" />
+    <HelpKINode Title="about ElementalType class" Url="html/T_Grgl_Other_ElementalType.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grgl_Other_ElementalType__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Grgl_Other_ElementalType.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Other_ElementalType.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Other_ElementalType.htm" />
+    <HelpKINode Title="type conversions" Url="html/Operators_T_Grgl_Other_ElementalType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ElementalType to Int32 conversion" Url="html/M_Grgl_Other_ElementalType_op_Implicit.htm" />
+  <HelpKINode Title="ElementalType.ElementalType constructor" Url="html/M_Grgl_Other_ElementalType__ctor.htm" />
+  <HelpKINode Title="ElementalType.Fire field" Url="html/F_Grgl_Other_ElementalType_Fire.htm" />
+  <HelpKINode Title="ElementalType.Ice field" Url="html/F_Grgl_Other_ElementalType_Ice.htm" />
+  <HelpKINode Title="ElementalType.Poison field" Url="html/F_Grgl_Other_ElementalType_Poison.htm" />
+  <HelpKINode Title="ElementalType.Value property" Url="html/P_Grgl_Other_ElementalType_Value.htm" />
+  <HelpKINode Title="Equip method">
+    <HelpKINode Title="Character.Equip Method " Url="html/M_Grgl_Character_Character_Equip.htm" />
+    <HelpKINode Title="ICharacter.Equip Method " Url="html/M_Grgl_Character_ICharacter_Equip.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EquipSlotType property">
+    <HelpKINode Title="IWeapon.EquipSlotType Property " Url="html/P_Grgl_Item_IWeapon_EquipSlotType.htm" />
+    <HelpKINode Title="IWearable.EquipSlotType Property " Url="html/P_Grgl_Item_IWearable_EquipSlotType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Feet enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Fire field" Url="html/F_Grgl_Other_ElementalType_Fire.htm" />
+  <HelpKINode Title="Flags property">
+    <HelpKINode Title="DialogNode.Flags Property " Url="html/P_Grgl_Dialog_DialogNode_Flags.htm" />
+    <HelpKINode Title="IHasFlags.Flags Property " Url="html/P_Grgl_Global_IHasFlags_Flags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Focus enumeration member" Url="html/T_Grgl_Other_WeaponType.htm" />
+  <HelpKINode Title="Grgl.Character namespace" Url="html/N_Grgl_Character.htm" />
+  <HelpKINode Title="Grgl.Character.Character class" Url="html/T_Grgl_Character_Character.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacter interface" Url="html/T_Grgl_Character_ICharacter.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterClass interface" Url="html/T_Grgl_Character_ICharacterClass.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterDictionaryTrait(Of TValue) interface" Url="html/T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterDictionaryTrait&lt;TValue&gt; interface" Url="html/T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterGender interface" Url="html/T_Grgl_Character_ICharacterGender.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterRace interface" Url="html/T_Grgl_Character_ICharacterRace.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterResource interface" Url="html/T_Grgl_Character_ICharacterResource.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterResources interface" Url="html/T_Grgl_Character_ICharacterResources.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterSimpleTrait interface" Url="html/T_Grgl_Character_ICharacterSimpleTrait.htm" />
+  <HelpKINode Title="Grgl.Character.ICharacterTrait interface" Url="html/T_Grgl_Character_ICharacterTrait.htm" />
+  <HelpKINode Title="Grgl.Character.INpc interface" Url="html/T_Grgl_Character_INpc.htm" />
+  <HelpKINode Title="Grgl.Character.INumericStats interface" Url="html/T_Grgl_Character_INumericStats.htm" />
+  <HelpKINode Title="Grgl.Character.IRequirement interface" Url="html/T_Grgl_Character_IRequirement.htm" />
+  <HelpKINode Title="Grgl.Character.IRequirements interface" Url="html/T_Grgl_Character_IRequirements.htm" />
+  <HelpKINode Title="Grgl.Character.Npc class" Url="html/T_Grgl_Character_Npc.htm" />
+  <HelpKINode Title="Grgl.Dialog namespace" Url="html/N_Grgl_Dialog.htm" />
+  <HelpKINode Title="Grgl.Dialog.DialogChoiceNode class" Url="html/T_Grgl_Dialog_DialogChoiceNode.htm" />
+  <HelpKINode Title="Grgl.Dialog.DialogNode class" Url="html/T_Grgl_Dialog_DialogNode.htm" />
+  <HelpKINode Title="Grgl.Dialog.DialogTree class" Url="html/T_Grgl_Dialog_DialogTree.htm" />
+  <HelpKINode Title="Grgl.Dialog.IDialogChoiceNode interface" Url="html/T_Grgl_Dialog_IDialogChoiceNode.htm" />
+  <HelpKINode Title="Grgl.Dialog.IDialogNode interface" Url="html/T_Grgl_Dialog_IDialogNode.htm" />
+  <HelpKINode Title="Grgl.Dialog.IDialogTree interface" Url="html/T_Grgl_Dialog_IDialogTree.htm" />
+  <HelpKINode Title="Grgl.Global namespace" Url="html/N_Grgl_Global.htm" />
+  <HelpKINode Title="Grgl.Global.IEffect interface" Url="html/T_Grgl_Global_IEffect.htm" />
+  <HelpKINode Title="Grgl.Global.IGameObject interface" Url="html/T_Grgl_Global_IGameObject.htm" />
+  <HelpKINode Title="Grgl.Global.IHasFlags interface" Url="html/T_Grgl_Global_IHasFlags.htm" />
+  <HelpKINode Title="Grgl.Global.ModifyTrait delegate" Url="html/T_Grgl_Global_ModifyTrait.htm" />
+  <HelpKINode Title="Grgl.Item namespace" Url="html/N_Grgl_Item.htm" />
+  <HelpKINode Title="Grgl.Item.IConsumable interface" Url="html/T_Grgl_Item_IConsumable.htm" />
+  <HelpKINode Title="Grgl.Item.IEquippable interface" Url="html/T_Grgl_Item_IEquippable.htm" />
+  <HelpKINode Title="Grgl.Item.IInventory interface" Url="html/T_Grgl_Item_IInventory.htm" />
+  <HelpKINode Title="Grgl.Item.IInventoryItem interface" Url="html/T_Grgl_Item_IInventoryItem.htm" />
+  <HelpKINode Title="Grgl.Item.IItem interface" Url="html/T_Grgl_Item_IItem.htm" />
+  <HelpKINode Title="Grgl.Item.Inventory class" Url="html/T_Grgl_Item_Inventory.htm" />
+  <HelpKINode Title="Grgl.Item.IUsable interface" Url="html/T_Grgl_Item_IUsable.htm" />
+  <HelpKINode Title="Grgl.Item.IWeapon interface" Url="html/T_Grgl_Item_IWeapon.htm" />
+  <HelpKINode Title="Grgl.Item.IWearable interface" Url="html/T_Grgl_Item_IWearable.htm" />
+  <HelpKINode Title="Grgl.Other namespace" Url="html/N_Grgl_Other.htm" />
+  <HelpKINode Title="Grgl.Other.CharacterStateType enumeration" Url="html/T_Grgl_Other_CharacterStateType.htm" />
+  <HelpKINode Title="Grgl.Other.ElementalType class" Url="html/T_Grgl_Other_ElementalType.htm" />
+  <HelpKINode Title="Grgl.Other.Point3D structure" Url="html/T_Grgl_Other_Point3D.htm" />
+  <HelpKINode Title="Grgl.Other.WeaponEquipSlotType enumeration" Url="html/T_Grgl_Other_WeaponEquipSlotType.htm" />
+  <HelpKINode Title="Grgl.Other.WeaponType enumeration" Url="html/T_Grgl_Other_WeaponType.htm" />
+  <HelpKINode Title="Grgl.Other.WearableEquipSlotType enumeration" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Grgl.Quest namespace" Url="html/N_Grgl_Quest.htm" />
+  <HelpKINode Title="Grgl.Quest.IQuest interface" Url="html/T_Grgl_Quest_IQuest.htm" />
+  <HelpKINode Title="Grgl.Quest.IQuestLog interface" Url="html/T_Grgl_Quest_IQuestLog.htm" />
+  <HelpKINode Title="Grgl.Quest.IQuestStage interface" Url="html/T_Grgl_Quest_IQuestStage.htm" />
+  <HelpKINode Title="Grgl.World namespace" Url="html/N_Grgl_World.htm" />
+  <HelpKINode Title="Grgl.World.ILocation interface" Url="html/T_Grgl_World_ILocation.htm" />
+  <HelpKINode Title="Grgl.World.IRegion interface" Url="html/T_Grgl_World_IRegion.htm" />
+  <HelpKINode Title="Grgl.World.IWorld interface" Url="html/T_Grgl_World_IWorld.htm" />
+  <HelpKINode Title="Hands enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Head enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Ice field" Url="html/F_Grgl_Other_ElementalType_Ice.htm" />
+  <HelpKINode Title="ICharacter interface">
+    <HelpKINode Title="ICharacter Interface" Url="html/T_Grgl_Character_ICharacter.htm" />
+    <HelpKINode Title="about ICharacter interface" Url="html/T_Grgl_Character_ICharacter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_ICharacter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_ICharacter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacter.CharacterStates property" Url="html/P_Grgl_Character_ICharacter_CharacterStates.htm" />
+  <HelpKINode Title="ICharacter.Equip method" Url="html/M_Grgl_Character_ICharacter_Equip.htm" />
+  <HelpKINode Title="ICharacter.Inventory property" Url="html/P_Grgl_Character_ICharacter_Inventory.htm" />
+  <HelpKINode Title="ICharacter.Position property" Url="html/P_Grgl_Character_ICharacter_Position.htm" />
+  <HelpKINode Title="ICharacter.Talk method" Url="html/M_Grgl_Character_ICharacter_Talk.htm" />
+  <HelpKINode Title="ICharacter.Traits property" Url="html/P_Grgl_Character_ICharacter_Traits.htm" />
+  <HelpKINode Title="ICharacter.Use method" Url="html/M_Grgl_Character_ICharacter_Use.htm" />
+  <HelpKINode Title="ICharacter.WeaponEquipSlots property" Url="html/P_Grgl_Character_ICharacter_WeaponEquipSlots.htm" />
+  <HelpKINode Title="ICharacter.WearableEquipSlots property" Url="html/P_Grgl_Character_ICharacter_WearableEquipSlots.htm" />
+  <HelpKINode Title="ICharacterClass interface">
+    <HelpKINode Title="ICharacterClass Interface" Url="html/T_Grgl_Character_ICharacterClass.htm" />
+    <HelpKINode Title="about ICharacterClass interface" Url="html/T_Grgl_Character_ICharacterClass.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterDictionaryTrait(Of TValue) interface">
+    <HelpKINode Title="ICharacterDictionaryTrait(TValue) Interface" Url="html/T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+    <HelpKINode Title="about ICharacterDictionaryTrait(Of TValue) interface" Url="html/T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterDictionaryTrait&lt;TValue&gt; interface">
+    <HelpKINode Title="ICharacterDictionaryTrait(TValue) Interface" Url="html/T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+    <HelpKINode Title="about ICharacterDictionaryTrait&lt;TValue&gt; interface" Url="html/T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterGender interface">
+    <HelpKINode Title="ICharacterGender Interface" Url="html/T_Grgl_Character_ICharacterGender.htm" />
+    <HelpKINode Title="about ICharacterGender interface" Url="html/T_Grgl_Character_ICharacterGender.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterRace interface">
+    <HelpKINode Title="ICharacterRace Interface" Url="html/T_Grgl_Character_ICharacterRace.htm" />
+    <HelpKINode Title="about ICharacterRace interface" Url="html/T_Grgl_Character_ICharacterRace.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterResource interface">
+    <HelpKINode Title="ICharacterResource Interface" Url="html/T_Grgl_Character_ICharacterResource.htm" />
+    <HelpKINode Title="about ICharacterResource interface" Url="html/T_Grgl_Character_ICharacterResource.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_ICharacterResource.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterResource.CurrentValue property" Url="html/P_Grgl_Character_ICharacterResource_CurrentValue.htm" />
+  <HelpKINode Title="ICharacterResource.MaxValue property" Url="html/P_Grgl_Character_ICharacterResource_MaxValue.htm" />
+  <HelpKINode Title="ICharacterResources interface">
+    <HelpKINode Title="ICharacterResources Interface" Url="html/T_Grgl_Character_ICharacterResources.htm" />
+    <HelpKINode Title="about ICharacterResources interface" Url="html/T_Grgl_Character_ICharacterResources.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_ICharacterResources.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_ICharacterResources.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterSimpleTrait interface">
+    <HelpKINode Title="ICharacterSimpleTrait Interface" Url="html/T_Grgl_Character_ICharacterSimpleTrait.htm" />
+    <HelpKINode Title="about ICharacterSimpleTrait interface" Url="html/T_Grgl_Character_ICharacterSimpleTrait.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharacterTrait interface">
+    <HelpKINode Title="ICharacterTrait Interface" Url="html/T_Grgl_Character_ICharacterTrait.htm" />
+    <HelpKINode Title="about ICharacterTrait interface" Url="html/T_Grgl_Character_ICharacterTrait.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_ICharacterTrait.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConsumable interface">
+    <HelpKINode Title="IConsumable Interface" Url="html/T_Grgl_Item_IConsumable.htm" />
+    <HelpKINode Title="about IConsumable interface" Url="html/T_Grgl_Item_IConsumable.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Item_IConsumable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="DialogNode.Id Property " Url="html/P_Grgl_Dialog_DialogNode_Id.htm" />
+    <HelpKINode Title="IDialogNode.Id Property " Url="html/P_Grgl_Dialog_IDialogNode_Id.htm" />
+    <HelpKINode Title="IQuest.Id Property " Url="html/P_Grgl_Quest_IQuest_Id.htm" />
+    <HelpKINode Title="IQuestStage.Id Property " Url="html/P_Grgl_Quest_IQuestStage_Id.htm" />
+    <HelpKINode Title="IRegion.Id Property " Url="html/P_Grgl_World_IRegion_Id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDialogChoiceNode interface">
+    <HelpKINode Title="IDialogChoiceNode Interface" Url="html/T_Grgl_Dialog_IDialogChoiceNode.htm" />
+    <HelpKINode Title="about IDialogChoiceNode interface" Url="html/T_Grgl_Dialog_IDialogChoiceNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Dialog_IDialogChoiceNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDialogChoiceNode.Choices property" Url="html/P_Grgl_Dialog_IDialogChoiceNode_Choices.htm" />
+  <HelpKINode Title="IDialogNode interface">
+    <HelpKINode Title="IDialogNode Interface" Url="html/T_Grgl_Dialog_IDialogNode.htm" />
+    <HelpKINode Title="about IDialogNode interface" Url="html/T_Grgl_Dialog_IDialogNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Dialog_IDialogNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDialogNode.Id property" Url="html/P_Grgl_Dialog_IDialogNode_Id.htm" />
+  <HelpKINode Title="IDialogNode.Next property" Url="html/P_Grgl_Dialog_IDialogNode_Next.htm" />
+  <HelpKINode Title="IDialogNode.Text property" Url="html/P_Grgl_Dialog_IDialogNode_Text.htm" />
+  <HelpKINode Title="IDialogTree interface">
+    <HelpKINode Title="IDialogTree Interface" Url="html/T_Grgl_Dialog_IDialogTree.htm" />
+    <HelpKINode Title="about IDialogTree interface" Url="html/T_Grgl_Dialog_IDialogTree.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Dialog_IDialogTree.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Dialog_IDialogTree.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDialogTree.AddNode method" Url="html/Overload_Grgl_Dialog_IDialogTree_AddNode.htm" />
+  <HelpKINode Title="IDialogTree.NodeDictionary property" Url="html/P_Grgl_Dialog_IDialogTree_NodeDictionary.htm" />
+  <HelpKINode Title="IDialogTree.Root property" Url="html/P_Grgl_Dialog_IDialogTree_Root.htm" />
+  <HelpKINode Title="IEffect interface">
+    <HelpKINode Title="IEffect Interface" Url="html/T_Grgl_Global_IEffect.htm" />
+    <HelpKINode Title="about IEffect interface" Url="html/T_Grgl_Global_IEffect.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Global_IEffect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEffect.CharacterResourceModifier property" Url="html/P_Grgl_Global_IEffect_CharacterResourceModifier.htm" />
+  <HelpKINode Title="IEffect.Element property" Url="html/P_Grgl_Global_IEffect_Element.htm" />
+  <HelpKINode Title="IEffect.NumericStatModifier property" Url="html/P_Grgl_Global_IEffect_NumericStatModifier.htm" />
+  <HelpKINode Title="IEffect.TimeLength property" Url="html/P_Grgl_Global_IEffect_TimeLength.htm" />
+  <HelpKINode Title="IEquippable interface">
+    <HelpKINode Title="IEquippable Interface" Url="html/T_Grgl_Item_IEquippable.htm" />
+    <HelpKINode Title="about IEquippable interface" Url="html/T_Grgl_Item_IEquippable.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Item_IEquippable.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Item_IEquippable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEquippable.OnEquip method" Url="html/M_Grgl_Item_IEquippable_OnEquip.htm" />
+  <HelpKINode Title="IEquippable.PassiveEffect property" Url="html/P_Grgl_Item_IEquippable_PassiveEffect.htm" />
+  <HelpKINode Title="IGameObject interface">
+    <HelpKINode Title="IGameObject Interface" Url="html/T_Grgl_Global_IGameObject.htm" />
+    <HelpKINode Title="about IGameObject interface" Url="html/T_Grgl_Global_IGameObject.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Global_IGameObject.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGameObject.BaseId property" Url="html/P_Grgl_Global_IGameObject_BaseId.htm" />
+  <HelpKINode Title="IGameObject.Name property" Url="html/P_Grgl_Global_IGameObject_Name.htm" />
+  <HelpKINode Title="IGameObject.RefId property" Url="html/P_Grgl_Global_IGameObject_RefId.htm" />
+  <HelpKINode Title="IHasFlags interface">
+    <HelpKINode Title="IHasFlags Interface" Url="html/T_Grgl_Global_IHasFlags.htm" />
+    <HelpKINode Title="about IHasFlags interface" Url="html/T_Grgl_Global_IHasFlags.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Global_IHasFlags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IHasFlags.Flags property" Url="html/P_Grgl_Global_IHasFlags_Flags.htm" />
+  <HelpKINode Title="IInventory interface">
+    <HelpKINode Title="IInventory Interface" Url="html/T_Grgl_Item_IInventory.htm" />
+    <HelpKINode Title="about IInventory interface" Url="html/T_Grgl_Item_IInventory.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Item_IInventory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IInventory.IsEmpty property" Url="html/P_Grgl_Item_IInventory_IsEmpty.htm" />
+  <HelpKINode Title="IInventory.ItemDictionary property" Url="html/P_Grgl_Item_IInventory_ItemDictionary.htm" />
+  <HelpKINode Title="IInventoryItem interface">
+    <HelpKINode Title="IInventoryItem Interface" Url="html/T_Grgl_Item_IInventoryItem.htm" />
+    <HelpKINode Title="about IInventoryItem interface" Url="html/T_Grgl_Item_IInventoryItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Item_IInventoryItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IInventoryItem.ItemInstancesDictionary property" Url="html/P_Grgl_Item_IInventoryItem_ItemInstancesDictionary.htm" />
+  <HelpKINode Title="IInventoryItem.ItemQuantity property" Url="html/P_Grgl_Item_IInventoryItem_ItemQuantity.htm" />
+  <HelpKINode Title="IItem interface">
+    <HelpKINode Title="IItem Interface" Url="html/T_Grgl_Item_IItem.htm" />
+    <HelpKINode Title="about IItem interface" Url="html/T_Grgl_Item_IItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Item_IItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILocation interface">
+    <HelpKINode Title="ILocation Interface" Url="html/T_Grgl_World_ILocation.htm" />
+    <HelpKINode Title="about ILocation interface" Url="html/T_Grgl_World_ILocation.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_World_ILocation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILocation.Position property" Url="html/P_Grgl_World_ILocation_Position.htm" />
+  <HelpKINode Title="ILocation.Region property" Url="html/P_Grgl_World_ILocation_Region.htm" />
+  <HelpKINode Title="Incomplete property" Url="html/P_Grgl_Quest_IQuestLog_Incomplete.htm" />
+  <HelpKINode Title="INpc interface">
+    <HelpKINode Title="INpc Interface" Url="html/T_Grgl_Character_INpc.htm" />
+    <HelpKINode Title="about INpc interface" Url="html/T_Grgl_Character_INpc.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_INpc.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_INpc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INpc.DialogTree property" Url="html/P_Grgl_Character_INpc_DialogTree.htm" />
+  <HelpKINode Title="Int32 to ElementalType conversion" Url="html/M_Grgl_Other_ElementalType_op_Implicit_1.htm" />
+  <HelpKINode Title="INumericStats interface">
+    <HelpKINode Title="INumericStats Interface" Url="html/T_Grgl_Character_INumericStats.htm" />
+    <HelpKINode Title="about INumericStats interface" Url="html/T_Grgl_Character_INumericStats.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_INumericStats.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_INumericStats.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inventory class">
+    <HelpKINode Title="Inventory Class" Url="html/T_Grgl_Item_Inventory.htm" />
+    <HelpKINode Title="about Inventory class" Url="html/T_Grgl_Item_Inventory.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grgl_Item_Inventory__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Item_Inventory.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Item_Inventory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inventory property">
+    <HelpKINode Title="Character.Inventory Property " Url="html/P_Grgl_Character_Character_Inventory.htm" />
+    <HelpKINode Title="ICharacter.Inventory Property " Url="html/P_Grgl_Character_ICharacter_Inventory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inventory.Inventory constructor" Url="html/M_Grgl_Item_Inventory__ctor.htm" />
+  <HelpKINode Title="Inventory.IsEmpty property" Url="html/P_Grgl_Item_Inventory_IsEmpty.htm" />
+  <HelpKINode Title="Inventory.ItemDictionary property" Url="html/P_Grgl_Item_Inventory_ItemDictionary.htm" />
+  <HelpKINode Title="IQuest interface">
+    <HelpKINode Title="IQuest Interface" Url="html/T_Grgl_Quest_IQuest.htm" />
+    <HelpKINode Title="about IQuest interface" Url="html/T_Grgl_Quest_IQuest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Quest_IQuest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IQuest.Id property" Url="html/P_Grgl_Quest_IQuest_Id.htm" />
+  <HelpKINode Title="IQuest.IsComplete property" Url="html/P_Grgl_Quest_IQuest_IsComplete.htm" />
+  <HelpKINode Title="IQuest.Stages property" Url="html/P_Grgl_Quest_IQuest_Stages.htm" />
+  <HelpKINode Title="IQuest.StartStage property" Url="html/P_Grgl_Quest_IQuest_StartStage.htm" />
+  <HelpKINode Title="IQuestLog interface">
+    <HelpKINode Title="IQuestLog Interface" Url="html/T_Grgl_Quest_IQuestLog.htm" />
+    <HelpKINode Title="about IQuestLog interface" Url="html/T_Grgl_Quest_IQuestLog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Quest_IQuestLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IQuestLog.Complete property" Url="html/P_Grgl_Quest_IQuestLog_Complete.htm" />
+  <HelpKINode Title="IQuestLog.Incomplete property" Url="html/P_Grgl_Quest_IQuestLog_Incomplete.htm" />
+  <HelpKINode Title="IQuestStage interface">
+    <HelpKINode Title="IQuestStage Interface" Url="html/T_Grgl_Quest_IQuestStage.htm" />
+    <HelpKINode Title="about IQuestStage interface" Url="html/T_Grgl_Quest_IQuestStage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Quest_IQuestStage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IQuestStage.ChildStages property" Url="html/P_Grgl_Quest_IQuestStage_ChildStages.htm" />
+  <HelpKINode Title="IQuestStage.CompletedWithStage property" Url="html/P_Grgl_Quest_IQuestStage_CompletedWithStage.htm" />
+  <HelpKINode Title="IQuestStage.Id property" Url="html/P_Grgl_Quest_IQuestStage_Id.htm" />
+  <HelpKINode Title="IQuestStage.IsComplete property" Url="html/P_Grgl_Quest_IQuestStage_IsComplete.htm" />
+  <HelpKINode Title="IQuestStage.IsEndStage property" Url="html/P_Grgl_Quest_IQuestStage_IsEndStage.htm" />
+  <HelpKINode Title="IRegion interface">
+    <HelpKINode Title="IRegion Interface" Url="html/T_Grgl_World_IRegion.htm" />
+    <HelpKINode Title="about IRegion interface" Url="html/T_Grgl_World_IRegion.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_World_IRegion.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRegion.Id property" Url="html/P_Grgl_World_IRegion_Id.htm" />
+  <HelpKINode Title="IRegion.Name property" Url="html/P_Grgl_World_IRegion_Name.htm" />
+  <HelpKINode Title="IRegion.Subregions property" Url="html/P_Grgl_World_IRegion_Subregions.htm" />
+  <HelpKINode Title="IRequirement interface">
+    <HelpKINode Title="IRequirement Interface" Url="html/T_Grgl_Character_IRequirement.htm" />
+    <HelpKINode Title="about IRequirement interface" Url="html/T_Grgl_Character_IRequirement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_IRequirement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRequirement.RequiredValues property" Url="html/P_Grgl_Character_IRequirement_RequiredValues.htm" />
+  <HelpKINode Title="IRequirement.Trait property" Url="html/P_Grgl_Character_IRequirement_Trait.htm" />
+  <HelpKINode Title="IRequirements interface">
+    <HelpKINode Title="IRequirements Interface" Url="html/T_Grgl_Character_IRequirements.htm" />
+    <HelpKINode Title="about IRequirements interface" Url="html/T_Grgl_Character_IRequirements.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_IRequirements.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_IRequirements.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRequirements.MeetsRequirements method" Url="html/M_Grgl_Character_IRequirements_MeetsRequirements.htm" />
+  <HelpKINode Title="IsComplete property">
+    <HelpKINode Title="IQuest.IsComplete Property " Url="html/P_Grgl_Quest_IQuest_IsComplete.htm" />
+    <HelpKINode Title="IQuestStage.IsComplete Property " Url="html/P_Grgl_Quest_IQuestStage_IsComplete.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsEmpty property">
+    <HelpKINode Title="IInventory.IsEmpty Property " Url="html/P_Grgl_Item_IInventory_IsEmpty.htm" />
+    <HelpKINode Title="Inventory.IsEmpty Property " Url="html/P_Grgl_Item_Inventory_IsEmpty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsEndStage property" Url="html/P_Grgl_Quest_IQuestStage_IsEndStage.htm" />
+  <HelpKINode Title="ItemDictionary property">
+    <HelpKINode Title="IInventory.ItemDictionary Property " Url="html/P_Grgl_Item_IInventory_ItemDictionary.htm" />
+    <HelpKINode Title="Inventory.ItemDictionary Property " Url="html/P_Grgl_Item_Inventory_ItemDictionary.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemInstancesDictionary property" Url="html/P_Grgl_Item_IInventoryItem_ItemInstancesDictionary.htm" />
+  <HelpKINode Title="ItemQuantity property" Url="html/P_Grgl_Item_IInventoryItem_ItemQuantity.htm" />
+  <HelpKINode Title="IUsable interface">
+    <HelpKINode Title="IUsable Interface" Url="html/T_Grgl_Item_IUsable.htm" />
+    <HelpKINode Title="about IUsable interface" Url="html/T_Grgl_Item_IUsable.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Item_IUsable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUsable.OnUse method" Url="html/M_Grgl_Item_IUsable_OnUse.htm" />
+  <HelpKINode Title="IWeapon interface">
+    <HelpKINode Title="IWeapon Interface" Url="html/T_Grgl_Item_IWeapon.htm" />
+    <HelpKINode Title="about IWeapon interface" Url="html/T_Grgl_Item_IWeapon.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Item_IWeapon.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Item_IWeapon.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWeapon.EquipSlotType property" Url="html/P_Grgl_Item_IWeapon_EquipSlotType.htm" />
+  <HelpKINode Title="IWearable interface">
+    <HelpKINode Title="IWearable Interface" Url="html/T_Grgl_Item_IWearable.htm" />
+    <HelpKINode Title="about IWearable interface" Url="html/T_Grgl_Item_IWearable.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Item_IWearable.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Item_IWearable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWearable.EquipSlotType property" Url="html/P_Grgl_Item_IWearable_EquipSlotType.htm" />
+  <HelpKINode Title="IWorld interface">
+    <HelpKINode Title="IWorld Interface" Url="html/T_Grgl_World_IWorld.htm" />
+    <HelpKINode Title="about IWorld interface" Url="html/T_Grgl_World_IWorld.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_World_IWorld.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWorld.Regions property" Url="html/P_Grgl_World_IWorld_Regions.htm" />
+  <HelpKINode Title="LeftFinger enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Legs enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="MaxValue property" Url="html/P_Grgl_Character_ICharacterResource_MaxValue.htm" />
+  <HelpKINode Title="MeetsRequirements method" Url="html/M_Grgl_Character_IRequirements_MeetsRequirements.htm" />
+  <HelpKINode Title="ModifyTrait delegate" Url="html/T_Grgl_Global_ModifyTrait.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Character.Name Property " Url="html/P_Grgl_Character_Character_Name.htm" />
+    <HelpKINode Title="IGameObject.Name Property " Url="html/P_Grgl_Global_IGameObject_Name.htm" />
+    <HelpKINode Title="IRegion.Name Property " Url="html/P_Grgl_World_IRegion_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Neck enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Next property">
+    <HelpKINode Title="DialogNode.Next Property " Url="html/P_Grgl_Dialog_DialogNode_Next.htm" />
+    <HelpKINode Title="IDialogNode.Next Property " Url="html/P_Grgl_Dialog_IDialogNode_Next.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NodeDictionary property">
+    <HelpKINode Title="DialogTree.NodeDictionary Property " Url="html/P_Grgl_Dialog_DialogTree_NodeDictionary.htm" />
+    <HelpKINode Title="IDialogTree.NodeDictionary Property " Url="html/P_Grgl_Dialog_IDialogTree_NodeDictionary.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npc class">
+    <HelpKINode Title="Npc Class" Url="html/T_Grgl_Character_Npc.htm" />
+    <HelpKINode Title="about Npc class" Url="html/T_Grgl_Character_Npc.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Grgl_Character_Npc__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Character_Npc.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grgl_Character_Npc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npc.DialogTree property" Url="html/P_Grgl_Character_Npc_DialogTree.htm" />
+  <HelpKINode Title="Npc.Npc constructor" Url="html/Overload_Grgl_Character_Npc__ctor.htm" />
+  <HelpKINode Title="NumericStatModifier property" Url="html/P_Grgl_Global_IEffect_NumericStatModifier.htm" />
+  <HelpKINode Title="OneHanded enumeration member" Url="html/T_Grgl_Other_WeaponType.htm" />
+  <HelpKINode Title="OnEquip method" Url="html/M_Grgl_Item_IEquippable_OnEquip.htm" />
+  <HelpKINode Title="OnUse method" Url="html/M_Grgl_Item_IUsable_OnUse.htm" />
+  <HelpKINode Title="OtherWeapon enumeration member" Url="html/T_Grgl_Other_WeaponEquipSlotType.htm" />
+  <HelpKINode Title="OtherWearable enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="PassiveEffect property" Url="html/P_Grgl_Item_IEquippable_PassiveEffect.htm" />
+  <HelpKINode Title="Point3D structure">
+    <HelpKINode Title="Point3D Structure" Url="html/T_Grgl_Other_Point3D.htm" />
+    <HelpKINode Title="about Point3D structure" Url="html/T_Grgl_Other_Point3D.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grgl_Other_Point3D__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Grgl_Other_Point3D.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grgl_Other_Point3D.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Point3D.Point3D constructor" Url="html/M_Grgl_Other_Point3D__ctor.htm" />
+  <HelpKINode Title="Point3D.X field" Url="html/F_Grgl_Other_Point3D_X.htm" />
+  <HelpKINode Title="Point3D.Y field" Url="html/F_Grgl_Other_Point3D_Y.htm" />
+  <HelpKINode Title="Point3D.Z field" Url="html/F_Grgl_Other_Point3D_Z.htm" />
+  <HelpKINode Title="Poison field" Url="html/F_Grgl_Other_ElementalType_Poison.htm" />
+  <HelpKINode Title="Position property">
+    <HelpKINode Title="Character.Position Property " Url="html/P_Grgl_Character_Character_Position.htm" />
+    <HelpKINode Title="ICharacter.Position Property " Url="html/P_Grgl_Character_ICharacter_Position.htm" />
+    <HelpKINode Title="ILocation.Position Property " Url="html/P_Grgl_World_ILocation_Position.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Primary enumeration member" Url="html/T_Grgl_Other_WeaponEquipSlotType.htm" />
+  <HelpKINode Title="RefId property">
+    <HelpKINode Title="Character.RefId Property " Url="html/P_Grgl_Character_Character_RefId.htm" />
+    <HelpKINode Title="IGameObject.RefId Property " Url="html/P_Grgl_Global_IGameObject_RefId.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Region property" Url="html/P_Grgl_World_ILocation_Region.htm" />
+  <HelpKINode Title="Regions property" Url="html/P_Grgl_World_IWorld_Regions.htm" />
+  <HelpKINode Title="RequiredValues property" Url="html/P_Grgl_Character_IRequirement_RequiredValues.htm" />
+  <HelpKINode Title="RightFinger enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Root property">
+    <HelpKINode Title="DialogTree.Root Property " Url="html/P_Grgl_Dialog_DialogTree_Root.htm" />
+    <HelpKINode Title="IDialogTree.Root Property " Url="html/P_Grgl_Dialog_IDialogTree_Root.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Secondary enumeration member" Url="html/T_Grgl_Other_WeaponEquipSlotType.htm" />
+  <HelpKINode Title="Shield enumeration member" Url="html/T_Grgl_Other_WeaponType.htm" />
+  <HelpKINode Title="Shoulders enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Sleep enumeration member" Url="html/T_Grgl_Other_CharacterStateType.htm" />
+  <HelpKINode Title="Stages property" Url="html/P_Grgl_Quest_IQuest_Stages.htm" />
+  <HelpKINode Title="StartStage property" Url="html/P_Grgl_Quest_IQuest_StartStage.htm" />
+  <HelpKINode Title="Subregions property" Url="html/P_Grgl_World_IRegion_Subregions.htm" />
+  <HelpKINode Title="Talk method">
+    <HelpKINode Title="Character.Talk Method " Url="html/M_Grgl_Character_Character_Talk.htm" />
+    <HelpKINode Title="ICharacter.Talk Method " Url="html/M_Grgl_Character_ICharacter_Talk.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Text property">
+    <HelpKINode Title="DialogNode.Text Property " Url="html/P_Grgl_Dialog_DialogNode_Text.htm" />
+    <HelpKINode Title="IDialogNode.Text Property " Url="html/P_Grgl_Dialog_IDialogNode_Text.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimeLength property" Url="html/P_Grgl_Global_IEffect_TimeLength.htm" />
+  <HelpKINode Title="Torso enumeration member" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="Trait property" Url="html/P_Grgl_Character_IRequirement_Trait.htm" />
+  <HelpKINode Title="Traits property">
+    <HelpKINode Title="Character.Traits Property " Url="html/P_Grgl_Character_Character_Traits.htm" />
+    <HelpKINode Title="ICharacter.Traits Property " Url="html/P_Grgl_Character_ICharacter_Traits.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwoHanded enumeration member" Url="html/T_Grgl_Other_WeaponType.htm" />
+  <HelpKINode Title="Use method">
+    <HelpKINode Title="Character.Use Method " Url="html/M_Grgl_Character_Character_Use.htm" />
+    <HelpKINode Title="ICharacter.Use Method " Url="html/M_Grgl_Character_ICharacter_Use.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Value property" Url="html/P_Grgl_Other_ElementalType_Value.htm" />
+  <HelpKINode Title="WeaponEquipSlots property">
+    <HelpKINode Title="Character.WeaponEquipSlots Property " Url="html/P_Grgl_Character_Character_WeaponEquipSlots.htm" />
+    <HelpKINode Title="ICharacter.WeaponEquipSlots Property " Url="html/P_Grgl_Character_ICharacter_WeaponEquipSlots.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WeaponEquipSlotType enumeration" Url="html/T_Grgl_Other_WeaponEquipSlotType.htm" />
+  <HelpKINode Title="WeaponType enumeration" Url="html/T_Grgl_Other_WeaponType.htm" />
+  <HelpKINode Title="WearableEquipSlots property">
+    <HelpKINode Title="Character.WearableEquipSlots Property " Url="html/P_Grgl_Character_Character_WearableEquipSlots.htm" />
+    <HelpKINode Title="ICharacter.WearableEquipSlots Property " Url="html/P_Grgl_Character_ICharacter_WearableEquipSlots.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WearableEquipSlotType enumeration" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
+  <HelpKINode Title="X field" Url="html/F_Grgl_Other_Point3D_X.htm" />
+  <HelpKINode Title="Y field" Url="html/F_Grgl_Other_Point3D_Y.htm" />
+  <HelpKINode Title="Z field" Url="html/F_Grgl_Other_Point3D_Z.htm" />
+</HelpKI>

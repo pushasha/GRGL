@@ -20,7 +20,7 @@ using System.Collections;
 namespace Grgl.Character
 {
     /// <summary>
-    /// Object that represents an abstract "requirement", i.e. attribute(s) required to perform a task or equip an item
+    /// Represents an abstract "requirement", i.e. attribute(s) required to perform a task or equip an item
     /// </summary>
     public interface IRequirement
     {

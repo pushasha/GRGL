@@ -17,11 +17,29 @@
 
 namespace Grgl.Other
 {
+    /// <summary>
+    /// Character State Type Enumerators
+    /// </summary>
     public enum CharacterStateType
     {
+        /// <summary>
+        /// Character is in a conversation
+        /// </summary>
         Dialog,
+        
+        /// <summary>
+        /// Character is in combat
+        /// </summary>
         Combat,
+        
+        /// <summary>
+        /// Character is sleeping
+        /// </summary>
         Sleep,
+        
+        /// <summary>
+        /// Character is disabled
+        /// </summary>
         Disabled
     }
 }

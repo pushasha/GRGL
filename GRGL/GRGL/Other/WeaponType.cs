@@ -22,9 +22,21 @@ namespace Grgl.Other
     /// </summary>
     public enum WeaponType
     {
+        /// <summary>
+        /// One-Handed Weapon (Longsword, Mace, Dagger)
+        /// </summary>
         OneHanded,
+        /// <summary>
+        /// Two-Handed Weapon (Greatsword, Hammer, Staff)
+        /// </summary>
         TwoHanded,
+        /// <summary>
+        /// Shield
+        /// </summary>
         Shield,
+        /// <summary>
+        /// Magical Focus Item
+        /// </summary>
         Focus
     }
 }

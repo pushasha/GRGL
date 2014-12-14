@@ -19,6 +19,9 @@ using System.Collections.Generic;
 
 namespace Grgl.Quest
 {
+    /// <summary>
+    /// Represents the player character's collection of acquired quests.
+    /// </summary>
     public interface IQuestLog
     {
         /// <summary>

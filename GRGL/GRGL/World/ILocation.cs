@@ -20,9 +20,8 @@ using Grgl.Other;
 namespace Grgl.World
 {
     /// <summary>
-    /// Interface that acts like a vector to store 3D coordinates.
+    /// Represents the position and region of a character
     /// </summary>
-    /// <remarks>TODO: Make this more generic somehow (i.e. don't restrict to float type)</remarks>
     public interface ILocation
     {
         /// <summary>

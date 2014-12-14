@@ -20,9 +20,10 @@ using Grgl.Global;
 
 namespace Grgl.Dialog
 {
+    /// <inheritdoc cref="IDialogNode" />
     public class DialogNode : IDialogNode, IHasFlags
     {
-        
+        ///  <inheritdoc />
         public DialogNode(string idArg, string textArg)
         {
             this.Id = idArg;
@@ -32,11 +33,19 @@ namespace Grgl.Dialog
             this.Flags["GOODBYE"] = false;
         }
 
+        ///  <inheritdoc />
         public DialogNode(string idArg): this(idArg, "PLACEHOLDER TEXT"){ }
-
+        
+        ///  <inheritdoc />
         public string Id { get; private set; }
+        
+        ///  <inheritdoc />
         public string Text { get; set; }
+
+        ///  <inheritdoc />
         public IDialogNode Next { get; set; }
+
+        ///  <inheritdoc />
         public IDictionary<string, bool> Flags { get; private set; }
     } 
 }

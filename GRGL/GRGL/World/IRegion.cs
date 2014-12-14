@@ -19,6 +19,9 @@ using System.Collections.Generic;
 
 namespace Grgl.World
 {
+    /// <summary>
+    /// Represents a region in the game world
+    /// </summary>
     public interface IRegion
     {
         /// <summary>

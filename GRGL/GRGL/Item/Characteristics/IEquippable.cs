@@ -19,7 +19,9 @@ using Grgl.Global;
 
 namespace Grgl.Item
 {
-    // Items that are equippable by a character should implement this interface.
+    /// <summary>
+    /// Items that are equippable by a character should implement this interface.
+    /// </summary>
     public interface IEquippable
     {
         /// <summary>

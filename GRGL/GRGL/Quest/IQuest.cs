@@ -19,14 +19,29 @@ using System.Collections.Generic;
 
 namespace Grgl.Quest
 {
+    /// <summary>
+    /// Represents a quest for the player character.
+    /// </summary>
     public interface IQuest
     {
+        /// <summary>
+        /// This quest's unique identifier
+        /// </summary>
         string Id { get; } 
 
+        /// <summary>
+        /// Flag representing whether this quest has been completed or not.
+        /// </summary>
         bool IsComplete { get; set; }
 
+        /// <summary>
+        /// The stage at which this quest begins
+        /// </summary>
         string StartStage { get; }
 
+        /// <summary>
+        /// A collection of stages that comprise this quest
+        /// </summary>
         IDictionary<string, IQuestStage> Stages { get; }
     }
 }

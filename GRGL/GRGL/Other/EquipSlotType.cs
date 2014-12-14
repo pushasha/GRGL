@@ -22,15 +22,58 @@ namespace Grgl.Other
     /// </summary>
     public enum WearableEquipSlotType
     {
+
+        /// <summary>
+        /// Head Slot (e.g. Helm, Cap)
+        /// </summary>
         Head,
+        /// <summary>
+        /// Chest Slot (e.g. Breastplate, Cuirass, Shirt)
+        /// </summary>
         Chest,
+        /// <summary>
+        /// Torso Slot (for armor types that include legs and chest)
+        /// </summary>
         Torso,
+        /// <summary>
+        /// Shoulder Slot (e.g. Pauldrons, Spaulders)
+        /// </summary>
         Shoulders,
+        /// <summary>
+        /// Hands Slot (e.g. Gloves, Gauntlets)
+        /// </summary>
         Hands,
+        /// <summary>
+        /// Legs Slot (e.g. Greaves, Leggings)
+        /// </summary>
         Legs,
-        Accessory,
+        /// <summary>
+        /// Feet Slot (e.g. Boots, Sabatons)
+        /// </summary>
         Feet,
+        /// <summary>
+        /// Belt Slot (e.g. Belt, Sash)
+        /// </summary>
         Belt,
+        /// <summary>
+        /// Neck Slot (e.g. Amulet, Scarf)
+        /// </summary>
+        Neck,
+        /// <summary>
+        /// Left Finger Slot (for rings)
+        /// </summary>
+        LeftFinger,
+        /// <summary>
+        /// Right Finger Slot (for rings)
+        /// </summary>
+        RightFinger,
+        /// <summary>
+        /// Accessory Slot (e.g. Relic, Charm)
+        /// </summary>
+        Accessory,
+        /// <summary>
+        /// Other Wearable Slot (for a wearable not covered by previously listed enumerators)
+        /// </summary>
         OtherWearable
     }
 
@@ -39,9 +82,21 @@ namespace Grgl.Other
     /// </summary>
     public enum WeaponEquipSlotType
     {
+        /// <summary>
+        /// Primary Weapon Slot (e.g. Longsword, Main Dagger, Greatsword, Wand)
+        /// </summary>
         Primary,
+        /// <summary>
+        /// Secondary Weapon Slot (e.g. Off-hand Dagger, Shield, Focus)
+        /// </summary>
         Secondary,
+        /// <summary>
+        /// Ammo Slot (e.g. Quiver)
+        /// </summary>
         Ammo,
+        /// <summary>
+        /// Other Weapon Slot (Throwing Knives, Darts, Bombs)
+        /// </summary>
         OtherWeapon
     }
 }

@@ -19,18 +19,22 @@ using Grgl.Dialog;
 
 namespace Grgl.Character
 {
+    /// <inheritdoc cref="INpc" />
     public class Npc : Character, INpc
     {
+        ///  <inheritdoc />
         public Npc()
         {
             this.DialogTree = new DialogTree();
         }
 
+        ///  <inheritdoc />
         public Npc(string name, string refId) : base(name, refId) // TODO: Re-factor this. Should be able to make it so that it references other constructor?
         {
             this.DialogTree = new DialogTree();
         }
 
+        ///  <inheritdoc />
         public IDialogTree DialogTree { get; private set; }
 
     }
