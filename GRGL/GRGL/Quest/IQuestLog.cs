@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IQuestLog.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,20 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+
+namespace Grgl.Quest
 {
-
-    public struct Point3D
+    public interface IQuestLog
     {
-        public float X, Y, Z;
+        /// <summary>
+        /// A collection that represents the incomplete quests in this quest log
+        /// </summary>
+        IDictionary<string, IQuest> Incomplete { get; }
 
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        /// <summary>
+        /// A collection that represents the completed quests in this quest log
+        /// </summary>
+        IDictionary<string, IQuest> Complete { get; } 
     }
 }

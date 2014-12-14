@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IInventory.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,22 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+
+namespace Grgl.Item
 {
-
-    public struct Point3D
+    public interface IInventory
     {
-        public float X, Y, Z;
+        /// <summary>
+        /// Dictionary of items in player's inventory
+        /// <remarks>Key is item BaseId </remarks> // TODO: re-factor so that item can be looked up by name?
+        /// </summary>
+        IDictionary<string, IInventoryItem> ItemDictionary { get; } 
 
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        /// <summary>
+        /// Returns a boolean that evaluates to false if the inventory does not contain any items
+        /// </summary>
+        bool IsEmpty { get; }
+         
     }
 }

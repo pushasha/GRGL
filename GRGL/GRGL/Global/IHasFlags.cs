@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IHasFlags.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,15 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+
+namespace Grgl.Global
 {
-
-    public struct Point3D
+    public interface IHasFlags
     {
-        public float X, Y, Z;
-
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        /// <summary>
+        /// Represents a collection of user-defined flags
+        /// </summary>
+        IDictionary<string, bool> Flags { get; } 
     }
 }

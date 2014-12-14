@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// DialogNode.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,28 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+using Grgl.Global;
+
+namespace Grgl.Dialog
 {
-
-    public struct Point3D
+    public class DialogNode : IDialogNode, IHasFlags
     {
-        public float X, Y, Z;
-
-        public Point3D(float xArg, float yArg, float zArg)
+        
+        public DialogNode(string idArg, string textArg)
         {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
+            this.Id = idArg;
+            this.Text = textArg;
+            this.Flags = new Dictionary<string, bool>();
+
+            this.Flags["GOODBYE"] = false;
         }
-    }
+
+        public DialogNode(string idArg): this(idArg, "PLACEHOLDER TEXT"){ }
+
+        public string Id { get; private set; }
+        public string Text { get; set; }
+        public IDialogNode Next { get; set; }
+        public IDictionary<string, bool> Flags { get; private set; }
+    } 
 }

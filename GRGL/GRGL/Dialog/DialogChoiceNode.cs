@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// DialogChoiceNode.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,17 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+
+namespace Grgl.Dialog
 {
-
-    public struct Point3D
+    public class DialogChoiceNode : DialogNode, IDialogChoiceNode
     {
-        public float X, Y, Z;
-
-        public Point3D(float xArg, float yArg, float zArg)
+        public DialogChoiceNode(string idArg, string textArg) : base(idArg, textArg)
         {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
+            this.Choices = new Dictionary<string, IDialogNode>();
         }
+
+        public IDictionary<string, IDialogNode> Choices { get; private set; }
     }
 }

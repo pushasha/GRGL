@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IEquippable.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,13 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using Grgl.Global;
+
+namespace Grgl.Item
 {
-
-    public struct Point3D
+    public interface IEquippable
     {
-        public float X, Y, Z;
-
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        IEffect PassiveEffect { get; }
+        void OnEquip();
     }
 }

@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IQuest.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,18 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+
+namespace Grgl.Quest
 {
-
-    public struct Point3D
+    public interface IQuest
     {
-        public float X, Y, Z;
+        string Id { get; } 
 
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        bool IsComplete { get; set; }
+
+        string StartStage { get; }
+
+        IDictionary<string, IQuestStage> Stages { get; }
     }
 }

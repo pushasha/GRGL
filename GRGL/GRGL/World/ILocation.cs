@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IPosition.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,24 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using Grgl.Other;
+
+namespace Grgl.World
 {
-
-    public struct Point3D
+    /// <summary>
+    /// Interface that acts like a vector to store 3D coordinates.
+    /// </summary>
+    /// <remarks>TODO: Make this more generic somehow (i.e. don't restrict to float type)</remarks>
+    public interface ILocation
     {
-        public float X, Y, Z;
-
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        /// <summary>
+        /// Represents the position of an object in a 3D coordinate plane
+        /// </summary>
+        Point3D Position { get; set; }
+ 
+        /// <summary>
+        /// Represents the game region in which the object currently exists
+        /// </summary>
+        IRegion Region { get; set; }
     }
 }

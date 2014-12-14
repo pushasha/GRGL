@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// Npc.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,23 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using Grgl.Dialog;
+
+namespace Grgl.Character
 {
-
-    public struct Point3D
+    public class Npc : Grgl.Character.Character, INpc
     {
-        public float X, Y, Z;
-
-        public Point3D(float xArg, float yArg, float zArg)
+        public Npc()
         {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
+            this.DialogTree = new DialogTree();
         }
+
+        public Npc(string name, string refId) : base(name, refId) // TODO: Re-factor this. Should be able to make it so that it references other constructor?
+        {
+            this.DialogTree = new DialogTree();
+        }
+
+        public IDialogTree DialogTree { get; private set; }
+
     }
 }

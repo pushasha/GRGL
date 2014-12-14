@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IRegion.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,26 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+
+namespace Grgl.World
 {
-
-    public struct Point3D
+    public interface IRegion
     {
-        public float X, Y, Z;
+        /// <summary>
+        /// A unique identifier for this region
+        /// </summary>
+        string Id { get; } 
 
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        /// <summary>
+        /// A human-readable name for this region
+        /// </summary>
+        string Name { get; set; }
+
+        /// <summary>
+        /// Represents the collection of regions contained within this region
+        /// </summary>
+        Dictionary<string, IRegion> Subregions { get; } 
+
     }
 }

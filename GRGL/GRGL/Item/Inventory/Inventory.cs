@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// Inventory.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,27 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using System.Collections.Generic;
+
+namespace Grgl.Item
 {
-
-    public struct Point3D
+    public class Inventory : IInventory
     {
-        public float X, Y, Z;
+        private Dictionary<string, IInventoryItem> _itemDictionary;
 
-        public Point3D(float xArg, float yArg, float zArg)
+        public Inventory()
         {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
+            _itemDictionary = new Dictionary<string, IInventoryItem>();
+        }
+
+        public IDictionary<string, IInventoryItem> ItemDictionary
+        {
+            get { return _itemDictionary; }
+        }
+
+        public bool IsEmpty
+        {
+            get { return _itemDictionary.Count == 0; } // TODO: Check to see if there are keys, but no values
         }
     }
 }

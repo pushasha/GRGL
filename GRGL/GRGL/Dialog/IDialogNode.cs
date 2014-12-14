@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// IDialogNode.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,12 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+namespace Grgl.Dialog
 {
-
-    public struct Point3D
+    public interface IDialogNode
     {
-        public float X, Y, Z;
-
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        string Id { get; }
+        string Text { get; set; }
+        IDialogNode Next { get; set; }
     }
 }

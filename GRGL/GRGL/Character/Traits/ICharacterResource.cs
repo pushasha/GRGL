@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// ICharacterResource.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,18 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+namespace Grgl.Character
 {
-
-    public struct Point3D
+    public interface ICharacterResource
     {
-        public float X, Y, Z;
+        /// <summary>
+        /// Represents the maximum amount of this resource the character can have
+        /// </summary>
+        int MaxValue { get; set; }
 
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        /// <summary>
+        /// Represents the amount of this resource the character currently has
+        /// </summary>
+        int CurrentValue { get; set; }     
     }
 }

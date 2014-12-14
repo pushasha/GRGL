@@ -1,4 +1,4 @@
-﻿// Util.cs
+﻿// INpc.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,18 +15,14 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace Grgl.Other
+using Grgl.Dialog;
+
+namespace Grgl.Character
 {
-
-    public struct Point3D
+    public interface INpc : ICharacter
     {
-        public float X, Y, Z;
+        IDialogTree DialogTree { get; }
 
-        public Point3D(float xArg, float yArg, float zArg)
-        {
-            X = xArg;
-            Y = yArg;
-            Z = zArg;
-        }
+        // TODO: Add disposition tracker
     }
 }
