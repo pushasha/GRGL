@@ -1,4 +1,4 @@
-﻿// IWorld.cs
+﻿// World.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -19,14 +19,23 @@ using System.Collections.Generic;
 
 namespace Grgl.World
 {
-    /// <summary>
-    /// Represents the game world
-    /// </summary>
-    public interface IWorld
+    ///  <inheritdoc />
+    public class World : IWorld
     {
+        public IDictionary<string, IRegion> Regions
+        {
+            get;
+            protected set;
+        }
+
         /// <summary>
-        /// A collection of all regions contained in this world
+        /// Creates a new instance of a World object
         /// </summary>
-        IDictionary<string, IRegion> Regions { get; }  
-    }
+        public World()
+        {
+            this.Regions = new Dictionary<string, IRegion>();
+        }
+
+
+    }//end class
 }

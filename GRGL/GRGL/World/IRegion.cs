@@ -16,28 +16,19 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
+using Grgl.Global;
 
 namespace Grgl.World
 {
     /// <summary>
     /// Represents a region in the game world
     /// </summary>
-    public interface IRegion
+    public interface IRegion : IGameObject
     {
-        /// <summary>
-        /// A unique identifier for this region
-        /// </summary>
-        string Id { get; } 
-
-        /// <summary>
-        /// A human-readable name for this region
-        /// </summary>
-        string Name { get; set; }
-
         /// <summary>
         /// Represents the collection of regions contained within this region
         /// </summary>
-        Dictionary<string, IRegion> Subregions { get; } 
+        IDictionary<string, IRegion> Subregions { get; } 
 
     }
 }

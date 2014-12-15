@@ -36,12 +36,12 @@ namespace Grgl.Character
         /// <summary>
         /// Represents the player's position in the world.
         /// </summary>
-        ILocation Position { get; set; }
+        ILocation Position { get; }
 
         /// <summary>
         /// Represents the character's item inventory
         /// </summary>
-        IInventory Inventory { get; set; }
+        IInventory Inventory { get; }
 
         /// <summary>
         /// Represents the character's current action state(s)
@@ -62,6 +62,18 @@ namespace Grgl.Character
         /// A collection that holds values representing this character's various traits
         /// </summary>
         IDictionary<string, ICharacterTrait> Traits { get;}
+        
+        /// <summary>
+        /// A collection that holds character resources
+        /// </summary>
+        IDictionary<string, ICharacterResource> Resources { get; }
+
+        /// <summary>
+        /// Bracket operator overload for easily retrieving stat/resource values.
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        //ICharacter this[string s] { get; set; }
 
         #endregion
 

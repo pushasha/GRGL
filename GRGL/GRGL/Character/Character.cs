@@ -31,6 +31,7 @@ namespace Grgl.Character
         {
             this.Inventory = new Inventory();
             this.CharacterStates = new List<CharacterStateType>();
+            this.Position = new Location("MajorExteriorLoc01", 0, 0, 0);
             this.InitCollections();
         }
 
@@ -39,7 +40,6 @@ namespace Grgl.Character
         {
             this.Name = name;
             this.RefId = refId;
-            this.BaseId = refId; // TODO: re-factor whether this takes refid and baseid, or just one
         }
 
 
@@ -48,52 +48,53 @@ namespace Grgl.Character
         public string Name
         {
             get;
-            set;
-        }
-        ///  <inheritdoc />
-        public string BaseId
-        {
-            get;
-            set;
+            protected set;
         }
         ///  <inheritdoc />
         public string RefId
         {
             get;
-            set;
+            protected set;
         }
         ///  <inheritdoc />
         public ILocation Position
         {
             get;
-            set;
+            protected set;
         }
         ///  <inheritdoc />
         public IInventory Inventory
         {
-            get; set;
+            get; protected set;
         }
         ///  <inheritdoc />
         public ICollection<CharacterStateType> CharacterStates
         {
             get;
-            private set;
+            protected set;
         }
         ///  <inheritdoc />
         public IDictionary<WearableEquipSlotType, IWearable> WearableEquipSlots
         {
             get;
-            private set;
+            protected set;
         }
         ///  <inheritdoc />
         public IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots
         {
-            get; private set;
+            get; protected set;
         }
         ///  <inheritdoc />
         public IDictionary<string, ICharacterTrait> Traits
         {
-            get; private set;
+            get; protected set;
+        }
+
+
+        public IDictionary<string, ICharacterResource> Resources
+        {
+            get;
+            protected set;
         }
 
         #endregion
@@ -134,6 +135,10 @@ namespace Grgl.Character
         {
             // initialize traits
             this.Traits = new Dictionary<string, ICharacterTrait>();
+            this.Resources = new Dictionary<string, ICharacterResource>(){
+                {"Health", new CharacterResource(250)},
+                {"Mana", new CharacterResource(100)}
+            };
 
             // initialize equip slots
             this.WearableEquipSlots = new Dictionary<WearableEquipSlotType, IWearable>(){

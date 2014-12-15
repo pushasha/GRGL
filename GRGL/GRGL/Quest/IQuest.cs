@@ -16,19 +16,15 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
+using Grgl.Global;
 
 namespace Grgl.Quest
 {
     /// <summary>
     /// Represents a quest for the player character.
     /// </summary>
-    public interface IQuest
+    public interface IQuest : IGameObject
     {
-        /// <summary>
-        /// This quest's unique identifier
-        /// </summary>
-        string Id { get; } 
-
         /// <summary>
         /// Flag representing whether this quest has been completed or not.
         /// </summary>

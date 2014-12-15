@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Character\Character.cs" />
     <Compile Include="Character\Npc.cs" />
+    <Compile Include="Character\Traits\CharacterResource.cs" />
     <Compile Include="Dialog\DialogChoiceNode.cs" />
     <Compile Include="Dialog\DialogNode.cs" />
     <Compile Include="Dialog\DialogTree.cs" />
@@ -52,13 +53,14 @@
     <Compile Include="Character\ICharacter.cs" />
     <Compile Include="Character\Requirements\IRequirement.cs" />
     <Compile Include="Character\Requirements\IRequirements.cs" />
-    <Compile Include="Character\Traits\DictionaryTrait\ICharacterResources.cs" />
     <Compile Include="Character\Traits\SimpleTrait\ICharacterClass.cs" />
     <Compile Include="Character\Traits\DictionaryTrait\ICharacterDictionaryTrait.cs" />
     <Compile Include="Character\Traits\SimpleTrait\ICharacterGender.cs" />
     <Compile Include="Character\Traits\SimpleTrait\ICharacterSimpleTrait.cs" />
     <Compile Include="Character\Traits\ICharacterTrait.cs" />
     <Compile Include="Character\Traits\DictionaryTrait\INumericStats.cs" />
+    <Compile Include="Item\Item.cs" />
+    <Compile Include="Item\Weapon.cs" />
     <Compile Include="Other\CharacterStateType.cs" />
     <Compile Include="Global\IEffect.cs" />
     <Compile Include="Dialog\IDialogChoiceNode.cs" />
@@ -82,11 +84,19 @@
     <Compile Include="Item\Inventory\IInventory.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quest\Quest.cs" />
+    <Compile Include="Quest\QuestLog.cs" />
+    <Compile Include="Quest\QuestStage.cs" />
     <Compile Include="World\ILocation.cs" />
     <Compile Include="World\IRegion.cs" />
     <Compile Include="World\IWorld.cs" />
+    <Compile Include="World\Location.cs" />
+    <Compile Include="World\Region.cs" />
+    <Compile Include="World\World.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Other\Template.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -37,7 +37,7 @@ namespace Grgl.Dialog
         public DialogNode(string idArg): this(idArg, "PLACEHOLDER TEXT"){ }
         
         ///  <inheritdoc />
-        public string Id { get; private set; }
+        public string Id { get; protected set; }
         
         ///  <inheritdoc />
         public string Text { get; set; }
@@ -46,6 +46,6 @@ namespace Grgl.Dialog
         public IDialogNode Next { get; set; }
 
         ///  <inheritdoc />
-        public IDictionary<string, bool> Flags { get; private set; }
+        public IDictionary<string, bool> Flags { get; protected set; }
     } 
 }

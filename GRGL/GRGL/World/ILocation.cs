@@ -27,11 +27,11 @@ namespace Grgl.World
         /// <summary>
         /// Represents the position of an object in a 3D coordinate plane
         /// </summary>
-        Point3D Position { get; set; }
+        Point3D Position { get; }
  
         /// <summary>
-        /// Represents the game region in which the object currently exists
+        /// The RefId of the game region in which the object currently exists
         /// </summary>
-        IRegion Region { get; set; }
+        string RegionId { get; set; }
     }
 }

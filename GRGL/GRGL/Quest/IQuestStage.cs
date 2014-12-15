@@ -16,18 +16,15 @@
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Collections.Generic;
+using Grgl.Global;
 
 namespace Grgl.Quest
 {
     /// <summary>
     /// Represents a stage in a quest.
     /// </summary>
-    public interface IQuestStage
+    public interface IQuestStage : IGameObject
     {
-        /// <summary>
-        /// Unique identifier for this quest stage
-        /// </summary>
-        string Id { get; }
 
         /// <summary>
         /// Flag representing whether this stage has been completed or not
@@ -37,7 +34,7 @@ namespace Grgl.Quest
         /// <summary>
         /// Flag representing whether the completion of this stage should complete the entire parent quest
         /// </summary>
-        bool IsEndStage { get; set; }
+        bool IsEndStage { get; }
 
         /// <summary>
         /// The stage with which this quest was completed, if applicable

@@ -22,7 +22,7 @@ namespace Grgl.Character
     /// <summary>
     /// Represents an abstract character trait.
     /// </summary>
-    public interface ICharacterTrait : IGameObject
+    public interface ICharacterTrait
     {
         // TODO: Add more?
     }

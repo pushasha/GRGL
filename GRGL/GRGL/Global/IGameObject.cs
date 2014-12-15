@@ -23,18 +23,13 @@ namespace Grgl.Global
     public interface IGameObject
     {
         /// <summary>
-        /// Human-readable name of object
+        /// Human-readable name of object (if needed)
         /// </summary>
-        string Name { get; set; }
-
-        /// <summary>
-        /// ID of base object (that this reference is a copy of, if applicable)
-        /// </summary>
-        string BaseId { get; set; }
+        string Name { get; }
 
         /// <summary>
         /// Unique ID of this reference; null if this is the base object
         /// </summary>
-        string RefId { get; set; }
+        string RefId { get; }
     }
 }

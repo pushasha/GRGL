@@ -25,13 +25,32 @@ namespace Grgl.Quest
     public interface IQuestLog
     {
         /// <summary>
-        /// A collection that represents the incomplete quests in this quest log
+        /// A collection that represents the quests in this quest log
         /// </summary>
-        IDictionary<string, IQuest> Incomplete { get; }
+        IDictionary<string, IQuest> Quests { get; }
 
         /// <summary>
-        /// A collection that represents the completed quests in this quest log
+        /// A list of this quest log's incomplete quest RefIds
         /// </summary>
-        IDictionary<string, IQuest> Complete { get; } 
+        IList<string> IncompleteQuestsList { get; }
+
+        /// <summary>
+        /// A list of this quest log's completed quest RefIds
+        /// </summary>
+        IList<string> CompleteQuestsList { get; }
+
+        /// <summary>
+        /// Method that adds a quest to this quest log.
+        /// </summary>
+        /// <param name="questArg">The quest to be added</param>
+        /// <returns>False if quest cannot be added; True if successfully added.</returns>
+        bool AddQuest(IQuest questArg);
+
+        /// <summary>
+        /// Method that completes a quest with the given RefId
+        /// </summary>
+        /// <param name="idArg">RefId of the completed quest</param>
+        /// <returns>False if quest cannot be completed; True if completion successful.</returns>
+        bool CompleteQuest(string idArg);
     }
 }

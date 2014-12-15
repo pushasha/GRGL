@@ -25,7 +25,7 @@ namespace Grgl.Character
         /// <summary>
         /// Represents the maximum amount of this resource the character can have
         /// </summary>
-        int MaxValue { get; set; }
+        int MaxValue { get; }
 
         /// <summary>
         /// Represents the amount of this resource the character currently has

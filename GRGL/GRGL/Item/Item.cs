@@ -1,4 +1,4 @@
-﻿// IWorld.cs
+﻿// Item.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -17,16 +17,36 @@
 
 using System.Collections.Generic;
 
-namespace Grgl.World
+namespace Grgl.Item
 {
-    /// <summary>
-    /// Represents the game world
-    /// </summary>
-    public interface IWorld
+    ///  <inheritdoc />
+    public abstract class Item : IItem
     {
+        #region Properties
+        public string Name
+        {
+            get;
+            protected set;
+        }
+
+        public string RefId
+        {
+            get;
+            protected set;
+        } 
+
+        #endregion
+
         /// <summary>
-        /// A collection of all regions contained in this world
+        /// Creates a new instance of an Item object
         /// </summary>
-        IDictionary<string, IRegion> Regions { get; }  
-    }
+        /// <param name="idArg">The RefId of this item</param>
+        /// <param name="nameArg">The human-readable name of this item</param>
+        public Item(string idArg, string nameArg)
+        {
+            this.RefId = idArg;
+            this.Name = nameArg;
+        }
+
+    }//end class
 }

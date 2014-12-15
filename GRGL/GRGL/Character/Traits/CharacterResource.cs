@@ -1,4 +1,4 @@
-﻿// ICharacterResources.cs
+﻿// CharacterResource.cs
 // (c) Copyright Sarah Plotkin (splotkin@gmail.com)
 // 
 // This file is part of GRGL.
@@ -15,13 +15,36 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
+using System.Collections.Generic;
+
 namespace Grgl.Character
 {
-    /// <summary>
-    /// Represents a collection of resources accessed via a string key
-    /// </summary>
-    public interface ICharacterResources : ICharacterDictionaryTrait<ICharacterResource>
+    ///  <inheritdoc />
+    public class CharacterResource : ICharacterResource
     {
-        // TODO: Add more?
-    }
+        #region Properties
+        public int MaxValue
+        {
+            get;
+            protected set;
+        }
+
+        public int CurrentValue
+        {
+            get;
+            set;
+        } 
+        #endregion
+
+        /// <summary>
+        /// Creates a new instance of a CharacterResource object
+        /// </summary>
+        /// <param name="maxValueArg">The maximum value of this character resource</param>
+        public CharacterResource(int maxValueArg)
+        {
+            this.MaxValue = maxValueArg;
+            this.CurrentValue = this.MaxValue;
+        }
+
+    }//end class
 }
