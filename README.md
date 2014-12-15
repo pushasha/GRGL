@@ -17,8 +17,12 @@ This project is being developed under the LGPL. See the following links for more
 + [GNU General Public License](http://www.gnu.org/licenses/gpl.txt)
 
 
+##Documentation <a name="Documentation">
+Check out the current GRGL documentation [here](http://pushasha.github.io/grgl-site/docs/index.html).
+
 ##Blog <a name="blog"></a>
-See GRGL's progress at the official blog, [here](http://grgl.logdown.com/).
+See GRGL's progress at the blog, [here](http://grgl.logdown.com/).
+
 
 ##Contact <a name="contact"></a>
 Direct all inquiries regarding this project to splotkin@gmail.com
