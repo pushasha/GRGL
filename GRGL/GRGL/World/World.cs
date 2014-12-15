@@ -19,9 +19,10 @@ using System.Collections.Generic;
 
 namespace Grgl.World
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="IWorld"/>
     public class World : IWorld
     {
+        ///  <inheritdoc />
         public IDictionary<string, IRegion> Regions
         {
             get;

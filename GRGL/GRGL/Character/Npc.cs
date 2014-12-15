@@ -22,14 +22,17 @@ namespace Grgl.Character
     /// <inheritdoc cref="INpc" />
     public class Npc : Character, INpc
     {
-        ///  <inheritdoc />
-        public Npc()
-        {
-            this.DialogTree = new DialogTree();
-        }
+        /// <summary>
+        /// Creates a new instance of an NPC object
+        /// </summary>
+        public Npc() : this("NO_NAME", null) { }
 
-        ///  <inheritdoc />
-        public Npc(string name, string refId) : base(name, refId) // TODO: Re-factor this. Should be able to make it so that it references other constructor?
+        /// <summary>
+        /// Creates a new instance of an NPC object
+        /// </summary>
+        /// <param name="name">Human-readable name of this NPC</param>
+        /// <param name="refId">RefId for this NPC</param>
+        public Npc(string name, string refId) : base(name, refId)
         {
             this.DialogTree = new DialogTree();
         }

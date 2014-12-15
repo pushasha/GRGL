@@ -19,16 +19,17 @@ using System.Collections.Generic;
 
 namespace Grgl.Item
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="IItem"/>
     public abstract class Item : IItem
     {
         #region Properties
+        ///  <inheritdoc />
         public string Name
         {
             get;
             protected set;
         }
-
+        ///  <inheritdoc />
         public string RefId
         {
             get;
@@ -42,7 +43,7 @@ namespace Grgl.Item
         /// </summary>
         /// <param name="idArg">The RefId of this item</param>
         /// <param name="nameArg">The human-readable name of this item</param>
-        public Item(string idArg, string nameArg)
+        protected Item(string idArg, string nameArg)
         {
             this.RefId = idArg;
             this.Name = nameArg;

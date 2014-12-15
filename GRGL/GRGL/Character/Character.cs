@@ -15,6 +15,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with GRGL.  If not, see <http://www.gnu.org/licenses/>.
 
+using System;
 using System.Collections.Generic;
 using Grgl.Dialog;
 using Grgl.Item;
@@ -31,11 +32,21 @@ namespace Grgl.Character
         {
             this.Inventory = new Inventory();
             this.CharacterStates = new List<CharacterStateType>();
-            this.Position = new Location("MajorExteriorLoc01", 0, 0, 0);
-            this.InitCollections();
+            // initialize traits
+            this.NumericTraits = new Dictionary<string, float>();
+            this.Resources = new Dictionary<string, ICharacterResource>();
+
+            // initialize equip slots
+            this.WearableEquipSlots = new Dictionary<WearableEquipSlotType, IWearable>();
+            this.WeaponEquipSlots = new Dictionary<WeaponEquipSlotType, IWeapon>();
+            this.Position = new Location();
         }
 
-        ///  <inheritdoc />
+        /// <summary>
+        /// Creates a new instance of a Character object
+        /// </summary>
+        /// <param name="name">Human-readable name of the Character</param>
+        /// <param name="refId">RefId for this character</param>
         public Character(string name, string refId) : this()
         {
             this.Name = name;
@@ -85,16 +96,46 @@ namespace Grgl.Character
             get; protected set;
         }
         ///  <inheritdoc />
-        public IDictionary<string, ICharacterTrait> Traits
+        public IDictionary<string, float> NumericTraits
         {
             get; protected set;
         }
 
-
+        ///  <inheritdoc />
         public IDictionary<string, ICharacterResource> Resources
         {
             get;
             protected set;
+        }
+
+        ///  <inheritdoc />
+        public float this[string s]
+        {
+            get
+            {
+                if (this.Resources.ContainsKey(s))
+                {
+                    return this.Resources[s].CurrentValue;
+                }
+
+                return this.NumericTraits.ContainsKey(s) ? this.NumericTraits[s] : 0;
+            }
+
+            set
+            {
+                if (this.Resources.ContainsKey(s))
+                {
+                    this.Resources[s].CurrentValue = value >= this.Resources[s].MaxValue ? this.Resources[s].MaxValue : value;  
+                }
+                else if (this.NumericTraits.ContainsKey(s))
+                {
+                    this.NumericTraits[s] = value;
+                }
+                else
+                {
+                    throw new Exception("Could not set value - no key \"" + s + "\" found.");
+                }
+            }
         }
 
         #endregion
@@ -130,32 +171,6 @@ namespace Grgl.Character
         {
             return otherCharacter.DialogTree;
         }
-
-        private void InitCollections()
-        {
-            // initialize traits
-            this.Traits = new Dictionary<string, ICharacterTrait>();
-            this.Resources = new Dictionary<string, ICharacterResource>(){
-                {"Health", new CharacterResource(250)},
-                {"Mana", new CharacterResource(100)}
-            };
-
-            // initialize equip slots
-            this.WearableEquipSlots = new Dictionary<WearableEquipSlotType, IWearable>(){
-                { WearableEquipSlotType.Chest, null },
-                { WearableEquipSlotType.Legs, null },
-                { WearableEquipSlotType.Feet, null },
-                { WearableEquipSlotType.Hands, null },
-                { WearableEquipSlotType.Head, null }
-            };
-
-            this.WeaponEquipSlots = new Dictionary<WeaponEquipSlotType, IWeapon>() { 
-                { WeaponEquipSlotType.Primary, null },
-                { WeaponEquipSlotType.Secondary, null }
-            };
-        }
-        
-
 
         #endregion
     }

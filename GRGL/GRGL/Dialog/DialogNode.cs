@@ -23,17 +23,22 @@ namespace Grgl.Dialog
     /// <inheritdoc cref="IDialogNode" />
     public class DialogNode : IDialogNode, IHasFlags
     {
-        ///  <inheritdoc />
+        /// <summary>
+        /// Creates a new instance of a DialogNode object
+        /// </summary>
+        /// <param name="idArg">RefId of this node</param>
+        /// <param name="textArg">The dialog text contained in this node</param>
         public DialogNode(string idArg, string textArg)
         {
             this.Id = idArg;
             this.Text = textArg;
             this.Flags = new Dictionary<string, bool>();
-
-            this.Flags["GOODBYE"] = false;
         }
 
-        ///  <inheritdoc />
+        /// <summary>
+        /// Creates a new instance of a DialogNode object
+        /// </summary>
+        /// <param name="idArg">RefId of this node</param>
         public DialogNode(string idArg): this(idArg, "PLACEHOLDER TEXT"){ }
         
         ///  <inheritdoc />

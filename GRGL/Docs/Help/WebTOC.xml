@@ -1,260 +1,274 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="de1f5e61-896b-4230-bb2c-81ed61082ccb" Title="GRGL Namespaces" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="9aeada59-6d2e-4b78-ab1e-94b682e22f5d" Title="Grgl.Character" Url="html/N_Grgl_Character.htm">
-      <HelpTOCNode Id="2c308f1d-3b0a-41ad-aceb-5f79c8d69d91" Title="Character Class" Url="html/T_Grgl_Character_Character.htm">
-        <HelpTOCNode Id="5813f2ea-d46b-4ac0-b359-a37dcf0b0afc" Title="Character Constructor " Url="html/Overload_Grgl_Character_Character__ctor.htm">
+  <HelpTOCNode Id="d5148213-4e36-4812-b612-a2e6a622c443" Title="GRGL Namespaces" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="688d419c-9bce-4ce3-bf03-f1164b3e589a" Title="Grgl.Character" Url="html/N_Grgl_Character.htm">
+      <HelpTOCNode Id="415292fc-ad9d-4a76-9692-ad9a53bd630b" Title="Character Class" Url="html/T_Grgl_Character_Character.htm">
+        <HelpTOCNode Id="d2fd8174-91d0-40e9-a17e-0c2b937a0037" Title="Character Constructor " Url="html/Overload_Grgl_Character_Character__ctor.htm">
           <HelpTOCNode Title="Character Constructor " Url="html/M_Grgl_Character_Character__ctor.htm" />
           <HelpTOCNode Title="Character Constructor (String, String)" Url="html/M_Grgl_Character_Character__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="63a5c3f9-83e2-4e98-af43-b413d7580b78" Title="Character Methods" Url="html/Methods_T_Grgl_Character_Character.htm">
+        <HelpTOCNode Id="f6a64be0-b4ac-4f14-96c1-1b8a66f4f0e9" Title="Character Methods" Url="html/Methods_T_Grgl_Character_Character.htm">
           <HelpTOCNode Title="Equip Method " Url="html/M_Grgl_Character_Character_Equip.htm" />
           <HelpTOCNode Title="Talk Method " Url="html/M_Grgl_Character_Character_Talk.htm" />
           <HelpTOCNode Title="Use Method " Url="html/M_Grgl_Character_Character_Use.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="fa677c29-c599-4602-abc3-54a5763d1273" Title="Character Properties" Url="html/Properties_T_Grgl_Character_Character.htm">
-          <HelpTOCNode Title="BaseId Property " Url="html/P_Grgl_Character_Character_BaseId.htm" />
+        <HelpTOCNode Id="4e9413c0-59b8-432e-aa4b-ee6bed5ed1b4" Title="Character Properties" Url="html/Properties_T_Grgl_Character_Character.htm">
           <HelpTOCNode Title="CharacterStates Property " Url="html/P_Grgl_Character_Character_CharacterStates.htm" />
           <HelpTOCNode Title="Inventory Property " Url="html/P_Grgl_Character_Character_Inventory.htm" />
+          <HelpTOCNode Title="Item Property " Url="html/P_Grgl_Character_Character_Item.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_Grgl_Character_Character_Name.htm" />
+          <HelpTOCNode Title="NumericTraits Property " Url="html/P_Grgl_Character_Character_NumericTraits.htm" />
           <HelpTOCNode Title="Position Property " Url="html/P_Grgl_Character_Character_Position.htm" />
           <HelpTOCNode Title="RefId Property " Url="html/P_Grgl_Character_Character_RefId.htm" />
-          <HelpTOCNode Title="Traits Property " Url="html/P_Grgl_Character_Character_Traits.htm" />
+          <HelpTOCNode Title="Resources Property " Url="html/P_Grgl_Character_Character_Resources.htm" />
           <HelpTOCNode Title="WeaponEquipSlots Property " Url="html/P_Grgl_Character_Character_WeaponEquipSlots.htm" />
           <HelpTOCNode Title="WearableEquipSlots Property " Url="html/P_Grgl_Character_Character_WearableEquipSlots.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="962fd852-e536-47e4-b753-7cf2c1ddc85b" Title="ICharacter Interface" Url="html/T_Grgl_Character_ICharacter.htm">
-        <HelpTOCNode Id="24e74b16-a7f2-4513-a76c-f4f5c93c4085" Title="ICharacter Methods" Url="html/Methods_T_Grgl_Character_ICharacter.htm">
+      <HelpTOCNode Id="7fba9e14-8757-4c13-8a11-6e9aa5e60adc" Title="CharacterResource Class" Url="html/T_Grgl_Character_CharacterResource.htm">
+        <HelpTOCNode Title="CharacterResource Constructor " Url="html/M_Grgl_Character_CharacterResource__ctor.htm" />
+        <HelpTOCNode Title="CharacterResource Methods" Url="html/Methods_T_Grgl_Character_CharacterResource.htm" />
+        <HelpTOCNode Id="4048fa5e-bbe0-4b7b-a07d-16b0dc703084" Title="CharacterResource Properties" Url="html/Properties_T_Grgl_Character_CharacterResource.htm">
+          <HelpTOCNode Title="CurrentValue Property " Url="html/P_Grgl_Character_CharacterResource_CurrentValue.htm" />
+          <HelpTOCNode Title="MaxValue Property " Url="html/P_Grgl_Character_CharacterResource_MaxValue.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6a0d700f-c8fd-4cb6-b620-8e115000eadd" Title="ICharacter Interface" Url="html/T_Grgl_Character_ICharacter.htm">
+        <HelpTOCNode Id="c20b6f00-69bd-491d-9d69-f72f2eb8d0ff" Title="ICharacter Methods" Url="html/Methods_T_Grgl_Character_ICharacter.htm">
           <HelpTOCNode Title="Equip Method " Url="html/M_Grgl_Character_ICharacter_Equip.htm" />
           <HelpTOCNode Title="Talk Method " Url="html/M_Grgl_Character_ICharacter_Talk.htm" />
           <HelpTOCNode Title="Use Method " Url="html/M_Grgl_Character_ICharacter_Use.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8ca283ab-2856-45b7-99a7-6f8fb9a84e2b" Title="ICharacter Properties" Url="html/Properties_T_Grgl_Character_ICharacter.htm">
+        <HelpTOCNode Id="1bc0523e-d3f9-4086-931a-fa04bd8f63eb" Title="ICharacter Properties" Url="html/Properties_T_Grgl_Character_ICharacter.htm">
           <HelpTOCNode Title="CharacterStates Property " Url="html/P_Grgl_Character_ICharacter_CharacterStates.htm" />
           <HelpTOCNode Title="Inventory Property " Url="html/P_Grgl_Character_ICharacter_Inventory.htm" />
+          <HelpTOCNode Title="Item Property " Url="html/P_Grgl_Character_ICharacter_Item.htm" />
+          <HelpTOCNode Title="NumericTraits Property " Url="html/P_Grgl_Character_ICharacter_NumericTraits.htm" />
           <HelpTOCNode Title="Position Property " Url="html/P_Grgl_Character_ICharacter_Position.htm" />
-          <HelpTOCNode Title="Traits Property " Url="html/P_Grgl_Character_ICharacter_Traits.htm" />
+          <HelpTOCNode Title="Resources Property " Url="html/P_Grgl_Character_ICharacter_Resources.htm" />
           <HelpTOCNode Title="WeaponEquipSlots Property " Url="html/P_Grgl_Character_ICharacter_WeaponEquipSlots.htm" />
           <HelpTOCNode Title="WearableEquipSlots Property " Url="html/P_Grgl_Character_ICharacter_WearableEquipSlots.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="ICharacterClass Interface" Url="html/T_Grgl_Character_ICharacterClass.htm" />
-      <HelpTOCNode Id="f9f7d6b4-1344-4e6f-b5e6-feb937797a7a" Title="ICharacterDictionaryTrait(TValue) Interface" Url="html/T_Grgl_Character_ICharacterDictionaryTrait_1.htm">
-        <HelpTOCNode Title="ICharacterDictionaryTrait(TValue) Methods" Url="html/Methods_T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
-        <HelpTOCNode Title="ICharacterDictionaryTrait(TValue) Properties" Url="html/Properties_T_Grgl_Character_ICharacterDictionaryTrait_1.htm" />
-      </HelpTOCNode>
       <HelpTOCNode Title="ICharacterGender Interface" Url="html/T_Grgl_Character_ICharacterGender.htm" />
       <HelpTOCNode Title="ICharacterRace Interface" Url="html/T_Grgl_Character_ICharacterRace.htm" />
-      <HelpTOCNode Id="9397d6ca-9b67-4c3c-b14c-cb819c6989e9" Title="ICharacterResource Interface" Url="html/T_Grgl_Character_ICharacterResource.htm">
-        <HelpTOCNode Id="072d8304-6946-42ff-8ac3-7c1d57137083" Title="ICharacterResource Properties" Url="html/Properties_T_Grgl_Character_ICharacterResource.htm">
+      <HelpTOCNode Id="4fd6944c-18b8-401a-b813-6e2393e4bf26" Title="ICharacterResource Interface" Url="html/T_Grgl_Character_ICharacterResource.htm">
+        <HelpTOCNode Id="84f63e02-8e58-4f04-884c-948e4eca676c" Title="ICharacterResource Properties" Url="html/Properties_T_Grgl_Character_ICharacterResource.htm">
           <HelpTOCNode Title="CurrentValue Property " Url="html/P_Grgl_Character_ICharacterResource_CurrentValue.htm" />
           <HelpTOCNode Title="MaxValue Property " Url="html/P_Grgl_Character_ICharacterResource_MaxValue.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ed590893-be5a-4e8f-aa76-840260d0eb64" Title="ICharacterResources Interface" Url="html/T_Grgl_Character_ICharacterResources.htm">
-        <HelpTOCNode Title="ICharacterResources Methods" Url="html/Methods_T_Grgl_Character_ICharacterResources.htm" />
-        <HelpTOCNode Title="ICharacterResources Properties" Url="html/Properties_T_Grgl_Character_ICharacterResources.htm" />
-      </HelpTOCNode>
       <HelpTOCNode Title="ICharacterSimpleTrait Interface" Url="html/T_Grgl_Character_ICharacterSimpleTrait.htm" />
-      <HelpTOCNode Id="b711a03f-1c2f-4d72-a666-27d766c04efc" Title="ICharacterTrait Interface" Url="html/T_Grgl_Character_ICharacterTrait.htm">
-        <HelpTOCNode Title="ICharacterTrait Properties" Url="html/Properties_T_Grgl_Character_ICharacterTrait.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="d9a7ffdb-82ff-48d8-8b17-b9e998818afb" Title="INpc Interface" Url="html/T_Grgl_Character_INpc.htm">
+      <HelpTOCNode Title="ICharacterTrait Interface" Url="html/T_Grgl_Character_ICharacterTrait.htm" />
+      <HelpTOCNode Id="c7a473b5-fb77-48d0-9d49-42e5fed03e57" Title="INpc Interface" Url="html/T_Grgl_Character_INpc.htm">
         <HelpTOCNode Title="INpc Methods" Url="html/Methods_T_Grgl_Character_INpc.htm" />
-        <HelpTOCNode Id="e1cf73cb-0e5a-4417-bd5d-88a42ecc281a" Title="INpc Properties" Url="html/Properties_T_Grgl_Character_INpc.htm">
+        <HelpTOCNode Id="2334a080-1dba-4526-9e85-c9d795367c6a" Title="INpc Properties" Url="html/Properties_T_Grgl_Character_INpc.htm">
           <HelpTOCNode Title="DialogTree Property " Url="html/P_Grgl_Character_INpc_DialogTree.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="5549587e-1441-4364-a5f1-b858ac4ad360" Title="INumericStats Interface" Url="html/T_Grgl_Character_INumericStats.htm">
-        <HelpTOCNode Title="INumericStats Methods" Url="html/Methods_T_Grgl_Character_INumericStats.htm" />
-        <HelpTOCNode Title="INumericStats Properties" Url="html/Properties_T_Grgl_Character_INumericStats.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="f3a30fc6-82c6-4a0c-b748-837d542e81d3" Title="IRequirement Interface" Url="html/T_Grgl_Character_IRequirement.htm">
-        <HelpTOCNode Id="ee646234-7221-42b0-b4fd-f2395b43baa6" Title="IRequirement Properties" Url="html/Properties_T_Grgl_Character_IRequirement.htm">
+      <HelpTOCNode Id="f5a56651-5f60-4bb9-9ad5-2f22b7bf9ddc" Title="IRequirement Interface" Url="html/T_Grgl_Character_IRequirement.htm">
+        <HelpTOCNode Id="645cfe9a-ae2e-4384-bf8b-7e80209d2554" Title="IRequirement Properties" Url="html/Properties_T_Grgl_Character_IRequirement.htm">
           <HelpTOCNode Title="RequiredValues Property " Url="html/P_Grgl_Character_IRequirement_RequiredValues.htm" />
           <HelpTOCNode Title="Trait Property " Url="html/P_Grgl_Character_IRequirement_Trait.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1b90f784-2721-4524-9e86-ad15b502ba70" Title="IRequirements Interface" Url="html/T_Grgl_Character_IRequirements.htm">
-        <HelpTOCNode Id="879d6d12-5659-49b3-a42f-9a30884a8e44" Title="IRequirements Methods" Url="html/Methods_T_Grgl_Character_IRequirements.htm">
+      <HelpTOCNode Id="d31ac80a-c5d9-4cfe-8c28-373bea762807" Title="IRequirements Interface" Url="html/T_Grgl_Character_IRequirements.htm">
+        <HelpTOCNode Id="db65f994-19f0-42a0-943e-1ec47029d083" Title="IRequirements Methods" Url="html/Methods_T_Grgl_Character_IRequirements.htm">
           <HelpTOCNode Title="MeetsRequirements Method " Url="html/M_Grgl_Character_IRequirements_MeetsRequirements.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="IRequirements Properties" Url="html/Properties_T_Grgl_Character_IRequirements.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="fac29a33-b4c4-4de5-bb7d-55bc5ea850d1" Title="Npc Class" Url="html/T_Grgl_Character_Npc.htm">
-        <HelpTOCNode Id="b96b92b4-dba3-4748-b33e-fdb15cf7d323" Title="Npc Constructor " Url="html/Overload_Grgl_Character_Npc__ctor.htm">
+      <HelpTOCNode Id="b4a95f4a-ced3-4a05-860a-d6cb2dfdaf76" Title="Npc Class" Url="html/T_Grgl_Character_Npc.htm">
+        <HelpTOCNode Id="48320876-2282-4a37-ad96-63777738a8f0" Title="Npc Constructor " Url="html/Overload_Grgl_Character_Npc__ctor.htm">
           <HelpTOCNode Title="Npc Constructor " Url="html/M_Grgl_Character_Npc__ctor.htm" />
           <HelpTOCNode Title="Npc Constructor (String, String)" Url="html/M_Grgl_Character_Npc__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Npc Methods" Url="html/Methods_T_Grgl_Character_Npc.htm" />
-        <HelpTOCNode Id="12363970-56a4-40e1-aa8e-1039d7593b59" Title="Npc Properties" Url="html/Properties_T_Grgl_Character_Npc.htm">
+        <HelpTOCNode Id="9e2f2d6a-c609-4080-969a-35203e510d77" Title="Npc Properties" Url="html/Properties_T_Grgl_Character_Npc.htm">
           <HelpTOCNode Title="DialogTree Property " Url="html/P_Grgl_Character_Npc_DialogTree.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="aeb4b6c2-160b-4eee-ba70-94c66cbc4ff6" Title="Grgl.Dialog" Url="html/N_Grgl_Dialog.htm">
-      <HelpTOCNode Id="a42be686-4621-4aed-ad8a-e95cb3ddd8fc" Title="DialogChoiceNode Class" Url="html/T_Grgl_Dialog_DialogChoiceNode.htm">
+    <HelpTOCNode Id="3ccbab87-fd90-4d36-9312-5297b8395881" Title="Grgl.Dialog" Url="html/N_Grgl_Dialog.htm">
+      <HelpTOCNode Id="99abb741-941b-46a2-bbef-c58025b88d95" Title="DialogChoiceNode Class" Url="html/T_Grgl_Dialog_DialogChoiceNode.htm">
         <HelpTOCNode Title="DialogChoiceNode Constructor " Url="html/M_Grgl_Dialog_DialogChoiceNode__ctor.htm" />
         <HelpTOCNode Title="DialogChoiceNode Methods" Url="html/Methods_T_Grgl_Dialog_DialogChoiceNode.htm" />
-        <HelpTOCNode Id="59689743-0796-469d-8ab6-2abc3add614f" Title="DialogChoiceNode Properties" Url="html/Properties_T_Grgl_Dialog_DialogChoiceNode.htm">
+        <HelpTOCNode Id="195c798c-3887-472f-9fc0-f1bd10f2f76b" Title="DialogChoiceNode Properties" Url="html/Properties_T_Grgl_Dialog_DialogChoiceNode.htm">
           <HelpTOCNode Title="Choices Property " Url="html/P_Grgl_Dialog_DialogChoiceNode_Choices.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="dab87724-66d7-4929-a774-17b5c6884189" Title="DialogNode Class" Url="html/T_Grgl_Dialog_DialogNode.htm">
-        <HelpTOCNode Id="c2b2cda4-2010-40fd-99bc-14c26780ac96" Title="DialogNode Constructor " Url="html/Overload_Grgl_Dialog_DialogNode__ctor.htm">
+      <HelpTOCNode Id="ef1a12ac-958c-4def-ae1f-6ebfaefe3f28" Title="DialogNode Class" Url="html/T_Grgl_Dialog_DialogNode.htm">
+        <HelpTOCNode Id="6917cd14-9212-45de-8212-8f43738a8625" Title="DialogNode Constructor " Url="html/Overload_Grgl_Dialog_DialogNode__ctor.htm">
           <HelpTOCNode Title="DialogNode Constructor (String)" Url="html/M_Grgl_Dialog_DialogNode__ctor.htm" />
           <HelpTOCNode Title="DialogNode Constructor (String, String)" Url="html/M_Grgl_Dialog_DialogNode__ctor_1.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="DialogNode Methods" Url="html/Methods_T_Grgl_Dialog_DialogNode.htm" />
-        <HelpTOCNode Id="96ee3429-053b-4eb9-8c12-aec5205ce737" Title="DialogNode Properties" Url="html/Properties_T_Grgl_Dialog_DialogNode.htm">
+        <HelpTOCNode Id="142e7771-7dfb-4e85-a7a0-e840fea249e4" Title="DialogNode Properties" Url="html/Properties_T_Grgl_Dialog_DialogNode.htm">
           <HelpTOCNode Title="Flags Property " Url="html/P_Grgl_Dialog_DialogNode_Flags.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_Grgl_Dialog_DialogNode_Id.htm" />
           <HelpTOCNode Title="Next Property " Url="html/P_Grgl_Dialog_DialogNode_Next.htm" />
           <HelpTOCNode Title="Text Property " Url="html/P_Grgl_Dialog_DialogNode_Text.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e9aab7c6-8316-4c02-8385-eb2e70e68b75" Title="DialogTree Class" Url="html/T_Grgl_Dialog_DialogTree.htm">
-        <HelpTOCNode Id="16442cf8-88fc-444c-b1fd-3aecb957febc" Title="DialogTree Constructor " Url="html/Overload_Grgl_Dialog_DialogTree__ctor.htm">
+      <HelpTOCNode Id="08ef8f37-a93b-4ea6-bfd0-b4daded3add4" Title="DialogTree Class" Url="html/T_Grgl_Dialog_DialogTree.htm">
+        <HelpTOCNode Id="60394b60-66d5-4e5a-8c04-5a93f4bfb126" Title="DialogTree Constructor " Url="html/Overload_Grgl_Dialog_DialogTree__ctor.htm">
           <HelpTOCNode Title="DialogTree Constructor " Url="html/M_Grgl_Dialog_DialogTree__ctor.htm" />
           <HelpTOCNode Title="DialogTree Constructor (IDialogNode)" Url="html/M_Grgl_Dialog_DialogTree__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="1f2899dd-c632-4f86-8e25-080269f535f1" Title="DialogTree Methods" Url="html/Methods_T_Grgl_Dialog_DialogTree.htm">
-          <HelpTOCNode Id="14ac611f-1f37-4be0-9d3d-0f08203e9e71" Title="AddNode Method " Url="html/Overload_Grgl_Dialog_DialogTree_AddNode.htm">
+        <HelpTOCNode Id="76016828-b926-4fdd-b640-2bbc8695ac9a" Title="DialogTree Methods" Url="html/Methods_T_Grgl_Dialog_DialogTree.htm">
+          <HelpTOCNode Id="6be1802d-8556-4afc-97f3-ebdca81c1214" Title="AddNode Method " Url="html/Overload_Grgl_Dialog_DialogTree_AddNode.htm">
             <HelpTOCNode Title="AddNode Method (String, IDialogNode)" Url="html/M_Grgl_Dialog_DialogTree_AddNode.htm" />
             <HelpTOCNode Title="AddNode Method (String, String)" Url="html/M_Grgl_Dialog_DialogTree_AddNode_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="0e119406-d7ec-452c-bdfd-7d38916ec866" Title="DialogTree Properties" Url="html/Properties_T_Grgl_Dialog_DialogTree.htm">
+        <HelpTOCNode Id="01bac398-c5d6-4f6c-8755-7dd3d4506f4b" Title="DialogTree Properties" Url="html/Properties_T_Grgl_Dialog_DialogTree.htm">
           <HelpTOCNode Title="NodeDictionary Property " Url="html/P_Grgl_Dialog_DialogTree_NodeDictionary.htm" />
           <HelpTOCNode Title="Root Property " Url="html/P_Grgl_Dialog_DialogTree_Root.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="116af4bd-0fbf-49c2-8cea-a588c99e8736" Title="IDialogChoiceNode Interface" Url="html/T_Grgl_Dialog_IDialogChoiceNode.htm">
-        <HelpTOCNode Id="7f79a502-0fed-439c-b5c9-b2c5c9c43294" Title="IDialogChoiceNode Properties" Url="html/Properties_T_Grgl_Dialog_IDialogChoiceNode.htm">
+      <HelpTOCNode Id="8548a690-7efa-4196-9ef4-4ad9127f45b8" Title="IDialogChoiceNode Interface" Url="html/T_Grgl_Dialog_IDialogChoiceNode.htm">
+        <HelpTOCNode Id="f73aac53-da86-4f1e-acd2-cd29b1a1ab29" Title="IDialogChoiceNode Properties" Url="html/Properties_T_Grgl_Dialog_IDialogChoiceNode.htm">
           <HelpTOCNode Title="Choices Property " Url="html/P_Grgl_Dialog_IDialogChoiceNode_Choices.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e8141657-3c56-476f-8a87-03c1d2db4588" Title="IDialogNode Interface" Url="html/T_Grgl_Dialog_IDialogNode.htm">
-        <HelpTOCNode Id="1451e7e0-beec-483a-84c9-425b9b0967d3" Title="IDialogNode Properties" Url="html/Properties_T_Grgl_Dialog_IDialogNode.htm">
+      <HelpTOCNode Id="25533978-d2a4-45af-848e-0874da81d27c" Title="IDialogNode Interface" Url="html/T_Grgl_Dialog_IDialogNode.htm">
+        <HelpTOCNode Id="b0c3f199-cf04-49cf-bacf-b16fc9046fc5" Title="IDialogNode Properties" Url="html/Properties_T_Grgl_Dialog_IDialogNode.htm">
           <HelpTOCNode Title="Id Property " Url="html/P_Grgl_Dialog_IDialogNode_Id.htm" />
           <HelpTOCNode Title="Next Property " Url="html/P_Grgl_Dialog_IDialogNode_Next.htm" />
           <HelpTOCNode Title="Text Property " Url="html/P_Grgl_Dialog_IDialogNode_Text.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="39a55780-414e-4487-894d-a549cf798e15" Title="IDialogTree Interface" Url="html/T_Grgl_Dialog_IDialogTree.htm">
-        <HelpTOCNode Id="72328006-9041-4b3d-b52a-2bb0f9f6f623" Title="IDialogTree Methods" Url="html/Methods_T_Grgl_Dialog_IDialogTree.htm">
-          <HelpTOCNode Id="87eeaf3c-942b-470e-9c39-85ef1f253348" Title="AddNode Method " Url="html/Overload_Grgl_Dialog_IDialogTree_AddNode.htm">
+      <HelpTOCNode Id="99411ae2-3936-4275-b8b4-df745e5689d8" Title="IDialogTree Interface" Url="html/T_Grgl_Dialog_IDialogTree.htm">
+        <HelpTOCNode Id="c20e273e-3690-4bd7-a572-77e739350e52" Title="IDialogTree Methods" Url="html/Methods_T_Grgl_Dialog_IDialogTree.htm">
+          <HelpTOCNode Id="6388a467-66f0-4e33-ba70-d40c44f36d96" Title="AddNode Method " Url="html/Overload_Grgl_Dialog_IDialogTree_AddNode.htm">
             <HelpTOCNode Title="AddNode Method (String, IDialogNode)" Url="html/M_Grgl_Dialog_IDialogTree_AddNode.htm" />
             <HelpTOCNode Title="AddNode Method (String, String)" Url="html/M_Grgl_Dialog_IDialogTree_AddNode_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="a861b101-fe92-4745-954d-3043e080b0fe" Title="IDialogTree Properties" Url="html/Properties_T_Grgl_Dialog_IDialogTree.htm">
+        <HelpTOCNode Id="38d46983-a3a3-4d95-b55d-ec122661f440" Title="IDialogTree Properties" Url="html/Properties_T_Grgl_Dialog_IDialogTree.htm">
           <HelpTOCNode Title="NodeDictionary Property " Url="html/P_Grgl_Dialog_IDialogTree_NodeDictionary.htm" />
           <HelpTOCNode Title="Root Property " Url="html/P_Grgl_Dialog_IDialogTree_Root.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b1b3afac-bb40-4e49-b1be-9344cfa42d30" Title="Grgl.Global" Url="html/N_Grgl_Global.htm">
-      <HelpTOCNode Id="01b908b4-b5ba-4796-89ba-681a340c4ac6" Title="IEffect Interface" Url="html/T_Grgl_Global_IEffect.htm">
-        <HelpTOCNode Id="ca0cb378-0608-4b5f-aa41-b88567909cdc" Title="IEffect Properties" Url="html/Properties_T_Grgl_Global_IEffect.htm">
+    <HelpTOCNode Id="1da0602c-142b-4e35-865f-e8d428fc110c" Title="Grgl.Global" Url="html/N_Grgl_Global.htm">
+      <HelpTOCNode Id="850437c8-25ce-43e7-9929-b89d67d0fe4b" Title="IEffect Interface" Url="html/T_Grgl_Global_IEffect.htm">
+        <HelpTOCNode Id="d8ea37fc-726e-46ef-81e1-b518aeb3f7f0" Title="IEffect Properties" Url="html/Properties_T_Grgl_Global_IEffect.htm">
           <HelpTOCNode Title="CharacterResourceModifier Property " Url="html/P_Grgl_Global_IEffect_CharacterResourceModifier.htm" />
           <HelpTOCNode Title="Element Property " Url="html/P_Grgl_Global_IEffect_Element.htm" />
           <HelpTOCNode Title="NumericStatModifier Property " Url="html/P_Grgl_Global_IEffect_NumericStatModifier.htm" />
           <HelpTOCNode Title="TimeLength Property " Url="html/P_Grgl_Global_IEffect_TimeLength.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="61c39401-ff36-4180-815e-b3453da51afd" Title="IGameObject Interface" Url="html/T_Grgl_Global_IGameObject.htm">
-        <HelpTOCNode Id="0758ed44-afc6-4a9e-90d4-2205ac44c608" Title="IGameObject Properties" Url="html/Properties_T_Grgl_Global_IGameObject.htm">
-          <HelpTOCNode Title="BaseId Property " Url="html/P_Grgl_Global_IGameObject_BaseId.htm" />
+      <HelpTOCNode Id="af02397e-a866-44ec-8068-a71e3caddc36" Title="IGameObject Interface" Url="html/T_Grgl_Global_IGameObject.htm">
+        <HelpTOCNode Id="a9d5efe0-94d2-4ab7-a77f-5ec84449d376" Title="IGameObject Properties" Url="html/Properties_T_Grgl_Global_IGameObject.htm">
           <HelpTOCNode Title="Name Property " Url="html/P_Grgl_Global_IGameObject_Name.htm" />
           <HelpTOCNode Title="RefId Property " Url="html/P_Grgl_Global_IGameObject_RefId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="730aca8b-6f92-44cc-a151-b6a08c5bd15f" Title="IHasFlags Interface" Url="html/T_Grgl_Global_IHasFlags.htm">
-        <HelpTOCNode Id="bed277ff-ad05-4c67-a426-1771bebad8ff" Title="IHasFlags Properties" Url="html/Properties_T_Grgl_Global_IHasFlags.htm">
+      <HelpTOCNode Id="1db77916-ba93-4a68-9b0e-e02e9976b44a" Title="IHasFlags Interface" Url="html/T_Grgl_Global_IHasFlags.htm">
+        <HelpTOCNode Id="8d7155c3-7644-464e-8676-7bdecbde3ee1" Title="IHasFlags Properties" Url="html/Properties_T_Grgl_Global_IHasFlags.htm">
           <HelpTOCNode Title="Flags Property " Url="html/P_Grgl_Global_IHasFlags_Flags.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="ModifyTrait Delegate" Url="html/T_Grgl_Global_ModifyTrait.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="6653bc32-1a24-4352-877b-82bcbd488e11" Title="Grgl.Item" Url="html/N_Grgl_Item.htm">
-      <HelpTOCNode Id="658e4cf6-8717-4cd1-8fa4-20ca4cab4bdf" Title="IConsumable Interface" Url="html/T_Grgl_Item_IConsumable.htm">
+    <HelpTOCNode Id="2d490fd2-95aa-4c6a-9eb9-ad3204eb92d4" Title="Grgl.Item" Url="html/N_Grgl_Item.htm">
+      <HelpTOCNode Id="9a64dbc9-5d35-4916-97b2-ba4cbbfc4a84" Title="IConsumable Interface" Url="html/T_Grgl_Item_IConsumable.htm">
         <HelpTOCNode Title="IConsumable Methods" Url="html/Methods_T_Grgl_Item_IConsumable.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="6e42791c-80e3-4307-8e7c-4540fd7ab7a3" Title="IEquippable Interface" Url="html/T_Grgl_Item_IEquippable.htm">
-        <HelpTOCNode Id="29823fde-025c-471e-a946-cdda43e7f47e" Title="IEquippable Methods" Url="html/Methods_T_Grgl_Item_IEquippable.htm">
+      <HelpTOCNode Id="22137c08-0e73-4750-b095-93b5388794bf" Title="IEquippable Interface" Url="html/T_Grgl_Item_IEquippable.htm">
+        <HelpTOCNode Id="dbf84206-fcc5-4a2e-a757-d5757d381832" Title="IEquippable Methods" Url="html/Methods_T_Grgl_Item_IEquippable.htm">
           <HelpTOCNode Title="OnEquip Method " Url="html/M_Grgl_Item_IEquippable_OnEquip.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6d2327e6-da14-4d76-89c0-face4f984d39" Title="IEquippable Properties" Url="html/Properties_T_Grgl_Item_IEquippable.htm">
+        <HelpTOCNode Id="7a86e922-4083-4ead-85d0-999f59f005a9" Title="IEquippable Properties" Url="html/Properties_T_Grgl_Item_IEquippable.htm">
           <HelpTOCNode Title="PassiveEffect Property " Url="html/P_Grgl_Item_IEquippable_PassiveEffect.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="5934b02b-84ce-467d-99a1-f72eff582605" Title="IInventory Interface" Url="html/T_Grgl_Item_IInventory.htm">
-        <HelpTOCNode Id="36975506-bb04-469d-9c08-04c91b10ed66" Title="IInventory Properties" Url="html/Properties_T_Grgl_Item_IInventory.htm">
+      <HelpTOCNode Id="462e2a82-b174-4610-8a8b-010fff2d3ee3" Title="IInventory Interface" Url="html/T_Grgl_Item_IInventory.htm">
+        <HelpTOCNode Id="e9ea8862-deff-42f6-97f4-86ba3f1357ed" Title="IInventory Properties" Url="html/Properties_T_Grgl_Item_IInventory.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Grgl_Item_IInventory_IsEmpty.htm" />
           <HelpTOCNode Title="ItemDictionary Property " Url="html/P_Grgl_Item_IInventory_ItemDictionary.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ef70452e-e023-4e11-9432-e359f2b8c85f" Title="IInventoryItem Interface" Url="html/T_Grgl_Item_IInventoryItem.htm">
-        <HelpTOCNode Id="ceeac899-3bc5-40f2-9b10-d79eae7b8291" Title="IInventoryItem Properties" Url="html/Properties_T_Grgl_Item_IInventoryItem.htm">
+      <HelpTOCNode Id="82987d13-c2b4-414e-a92a-a92dcc16cfc7" Title="IInventoryItem Interface" Url="html/T_Grgl_Item_IInventoryItem.htm">
+        <HelpTOCNode Id="d42f7ac8-b3b9-4b4c-aae6-fe4e65be4bd6" Title="IInventoryItem Properties" Url="html/Properties_T_Grgl_Item_IInventoryItem.htm">
           <HelpTOCNode Title="ItemInstancesDictionary Property " Url="html/P_Grgl_Item_IInventoryItem_ItemInstancesDictionary.htm" />
           <HelpTOCNode Title="ItemQuantity Property " Url="html/P_Grgl_Item_IInventoryItem_ItemQuantity.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="4e29fb33-6977-4e0c-9971-f4b6e533b0a0" Title="IItem Interface" Url="html/T_Grgl_Item_IItem.htm">
+      <HelpTOCNode Id="5d0814fb-045e-4123-b67e-ed3618bd7f55" Title="IItem Interface" Url="html/T_Grgl_Item_IItem.htm">
         <HelpTOCNode Title="IItem Properties" Url="html/Properties_T_Grgl_Item_IItem.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="5c02849b-9490-4596-8fb8-daa8ab03b593" Title="Inventory Class" Url="html/T_Grgl_Item_Inventory.htm">
+      <HelpTOCNode Id="2a93e326-f3cf-4689-b0f6-a0e726608d20" Title="Inventory Class" Url="html/T_Grgl_Item_Inventory.htm">
         <HelpTOCNode Title="Inventory Constructor " Url="html/M_Grgl_Item_Inventory__ctor.htm" />
         <HelpTOCNode Title="Inventory Methods" Url="html/Methods_T_Grgl_Item_Inventory.htm" />
-        <HelpTOCNode Id="e4c8c4f6-f4fa-4e3e-9805-4a31705b1258" Title="Inventory Properties" Url="html/Properties_T_Grgl_Item_Inventory.htm">
+        <HelpTOCNode Id="4118cdad-8209-40c9-96a8-a8070cc1ebc9" Title="Inventory Properties" Url="html/Properties_T_Grgl_Item_Inventory.htm">
           <HelpTOCNode Title="IsEmpty Property " Url="html/P_Grgl_Item_Inventory_IsEmpty.htm" />
           <HelpTOCNode Title="ItemDictionary Property " Url="html/P_Grgl_Item_Inventory_ItemDictionary.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8deddbe3-82a1-4214-aad0-3c39926ba583" Title="IUsable Interface" Url="html/T_Grgl_Item_IUsable.htm">
-        <HelpTOCNode Id="96cfe0ac-72f2-4bbf-8527-5e0bb1b4d13b" Title="IUsable Methods" Url="html/Methods_T_Grgl_Item_IUsable.htm">
+      <HelpTOCNode Id="cfca4cc3-638b-4355-947f-cb605ab11118" Title="Item Class" Url="html/T_Grgl_Item_Item.htm">
+        <HelpTOCNode Title="Item Constructor " Url="html/M_Grgl_Item_Item__ctor.htm" />
+        <HelpTOCNode Title="Item Methods" Url="html/Methods_T_Grgl_Item_Item.htm" />
+        <HelpTOCNode Id="a6e37cda-321b-4750-a283-fa539b4ff592" Title="Item Properties" Url="html/Properties_T_Grgl_Item_Item.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Grgl_Item_Item_Name.htm" />
+          <HelpTOCNode Title="RefId Property " Url="html/P_Grgl_Item_Item_RefId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="98bf92b9-a75f-46b2-9e24-1c926b5f566f" Title="IUsable Interface" Url="html/T_Grgl_Item_IUsable.htm">
+        <HelpTOCNode Id="bc646906-3b97-45e8-b59b-f9415e8fc1cf" Title="IUsable Methods" Url="html/Methods_T_Grgl_Item_IUsable.htm">
           <HelpTOCNode Title="OnUse Method " Url="html/M_Grgl_Item_IUsable_OnUse.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cc69b83f-0bbb-44b6-a15d-e7d5ff9a9b7f" Title="IWeapon Interface" Url="html/T_Grgl_Item_IWeapon.htm">
+      <HelpTOCNode Id="9cfce031-8c6e-4675-9110-e487ddda877f" Title="IWeapon Interface" Url="html/T_Grgl_Item_IWeapon.htm">
         <HelpTOCNode Title="IWeapon Methods" Url="html/Methods_T_Grgl_Item_IWeapon.htm" />
-        <HelpTOCNode Id="3c2e108b-76b9-4efe-9b08-50f20db908fd" Title="IWeapon Properties" Url="html/Properties_T_Grgl_Item_IWeapon.htm">
+        <HelpTOCNode Id="6965c1bb-3af9-468b-8d24-2554466bf236" Title="IWeapon Properties" Url="html/Properties_T_Grgl_Item_IWeapon.htm">
           <HelpTOCNode Title="EquipSlotType Property " Url="html/P_Grgl_Item_IWeapon_EquipSlotType.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="802ec655-55e6-4226-832b-2d85ebf67c3f" Title="IWearable Interface" Url="html/T_Grgl_Item_IWearable.htm">
+      <HelpTOCNode Id="b6361435-fefd-440d-948d-43ac2559f75f" Title="IWearable Interface" Url="html/T_Grgl_Item_IWearable.htm">
         <HelpTOCNode Title="IWearable Methods" Url="html/Methods_T_Grgl_Item_IWearable.htm" />
-        <HelpTOCNode Id="ff9bbfae-5ccb-4e4e-be92-489073ba8d22" Title="IWearable Properties" Url="html/Properties_T_Grgl_Item_IWearable.htm">
+        <HelpTOCNode Id="b1930340-2d47-4d04-b0e4-33db234c1d6d" Title="IWearable Properties" Url="html/Properties_T_Grgl_Item_IWearable.htm">
           <HelpTOCNode Title="EquipSlotType Property " Url="html/P_Grgl_Item_IWearable_EquipSlotType.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
+      <HelpTOCNode Id="05535fdb-466e-469b-b10e-766ffef9d6c8" Title="Weapon Class" Url="html/T_Grgl_Item_Weapon.htm">
+        <HelpTOCNode Title="Weapon Constructor " Url="html/M_Grgl_Item_Weapon__ctor.htm" />
+        <HelpTOCNode Id="ebe65f55-37ba-4343-b1e7-e4fe00c00b08" Title="Weapon Methods" Url="html/Methods_T_Grgl_Item_Weapon.htm">
+          <HelpTOCNode Title="OnEquip Method " Url="html/M_Grgl_Item_Weapon_OnEquip.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fbbfb9c9-78e0-475d-a900-76a33a938b93" Title="Weapon Properties" Url="html/Properties_T_Grgl_Item_Weapon.htm">
+          <HelpTOCNode Title="EquipSlotType Property " Url="html/P_Grgl_Item_Weapon_EquipSlotType.htm" />
+          <HelpTOCNode Title="PassiveEffect Property " Url="html/P_Grgl_Item_Weapon_PassiveEffect.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6880ecb5-c4b4-4480-8a91-09750c44dea3" Title="Grgl.Other" Url="html/N_Grgl_Other.htm">
+    <HelpTOCNode Id="86e7a9d5-32d9-41d0-8d05-7bdcbf379885" Title="Grgl.Other" Url="html/N_Grgl_Other.htm">
       <HelpTOCNode Title="CharacterStateType Enumeration" Url="html/T_Grgl_Other_CharacterStateType.htm" />
-      <HelpTOCNode Id="d626c01a-4f21-4e85-8fec-93947cfeb4d2" Title="ElementalType Class" Url="html/T_Grgl_Other_ElementalType.htm">
+      <HelpTOCNode Id="a672a892-b4b8-40fc-aba9-459aad07068c" Title="ElementalType Class" Url="html/T_Grgl_Other_ElementalType.htm">
         <HelpTOCNode Title="ElementalType Constructor " Url="html/M_Grgl_Other_ElementalType__ctor.htm" />
-        <HelpTOCNode Id="601ae0d7-2150-4d99-969f-6b1985181a1f" Title="ElementalType Fields" Url="html/Fields_T_Grgl_Other_ElementalType.htm">
+        <HelpTOCNode Id="bb59ce02-59b1-43a7-997b-c7d8a650105f" Title="ElementalType Fields" Url="html/Fields_T_Grgl_Other_ElementalType.htm">
           <HelpTOCNode Title="Fire Field" Url="html/F_Grgl_Other_ElementalType_Fire.htm" />
           <HelpTOCNode Title="Ice Field" Url="html/F_Grgl_Other_ElementalType_Ice.htm" />
           <HelpTOCNode Title="Poison Field" Url="html/F_Grgl_Other_ElementalType_Poison.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ElementalType Methods" Url="html/Methods_T_Grgl_Other_ElementalType.htm" />
-        <HelpTOCNode Id="702010b6-689c-444c-b25d-f2428109ba57" Title="ElementalType Type Conversions" Url="html/Operators_T_Grgl_Other_ElementalType.htm">
-          <HelpTOCNode Id="ecca92c7-e1d2-4ad3-8b93-71d2b5f1b078" Title="Implicit Conversion Operators" Url="html/Overload_Grgl_Other_ElementalType_op_Implicit.htm">
+        <HelpTOCNode Id="c3cee38e-c2bd-4f4e-a066-dffc0b8b42ca" Title="ElementalType Type Conversions" Url="html/Operators_T_Grgl_Other_ElementalType.htm">
+          <HelpTOCNode Id="a963596a-2715-4183-b2c1-d0b188f4f7f5" Title="Implicit Conversion Operators" Url="html/Overload_Grgl_Other_ElementalType_op_Implicit.htm">
             <HelpTOCNode Title="Implicit Conversion (Int32 to ElementalType)" Url="html/M_Grgl_Other_ElementalType_op_Implicit_1.htm" />
             <HelpTOCNode Title="Implicit Conversion (ElementalType to Int32)" Url="html/M_Grgl_Other_ElementalType_op_Implicit.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="3f55b877-7c98-4f75-9273-146f4234bd0a" Title="ElementalType Properties" Url="html/Properties_T_Grgl_Other_ElementalType.htm">
+        <HelpTOCNode Id="62b4814e-94ff-4927-9ff6-a36991ba5bdf" Title="ElementalType Properties" Url="html/Properties_T_Grgl_Other_ElementalType.htm">
           <HelpTOCNode Title="Value Property " Url="html/P_Grgl_Other_ElementalType_Value.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="904e674b-689c-4606-ab42-ee6f07f4d79c" Title="Point3D Structure" Url="html/T_Grgl_Other_Point3D.htm">
+      <HelpTOCNode Id="e78897b1-05a7-4f5c-9bd9-639e863699c6" Title="Point3D Structure" Url="html/T_Grgl_Other_Point3D.htm">
         <HelpTOCNode Title="Point3D Constructor " Url="html/M_Grgl_Other_Point3D__ctor.htm" />
-        <HelpTOCNode Id="ae786f22-b3dd-48be-bacc-cf1a70ce692b" Title="Point3D Fields" Url="html/Fields_T_Grgl_Other_Point3D.htm">
+        <HelpTOCNode Id="d44cc4f3-3438-4cb5-b888-47fac32e0358" Title="Point3D Fields" Url="html/Fields_T_Grgl_Other_Point3D.htm">
           <HelpTOCNode Title="X Field" Url="html/F_Grgl_Other_Point3D_X.htm" />
           <HelpTOCNode Title="Y Field" Url="html/F_Grgl_Other_Point3D_Y.htm" />
           <HelpTOCNode Title="Z Field" Url="html/F_Grgl_Other_Point3D_Z.htm" />
@@ -265,48 +279,111 @@
       <HelpTOCNode Title="WeaponType Enumeration" Url="html/T_Grgl_Other_WeaponType.htm" />
       <HelpTOCNode Title="WearableEquipSlotType Enumeration" Url="html/T_Grgl_Other_WearableEquipSlotType.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d22af34d-e15b-4750-8ef9-385118105ebe" Title="Grgl.Quest" Url="html/N_Grgl_Quest.htm">
-      <HelpTOCNode Id="c9418942-104d-4018-9e9c-00e14352d73c" Title="IQuest Interface" Url="html/T_Grgl_Quest_IQuest.htm">
-        <HelpTOCNode Id="3dba79a5-4f25-4fde-af5f-3c039cacf01b" Title="IQuest Properties" Url="html/Properties_T_Grgl_Quest_IQuest.htm">
-          <HelpTOCNode Title="Id Property " Url="html/P_Grgl_Quest_IQuest_Id.htm" />
+    <HelpTOCNode Id="cbd3f6fd-6d32-4ef2-b56f-2acb43c75a49" Title="Grgl.Quest" Url="html/N_Grgl_Quest.htm">
+      <HelpTOCNode Id="9d9409c7-a08a-4921-ae5e-3a3899fe91cb" Title="IQuest Interface" Url="html/T_Grgl_Quest_IQuest.htm">
+        <HelpTOCNode Id="d0ffdc32-f011-437c-85d0-8974c3eefd1b" Title="IQuest Properties" Url="html/Properties_T_Grgl_Quest_IQuest.htm">
           <HelpTOCNode Title="IsComplete Property " Url="html/P_Grgl_Quest_IQuest_IsComplete.htm" />
           <HelpTOCNode Title="Stages Property " Url="html/P_Grgl_Quest_IQuest_Stages.htm" />
           <HelpTOCNode Title="StartStage Property " Url="html/P_Grgl_Quest_IQuest_StartStage.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b20d2eae-8d72-44c4-b076-0b127f502730" Title="IQuestLog Interface" Url="html/T_Grgl_Quest_IQuestLog.htm">
-        <HelpTOCNode Id="39dad84c-6c7c-47fe-8dbc-7e179658e489" Title="IQuestLog Properties" Url="html/Properties_T_Grgl_Quest_IQuestLog.htm">
-          <HelpTOCNode Title="Complete Property " Url="html/P_Grgl_Quest_IQuestLog_Complete.htm" />
-          <HelpTOCNode Title="Incomplete Property " Url="html/P_Grgl_Quest_IQuestLog_Incomplete.htm" />
+      <HelpTOCNode Id="17a226e3-316a-4591-ab38-1546ecbde836" Title="IQuestLog Interface" Url="html/T_Grgl_Quest_IQuestLog.htm">
+        <HelpTOCNode Id="102588fb-1c3c-4386-b297-78ae6a504988" Title="IQuestLog Methods" Url="html/Methods_T_Grgl_Quest_IQuestLog.htm">
+          <HelpTOCNode Title="AddQuest Method " Url="html/M_Grgl_Quest_IQuestLog_AddQuest.htm" />
+          <HelpTOCNode Title="CompleteQuest Method " Url="html/M_Grgl_Quest_IQuestLog_CompleteQuest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0b47709b-d81a-4196-955f-25a6694b649a" Title="IQuestLog Properties" Url="html/Properties_T_Grgl_Quest_IQuestLog.htm">
+          <HelpTOCNode Title="CompleteQuestsList Property " Url="html/P_Grgl_Quest_IQuestLog_CompleteQuestsList.htm" />
+          <HelpTOCNode Title="IncompleteQuestsList Property " Url="html/P_Grgl_Quest_IQuestLog_IncompleteQuestsList.htm" />
+          <HelpTOCNode Title="Quests Property " Url="html/P_Grgl_Quest_IQuestLog_Quests.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="59518a9f-6d77-4547-9ab3-c130f7f3ef07" Title="IQuestStage Interface" Url="html/T_Grgl_Quest_IQuestStage.htm">
-        <HelpTOCNode Id="7be6b30d-9b45-47c6-af76-31a5d84913b5" Title="IQuestStage Properties" Url="html/Properties_T_Grgl_Quest_IQuestStage.htm">
+      <HelpTOCNode Id="f0c64c83-61c5-4575-b0b2-295af7cb822a" Title="IQuestStage Interface" Url="html/T_Grgl_Quest_IQuestStage.htm">
+        <HelpTOCNode Id="30807b3c-e1df-4c0a-8389-e77ce0b03ed3" Title="IQuestStage Properties" Url="html/Properties_T_Grgl_Quest_IQuestStage.htm">
           <HelpTOCNode Title="ChildStages Property " Url="html/P_Grgl_Quest_IQuestStage_ChildStages.htm" />
           <HelpTOCNode Title="CompletedWithStage Property " Url="html/P_Grgl_Quest_IQuestStage_CompletedWithStage.htm" />
-          <HelpTOCNode Title="Id Property " Url="html/P_Grgl_Quest_IQuestStage_Id.htm" />
           <HelpTOCNode Title="IsComplete Property " Url="html/P_Grgl_Quest_IQuestStage_IsComplete.htm" />
           <HelpTOCNode Title="IsEndStage Property " Url="html/P_Grgl_Quest_IQuestStage_IsEndStage.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="cca236b3-8db1-4db4-bc57-78c7d44ffaf2" Title="Grgl.World" Url="html/N_Grgl_World.htm">
-      <HelpTOCNode Id="1350bf16-c556-46e4-9c3c-5f1b8a9e8806" Title="ILocation Interface" Url="html/T_Grgl_World_ILocation.htm">
-        <HelpTOCNode Id="1e0b1c32-e89d-43ce-8149-44aaa0e75c7c" Title="ILocation Properties" Url="html/Properties_T_Grgl_World_ILocation.htm">
-          <HelpTOCNode Title="Position Property " Url="html/P_Grgl_World_ILocation_Position.htm" />
-          <HelpTOCNode Title="Region Property " Url="html/P_Grgl_World_ILocation_Region.htm" />
+      <HelpTOCNode Id="e821d6f1-f0f0-46f0-afd1-50296ae301a4" Title="Quest Class" Url="html/T_Grgl_Quest_Quest.htm">
+        <HelpTOCNode Title="Quest Constructor " Url="html/M_Grgl_Quest_Quest__ctor.htm" />
+        <HelpTOCNode Title="Quest Methods" Url="html/Methods_T_Grgl_Quest_Quest.htm" />
+        <HelpTOCNode Id="6d2a5b76-e1eb-4ca1-adc3-34375768e929" Title="Quest Properties" Url="html/Properties_T_Grgl_Quest_Quest.htm">
+          <HelpTOCNode Title="IsComplete Property " Url="html/P_Grgl_Quest_Quest_IsComplete.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Grgl_Quest_Quest_Name.htm" />
+          <HelpTOCNode Title="RefId Property " Url="html/P_Grgl_Quest_Quest_RefId.htm" />
+          <HelpTOCNode Title="Stages Property " Url="html/P_Grgl_Quest_Quest_Stages.htm" />
+          <HelpTOCNode Title="StartStage Property " Url="html/P_Grgl_Quest_Quest_StartStage.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a419336e-93e8-4a91-8e56-b9cb5494c13d" Title="IRegion Interface" Url="html/T_Grgl_World_IRegion.htm">
-        <HelpTOCNode Id="be110b1f-83ff-4c36-aa44-8122460777e0" Title="IRegion Properties" Url="html/Properties_T_Grgl_World_IRegion.htm">
-          <HelpTOCNode Title="Id Property " Url="html/P_Grgl_World_IRegion_Id.htm" />
-          <HelpTOCNode Title="Name Property " Url="html/P_Grgl_World_IRegion_Name.htm" />
+      <HelpTOCNode Id="f88eac74-3fa2-4bdb-b16f-26b8f7f32e63" Title="QuestLog Class" Url="html/T_Grgl_Quest_QuestLog.htm">
+        <HelpTOCNode Title="QuestLog Constructor " Url="html/M_Grgl_Quest_QuestLog__ctor.htm" />
+        <HelpTOCNode Id="115d9638-0285-4eb3-84d4-fe03feda2565" Title="QuestLog Methods" Url="html/Methods_T_Grgl_Quest_QuestLog.htm">
+          <HelpTOCNode Title="AddQuest Method " Url="html/M_Grgl_Quest_QuestLog_AddQuest.htm" />
+          <HelpTOCNode Title="CompleteQuest Method " Url="html/M_Grgl_Quest_QuestLog_CompleteQuest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1912bc28-3c4b-47fc-95da-ef5fc5362f50" Title="QuestLog Properties" Url="html/Properties_T_Grgl_Quest_QuestLog.htm">
+          <HelpTOCNode Title="CompleteQuestsList Property " Url="html/P_Grgl_Quest_QuestLog_CompleteQuestsList.htm" />
+          <HelpTOCNode Title="IncompleteQuestsList Property " Url="html/P_Grgl_Quest_QuestLog_IncompleteQuestsList.htm" />
+          <HelpTOCNode Title="Quests Property " Url="html/P_Grgl_Quest_QuestLog_Quests.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="baefe402-9fba-4090-93f1-ac247b8767cb" Title="QuestStage Class" Url="html/T_Grgl_Quest_QuestStage.htm">
+        <HelpTOCNode Title="QuestStage Constructor " Url="html/M_Grgl_Quest_QuestStage__ctor.htm" />
+        <HelpTOCNode Title="QuestStage Methods" Url="html/Methods_T_Grgl_Quest_QuestStage.htm" />
+        <HelpTOCNode Id="b72a8310-21e0-4e68-bb3a-43441029a23a" Title="QuestStage Properties" Url="html/Properties_T_Grgl_Quest_QuestStage.htm">
+          <HelpTOCNode Title="ChildStages Property " Url="html/P_Grgl_Quest_QuestStage_ChildStages.htm" />
+          <HelpTOCNode Title="CompletedWithStage Property " Url="html/P_Grgl_Quest_QuestStage_CompletedWithStage.htm" />
+          <HelpTOCNode Title="IsComplete Property " Url="html/P_Grgl_Quest_QuestStage_IsComplete.htm" />
+          <HelpTOCNode Title="IsEndStage Property " Url="html/P_Grgl_Quest_QuestStage_IsEndStage.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Grgl_Quest_QuestStage_Name.htm" />
+          <HelpTOCNode Title="RefId Property " Url="html/P_Grgl_Quest_QuestStage_RefId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f92ec808-90f3-49dd-add9-ac9909191265" Title="Grgl.World" Url="html/N_Grgl_World.htm">
+      <HelpTOCNode Id="48fe2b43-6301-4185-8f0c-f6af96bef4fc" Title="ILocation Interface" Url="html/T_Grgl_World_ILocation.htm">
+        <HelpTOCNode Id="30d85c99-521b-4954-b894-6c5ec8f83471" Title="ILocation Properties" Url="html/Properties_T_Grgl_World_ILocation.htm">
+          <HelpTOCNode Title="Position Property " Url="html/P_Grgl_World_ILocation_Position.htm" />
+          <HelpTOCNode Title="RegionId Property " Url="html/P_Grgl_World_ILocation_RegionId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="586447fe-3758-4c9d-9908-1b1442bfe73d" Title="IRegion Interface" Url="html/T_Grgl_World_IRegion.htm">
+        <HelpTOCNode Id="fbe7c002-df21-4697-a6e7-3bc79fd4877b" Title="IRegion Properties" Url="html/Properties_T_Grgl_World_IRegion.htm">
           <HelpTOCNode Title="Subregions Property " Url="html/P_Grgl_World_IRegion_Subregions.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cd73029a-9f10-42cc-b08e-b068f839661b" Title="IWorld Interface" Url="html/T_Grgl_World_IWorld.htm">
-        <HelpTOCNode Id="e2b79884-2655-4128-a033-1228c3dd054c" Title="IWorld Properties" Url="html/Properties_T_Grgl_World_IWorld.htm">
+      <HelpTOCNode Id="896dadb3-6813-458e-bb57-ed9924841e2a" Title="IWorld Interface" Url="html/T_Grgl_World_IWorld.htm">
+        <HelpTOCNode Id="e65e1bb3-88eb-480d-bd9a-51757f58103b" Title="IWorld Properties" Url="html/Properties_T_Grgl_World_IWorld.htm">
           <HelpTOCNode Title="Regions Property " Url="html/P_Grgl_World_IWorld_Regions.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6eee149d-3c6a-4bd0-8164-7035571a7bd7" Title="Location Class" Url="html/T_Grgl_World_Location.htm">
+        <HelpTOCNode Id="fb4f27f0-c9fd-47f5-a7c7-9282ab85bb79" Title="Location Constructor " Url="html/Overload_Grgl_World_Location__ctor.htm">
+          <HelpTOCNode Title="Location Constructor " Url="html/M_Grgl_World_Location__ctor.htm" />
+          <HelpTOCNode Title="Location Constructor (String, Single, Single, Single)" Url="html/M_Grgl_World_Location__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Location Methods" Url="html/Methods_T_Grgl_World_Location.htm" />
+        <HelpTOCNode Id="46cc03e5-50c6-4d08-b5cb-db6ca94c1a9d" Title="Location Properties" Url="html/Properties_T_Grgl_World_Location.htm">
+          <HelpTOCNode Title="Position Property " Url="html/P_Grgl_World_Location_Position.htm" />
+          <HelpTOCNode Title="RegionId Property " Url="html/P_Grgl_World_Location_RegionId.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1fb3b544-c098-4f18-8200-3389ca3f67f6" Title="Region Class" Url="html/T_Grgl_World_Region.htm">
+        <HelpTOCNode Title="Region Constructor " Url="html/M_Grgl_World_Region__ctor.htm" />
+        <HelpTOCNode Title="Region Methods" Url="html/Methods_T_Grgl_World_Region.htm" />
+        <HelpTOCNode Id="834a803f-0830-480f-821b-adbe4acf4fa7" Title="Region Properties" Url="html/Properties_T_Grgl_World_Region.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Grgl_World_Region_Name.htm" />
+          <HelpTOCNode Title="RefId Property " Url="html/P_Grgl_World_Region_RefId.htm" />
+          <HelpTOCNode Title="Subregions Property " Url="html/P_Grgl_World_Region_Subregions.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b3044f4-ccac-4522-a418-4b9e7e4b707b" Title="World Class" Url="html/T_Grgl_World_World.htm">
+        <HelpTOCNode Title="World Constructor " Url="html/M_Grgl_World_World__ctor.htm" />
+        <HelpTOCNode Title="World Methods" Url="html/Methods_T_Grgl_World_World.htm" />
+        <HelpTOCNode Id="65dc8dd7-9240-40e4-92bc-04964e669818" Title="World Properties" Url="html/Properties_T_Grgl_World_World.htm">
+          <HelpTOCNode Title="Regions Property " Url="html/P_Grgl_World_World_Regions.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>

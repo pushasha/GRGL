@@ -19,17 +19,18 @@ using System.Collections.Generic;
 
 namespace Grgl.Character
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="ICharacterResource" />
     public class CharacterResource : ICharacterResource
     {
         #region Properties
-        public int MaxValue
+        ///  <inheritdoc />
+        public float MaxValue
         {
             get;
             protected set;
         }
-
-        public int CurrentValue
+        ///  <inheritdoc />
+        public float CurrentValue
         {
             get;
             set;
@@ -40,7 +41,7 @@ namespace Grgl.Character
         /// Creates a new instance of a CharacterResource object
         /// </summary>
         /// <param name="maxValueArg">The maximum value of this character resource</param>
-        public CharacterResource(int maxValueArg)
+        public CharacterResource(float maxValueArg)
         {
             this.MaxValue = maxValueArg;
             this.CurrentValue = this.MaxValue;

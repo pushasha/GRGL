@@ -22,7 +22,11 @@ namespace Grgl.Dialog
     /// <inheritdoc cref="IDialogChoiceNode" />
     public class DialogChoiceNode : DialogNode, IDialogChoiceNode
     {
-        ///  <inheritdoc />
+        /// <summary>
+        /// Creates a new instance of a DialogChoiceNode object
+        /// </summary>
+        /// <param name="idArg">RefId of this node</param>
+        /// <param name="textArg">Text contained in this node</param>
         public DialogChoiceNode(string idArg, string textArg) : base(idArg, textArg)
         {
             this.Choices = new Dictionary<string, IDialogNode>();

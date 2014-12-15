@@ -19,40 +19,41 @@ using System.Collections.Generic;
 
 namespace Grgl.Quest
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="IQuestStage" />
     public class QuestStage : IQuestStage
     {
         #region Properties
+        ///  <inheritdoc />
         public bool IsComplete
         {
             get;
             set;
         }
-
+        ///  <inheritdoc />
         public bool IsEndStage
         {
             get;
             protected set;
         }
-
+        ///  <inheritdoc />
         public string CompletedWithStage
         {
             get;
             set;
         }
-
+        ///  <inheritdoc />
         public IList<string> ChildStages
         {
             get;
             private set;
         }
-
+        ///  <inheritdoc />
         public string Name
         {
             get;
             protected set;
         }
-
+        ///  <inheritdoc />
         public string RefId
         {
             get;

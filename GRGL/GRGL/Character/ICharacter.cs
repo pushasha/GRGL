@@ -59,9 +59,9 @@ namespace Grgl.Character
         IDictionary<WeaponEquipSlotType, IWeapon> WeaponEquipSlots { get; }
 
         /// <summary>
-        /// A collection that holds values representing this character's various traits
+        /// A collection that holds values representing this character's numeric traits/stats
         /// </summary>
-        IDictionary<string, ICharacterTrait> Traits { get;}
+        IDictionary<string, float> NumericTraits { get;}
         
         /// <summary>
         /// A collection that holds character resources
@@ -71,9 +71,9 @@ namespace Grgl.Character
         /// <summary>
         /// Bracket operator overload for easily retrieving stat/resource values.
         /// </summary>
-        /// <param name="s"></param>
-        /// <returns></returns>
-        //ICharacter this[string s] { get; set; }
+        /// <param name="s">String identifier for stat/resource</param>
+        /// <returns>The current value of the stat/resource</returns>
+        float this[string s] { get; set; }
 
         #endregion
 

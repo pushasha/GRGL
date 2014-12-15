@@ -19,7 +19,7 @@ using System.Collections.Generic;
 
 namespace Grgl.World
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="IRegion"/>
     public class Region : IRegion
     {
 

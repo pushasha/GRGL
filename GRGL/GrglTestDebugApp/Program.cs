@@ -10,7 +10,7 @@ namespace GrglTestDebugApp
         static void Main(string[] args)
         {
             Character testMan = new Character("TestMan", "testMan001");
-            Console.WriteLine(testMan.Resources["Health"].CurrentValue);
+            Console.WriteLine(testMan["Health"]);
 
             Console.ReadKey();
         }

@@ -19,22 +19,23 @@ using System.Collections.Generic;
 
 namespace Grgl.Quest
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="IQuestLog"/>
     public class QuestLog : IQuestLog
     {
         #region Properties
+        ///  <inheritdoc />
         public IDictionary<string, IQuest> Quests
         {
             get;
             protected set;
         }
-
+        ///  <inheritdoc />
         public IList<string> IncompleteQuestsList
         {
             get;
             protected set;
         }
-
+        ///  <inheritdoc />
         public IList<string> CompleteQuestsList
         {
             get;
@@ -42,6 +43,9 @@ namespace Grgl.Quest
         } 
         #endregion
 
+        /// <summary>
+        /// Creates a new instance of a QuestLog object
+        /// </summary>
         public QuestLog()
         {
             this.Quests = new Dictionary<string, IQuest>();
@@ -49,33 +53,29 @@ namespace Grgl.Quest
             this.CompleteQuestsList = new List<string>();
         }
 
+        ///  <inheritdoc />
         public bool AddQuest(IQuest questArg)
         {
             if (this.Quests.ContainsKey(questArg.RefId))
             {
                 return false; // quest already in log, do not add
             }
-            else
-            {
-                this.Quests.Add(questArg.RefId, questArg);
-                this.IncompleteQuestsList.Add(questArg.RefId);
-                return true;
-            }
+            this.Quests.Add(questArg.RefId, questArg);
+            this.IncompleteQuestsList.Add(questArg.RefId);
+            return true;
         }
 
+        ///  <inheritdoc />
         public bool CompleteQuest(string idArg)
         {
-            if (this.IncompleteQuestsList.Contains(idArg) && this.Quests.ContainsKey(idArg))
-            {
-                this.IncompleteQuestsList.Remove(idArg);
-                this.CompleteQuestsList.Add(idArg);
-                return true;
-            }
-            else
-            {
+            if (!this.IncompleteQuestsList.Contains(idArg) || !this.Quests.ContainsKey(idArg)) { 
                 return false; // either already complete, or somehow got added to one list but not the other.
             }
-        }
 
+            this.IncompleteQuestsList.Remove(idArg);
+            this.CompleteQuestsList.Add(idArg);
+
+            return true;
+        }
     }//end class
 }

@@ -19,36 +19,40 @@ using System.Collections.Generic;
 
 namespace Grgl.Quest
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="IQuest"/>
     public class Quest : IQuest
     {
 
         #region Properties
+        ///  <inheritdoc />
         public string Name
         {
             get;
             private set;
         }
 
-
+        ///  <inheritdoc />
         public string RefId
         {
             get;
             private set;
         }
 
+        ///  <inheritdoc />
         public bool IsComplete
         {
             get;
             set;
         }
 
+        ///  <inheritdoc />
         public string StartStage
         {
             get;
             private set;
         }
 
+        ///  <inheritdoc />
         public IDictionary<string, IQuestStage> Stages
         {
             get;

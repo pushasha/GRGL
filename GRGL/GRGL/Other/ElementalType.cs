@@ -35,16 +35,18 @@ namespace Grgl.Other
     public class ElementalType
     {
         public int Value { get; set; }
-		
+
         public ElementalType (int value)
         {
             Value = value;
         }
 
+
         public static implicit operator int(ElementalType arg)
         {
             return arg.Value;
         }
+
 
         public static implicit operator ElementalType(int value)
         {

@@ -20,16 +20,17 @@ using Grgl.Global;
 
 namespace Grgl.Item
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="IWeapon"/>
     public class Weapon : Item, IWeapon
     {
         #region Properties
+        ///  <inheritdoc />
         public WeaponEquipSlotType EquipSlotType
         {
             get;
             protected set;
         }
-
+        ///  <inheritdoc />
         public IEffect PassiveEffect
         {
             get;
@@ -51,7 +52,7 @@ namespace Grgl.Item
             this.EquipSlotType = WeaponEquipSlotType.Primary;
             this.PassiveEffect = null;
         }
-
+        ///  <inheritdoc />
         public void OnEquip()
         {
             throw new System.NotImplementedException();

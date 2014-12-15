@@ -18,18 +18,19 @@ using Grgl.Other;
 
 namespace Grgl.World
 {
-    ///  <inheritdoc />
+    ///  <inheritdoc cref="ILocation"/>
     public class Location : ILocation
     {
 
         #region Properties
-
+        ///  <inheritdoc />
         public Point3D Position
         {
             get;
             protected set;
         }
 
+        ///  <inheritdoc />
         public string RegionId
         {
             get;
@@ -50,6 +51,11 @@ namespace Grgl.World
             this.RegionId = regionIdArg;
             this.Position = new Point3D(xArg, yArg, zArg);
         }
+
+        /// <summary>
+        /// Creates a new instance of a Location object
+        /// </summary>
+        public Location() : this(null, 0, 0, 0){ }
 
 
     }//end class

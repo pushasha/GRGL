@@ -22,14 +22,19 @@ namespace Grgl.Dialog
     /// <inheritdoc cref="IDialogTree" />
     public class DialogTree : IDialogTree
     {
-        ///  <inheritdoc />
+        /// <summary>
+        /// Creates a new instance of a DialogTree object
+        /// </summary>
+        /// <param name="rootNode">The root node of this tree</param>
         public DialogTree(IDialogNode rootNode)
         {
             this.Root = rootNode;
             this.NodeDictionary = new Dictionary<string, IDialogNode>();
         }
 
-        ///  <inheritdoc />
+        /// <summary>
+        /// Creates a new instance of a DialogTree object
+        /// </summary>
         public DialogTree()
         {
             this.NodeDictionary = new Dictionary<string, IDialogNode>();

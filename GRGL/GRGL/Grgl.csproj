@@ -54,11 +54,9 @@
     <Compile Include="Character\Requirements\IRequirement.cs" />
     <Compile Include="Character\Requirements\IRequirements.cs" />
     <Compile Include="Character\Traits\SimpleTrait\ICharacterClass.cs" />
-    <Compile Include="Character\Traits\DictionaryTrait\ICharacterDictionaryTrait.cs" />
     <Compile Include="Character\Traits\SimpleTrait\ICharacterGender.cs" />
     <Compile Include="Character\Traits\SimpleTrait\ICharacterSimpleTrait.cs" />
     <Compile Include="Character\Traits\ICharacterTrait.cs" />
-    <Compile Include="Character\Traits\DictionaryTrait\INumericStats.cs" />
     <Compile Include="Item\Item.cs" />
     <Compile Include="Item\Weapon.cs" />
     <Compile Include="Other\CharacterStateType.cs" />
